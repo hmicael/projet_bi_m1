@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF4CAA82-29EB-E9EB-B153-E57B47DCFBC0" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="COMMANDE">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:19:17 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMMANDE" id="C81BAFA1-2C9C-B781-0B47-28CA4E613423">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:22:25 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_COMMANDE</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="ID_CLIENT" id="32873A05-7DC3-83A5-A633-C6B5ED027724">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:24:27 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B4DDEAB-9591-A7BC-A310-95EA5F5DB878" referredColumn="F833BD88-CE17-0281-7C77-186F35B276D7"/>
+</associations>
+</Column>
+<Column name="ID_MENU" id="2A337EA8-01E2-607F-0292-5F2E0C0F809E">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:24:27 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MOYEN_PAIEMENT" id="8B52EE02-C055-3B61-2A28-C2308E59A395">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:24:27 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_COMMANDE" id="709BBAA3-7F72-79C7-43B4-58A3B2BB88C5">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:24:27 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_COMMANDE" id="B1A41391-50C0-C5B6-ECE9-4D0BA0C4FBE7">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:24:27 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTANT_TOTAL" id="81C99B9E-864E-5B58-E23A-E4452386D5F9">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:24:27 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0AF43F0-6614-BCDB-E8F1-6C809D7DD809" name="COMMANDE_PK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:22:25 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C81BAFA1-2C9C-B781-0B47-28CA4E613423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE70D623-4376-E70B-D09F-4D5ED3A5B154" name="COMMANDE_CLIENT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 22:06:37 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32873A05-7DC3-83A5-A633-C6B5ED027724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

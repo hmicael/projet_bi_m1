@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E051287-19D1-251D-E32B-34E21DA1B54B" containerWithKeyObject="7DDD0974-1944-3527-656C-BBB0DA11FCDB" localFKIndex="B2163327-5D55-A75F-31B6-322EBA24E0B8" name="PREPARATION_COMMANDE_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 22:09:18 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<referredTableLongName>DSID_LIV_OPE.COMMANDE</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>DF4CAA82-29EB-E9EB-B153-E57B47DCFBC0</referredTableID>
+<keyObject>D0AF43F0-6614-BCDB-E8F1-6C809D7DD809</keyObject>
+<referredKeyID>D0AF43F0-6614-BCDB-E8F1-6C809D7DD809</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_COMMANDE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

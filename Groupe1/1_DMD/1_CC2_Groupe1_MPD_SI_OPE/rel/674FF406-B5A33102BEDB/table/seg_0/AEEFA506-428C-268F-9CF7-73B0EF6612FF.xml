@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEEFA506-428C-268F-9CF7-73B0EF6612FF" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="LIVRAISON">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:28:23 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LIVRAISON" id="5B438526-E0DE-4263-8CC5-8E22A963F666">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:29:37 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_LIVRAISON</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="ID_PREPARATION" id="4B1EC5EE-EDDA-EE07-9387-77D3EBEE7A48">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:29:37 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C80B091-02FA-E9C3-CA97-1961A0265205" referredColumn="9D73F889-2E17-6118-3D3A-CA5BB9018B1F"/>
+</associations>
+</Column>
+<Column name="ID_LIVREUR" id="00F36B03-B561-68D7-B8EA-B4CA4D8A082B">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:29:37 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DEBUT_LIVRAISON" id="A395ABC5-6417-A268-D28D-DB06552EF03C">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:30:51 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_FIN_LIVRAISON" id="0B664D60-B9FF-ED82-FBB4-8A3AA74F86ED">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:30:51 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ARTICLE_LIVRES" id="0BCA8F06-C764-1B6A-8DE8-B69DE3009121">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:30:51 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A0E165C-6828-56A0-0491-A800D26DFF7A" name="LIVRAISON_PK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:29:37 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B438526-E0DE-4263-8CC5-8E22A963F666"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FEF46A0-102B-04CE-13E5-FE93FF85E5A2" name="LIVRAISON_PREPARATION_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 22:11:07 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B1EC5EE-EDDA-EE07-9387-77D3EBEE7A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

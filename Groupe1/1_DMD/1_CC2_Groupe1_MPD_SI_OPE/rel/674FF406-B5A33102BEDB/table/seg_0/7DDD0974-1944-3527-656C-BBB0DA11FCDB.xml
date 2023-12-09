@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DDD0974-1944-3527-656C-BBB0DA11FCDB" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="PREPARATION">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:25:26 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PREPARATION" id="9D73F889-2E17-6118-3D3A-CA5BB9018B1F">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:25:44 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_PREPARATION</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="ID_COMMANDE" id="4690D7E0-5179-FAB4-1403-0F840E262614">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:26:57 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E051287-19D1-251D-E32B-34E21DA1B54B" referredColumn="C81BAFA1-2C9C-B781-0B47-28CA4E613423"/>
+</associations>
+</Column>
+<Column name="ID_RESTAURANT" id="C327ADF2-6E0C-6231-2A0D-2E68D32AF156">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:26:57 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1108FDDA-B3E0-7B04-2EC8-BF0BF7D6A185" referredColumn="D60E6291-2DCF-9E26-6D6F-96957D569408"/>
+</associations>
+</Column>
+<Column name="DATE_DEBUT_PREPARATION" id="99DAAAF8-8F33-A245-BA63-CA966ECC0228">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:27:34 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_FIN_PREPARATION" id="7C3F2DFF-AD3D-B3AD-CD8D-59BE0671C5BD">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:27:34 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A57493AC-F0F0-9289-6AA2-475719E1911C" name="PREPARATION_PK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 21:25:45 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D73F889-2E17-6118-3D3A-CA5BB9018B1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2163327-5D55-A75F-31B6-322EBA24E0B8" name="PREPARATION_COMMANDE_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 22:09:18 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4690D7E0-5179-FAB4-1403-0F840E262614"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24A33E43-E3EA-2185-AD5C-8684477F6EED" name="PREPARATION_DSID_LIV_OPE.RESTAURANT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 22:12:42 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C327ADF2-6E0C-6231-2A0D-2E68D32AF156"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

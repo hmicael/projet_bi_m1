@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C80B091-02FA-E9C3-CA97-1961A0265205" containerWithKeyObject="AEEFA506-428C-268F-9CF7-73B0EF6612FF" localFKIndex="4FEF46A0-102B-04CE-13E5-FE93FF85E5A2" name="LIVRAISON_PREPARATION_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-09 22:11:07 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<referredTableLongName>DSID_LIV_OPE.PREPARATION</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>7DDD0974-1944-3527-656C-BBB0DA11FCDB</referredTableID>
+<keyObject>A57493AC-F0F0-9289-6AA2-475719E1911C</keyObject>
+<referredKeyID>A57493AC-F0F0-9289-6AA2-475719E1911C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PREPARATION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
