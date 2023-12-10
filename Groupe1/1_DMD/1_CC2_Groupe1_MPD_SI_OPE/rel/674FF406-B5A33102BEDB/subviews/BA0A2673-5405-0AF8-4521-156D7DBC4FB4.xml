@@ -32,6 +32,13 @@
 <backgroundColor>-3355444</backgroundColor>
 <foregroundColor>-16776961</foregroundColor>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A1F4D42E-5540-B830-57F7-F07893188BF3" otype="Table" vid="88ACE932-4074-3B84-4290-B17F61D1F1EA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1256" y="366" width="415" height="177"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-3342337</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A33C6552-7815-C675-D074-945E3B57B732" otype="Table" vid="F94CA5F6-87C3-991A-FC86-F729E9FA58F9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="25" y="16" width="275" height="111"/>
