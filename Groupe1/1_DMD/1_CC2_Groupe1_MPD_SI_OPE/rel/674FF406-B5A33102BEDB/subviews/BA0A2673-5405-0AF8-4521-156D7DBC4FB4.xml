@@ -18,6 +18,13 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="838" y="17" width="375" height="151"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="83110471-7A89-34F4-8E85-ACEF5B62C724" otype="Table" vid="E09FEB67-4456-C1C3-8D86-4F7EB6A39188">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="24" y="205" width="308" height="74"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-3355444</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A33C6552-7815-C675-D074-945E3B57B732" otype="Table" vid="F94CA5F6-87C3-991A-FC86-F729E9FA58F9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="25" y="16" width="275" height="111"/>

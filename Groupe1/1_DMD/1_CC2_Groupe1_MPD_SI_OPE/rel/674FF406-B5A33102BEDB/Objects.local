@@ -1,6 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="SchemaObject" objectID="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="DSID_LIV_OPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="674FF406-12C8-51FB-04F6-B5A33102BEDB" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="83110471-7A89-34F4-8E85-ACEF5B62C724" name="ADRESSE_CLIENT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="674FF406-12C8-51FB-04F6-B5A33102BEDB" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="A33C6552-7815-C675-D074-945E3B57B732" name="CLIENT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="674FF406-12C8-51FB-04F6-B5A33102BEDB" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="DF4CAA82-29EB-E9EB-B153-E57B47DCFBC0" name="COMMANDE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="674FF406-12C8-51FB-04F6-B5A33102BEDB" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="E1D01CCC-0F51-83BE-89F9-C496FE77E362" name="DSID_LIV_OPE.RESTAURANT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="674FF406-12C8-51FB-04F6-B5A33102BEDB" propertySourceId="" propertyTargetId=""/>
