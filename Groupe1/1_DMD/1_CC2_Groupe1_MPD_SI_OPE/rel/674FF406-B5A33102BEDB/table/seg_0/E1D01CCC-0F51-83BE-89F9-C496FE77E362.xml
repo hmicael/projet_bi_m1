@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1D01CCC-0F51-83BE-89F9-C496FE77E362" name="DSID_LIV_OPE.RESTAURANT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1D01CCC-0F51-83BE-89F9-C496FE77E362" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="RESTAURANT">
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:32:54 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
@@ -25,12 +25,14 @@
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:35:00 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDD9B44B-9347-5425-7482-03DD9698198F" referredColumn="6442A2CC-5161-0AEB-A14D-83417C0F8562"/>
+</associations>
 </Column>
 <Column name="OODE_RESTAURANT" id="80A5174D-7B8A-ECCE-A105-30FAB2EC1C3D">
 <createdBy>root</createdBy>
@@ -58,7 +60,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BDFCD8A6-8FB7-DB63-530C-4D8378CF65B4" name="DSID_LIV_OPE.RESTAURANT_PK">
+<ind_PK_UK id="BDFCD8A6-8FB7-DB63-530C-4D8378CF65B4" name="RESTAURANT_PK">
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:35:00 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
@@ -67,6 +69,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D60E6291-2DCF-9E26-6D6F-96957D569408"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="520DF7AD-03BA-E7F7-C04E-2F01EAB946A3" name="RESTAURANT_ADRESSE_RESTAURANT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:53:40 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EAB6CA3-AC27-D2AC-27A8-93B72877B8E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

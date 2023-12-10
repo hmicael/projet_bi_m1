@@ -69,7 +69,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="31C26A65-C127-1841-9A8F-37AD990C0F23" name="MENU_PK">
+<ind_PK_UK id="31C26A65-C127-1841-9A8F-37AD990C0F23" name="CONTENU_PK">
 <createdBy>root</createdBy>
 <createdTime>2023-12-10 19:13:41 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>

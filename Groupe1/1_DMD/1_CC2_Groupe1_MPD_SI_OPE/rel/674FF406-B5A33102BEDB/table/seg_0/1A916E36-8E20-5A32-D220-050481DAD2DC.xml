@@ -25,12 +25,14 @@
 <createdBy>root</createdBy>
 <createdTime>2023-12-10 18:57:58 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3DB5503-73D5-FCE3-8ECD-BE01432A2021" referredColumn="2830E1CA-4171-54CB-F699-EA03A9A4EB54"/>
+</associations>
 </Column>
 <Column name="NUMERO_VOIE" id="1D177209-47FB-5D79-12B7-5A576A53AD9D">
 <createdBy>root</createdBy>
@@ -56,10 +58,11 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OODE_POSTAL" id="63F15ADE-DB1E-DF58-297A-E12662DA77AC">
+<Column name="CODE_POSTAL" id="98D3F6EF-5F5E-9610-35A9-AFD0D30E6787">
 <createdBy>root</createdBy>
-<createdTime>2023-12-10 19:00:07 UTC</createdTime>
+<createdTime>2023-12-10 19:59:05 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -105,7 +108,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="984150E3-83A6-44A7-0521-EC90ECCFAB1C" name="ADRESSE_NORMALISEE_CLIENT_PK">
+<ind_PK_UK id="984150E3-83A6-44A7-0521-EC90ECCFAB1C" name="ADRESSE_NORM_CLIENT_PK">
 <createdBy>root</createdBy>
 <createdTime>2023-12-10 18:57:58 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
@@ -114,6 +117,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AAFC80D8-4870-1026-A27A-148820D85411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B73FA3B-BCBC-CF16-AF10-BEFB6E26651D" name="ADRESSE_NORMALISEE_CLIENT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:55:40 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63F30429-08EE-4E77-ED5F-D28F3AB03D86"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

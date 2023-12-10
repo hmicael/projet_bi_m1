@@ -38,6 +38,19 @@
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:29:37 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17AC6781-6B2A-1880-537C-6FF6C84D5D67" referredColumn="C2B4C44A-CEAB-EE08-9A4B-5B879449287C"/>
+</associations>
+</Column>
+<Column name="NUMERO_LIVRAISON" id="94A72B12-F0AA-0B06-1A7D-77099F06EB6D">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:44:52 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -99,6 +112,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4B1EC5EE-EDDA-EE07-9387-77D3EBEE7A48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25346221-F4E9-D8DC-F068-4FB04100E450" name="LIVRAISON_LIVREUR_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:50:53 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00F36B03-B561-68D7-B8EA-B4CA4D8A082B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

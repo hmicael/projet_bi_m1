@@ -12,7 +12,6 @@
 <createdBy>root</createdBy>
 <createdTime>2023-12-10 19:18:51 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -47,4 +46,17 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96966074-9CD9-F07E-AA25-93063BA5E683" name="MOYEN_LIVRAISON_PK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:21:07 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64023ECE-3F82-A615-04FD-23E7DB698794"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

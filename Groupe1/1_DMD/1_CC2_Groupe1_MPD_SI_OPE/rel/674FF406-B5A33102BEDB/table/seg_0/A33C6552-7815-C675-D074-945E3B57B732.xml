@@ -25,12 +25,14 @@
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:16:57 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E075C83B-FDF6-E54E-DEE1-6368A44EC692" referredColumn="2830E1CA-4171-54CB-F699-EA03A9A4EB54"/>
+</associations>
 </Column>
 <Column name="NOM_CLIENT" id="2A224055-ACB4-0FE0-C0BF-7B53562110A0">
 <createdBy>root</createdBy>
@@ -67,6 +69,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F833BD88-CE17-0281-7C77-186F35B276D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D580AE8-FA51-D45D-B123-A16AA8C54BBE" name="CLIENT_ADRESSE_CLIENT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:46:46 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B60CD198-45AF-A87A-BC7E-AEE0FBA4C435"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

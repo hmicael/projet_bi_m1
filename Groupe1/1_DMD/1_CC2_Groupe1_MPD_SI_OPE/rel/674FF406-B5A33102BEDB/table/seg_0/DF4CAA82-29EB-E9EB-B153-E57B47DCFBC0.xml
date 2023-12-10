@@ -38,23 +38,27 @@
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:24:27 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC76D1D1-3E10-1670-8A53-83CCC17DCE3F" referredColumn="BA6B5F60-BF9B-29FB-E5A9-B84A7E03F785"/>
+</associations>
 </Column>
 <Column name="ID_MOYEN_PAIEMENT" id="8B52EE02-C055-3B61-2A28-C2308E59A395">
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:24:27 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85714AFC-C42B-38BB-311C-EF6E55D9D0AC" referredColumn="AF024A47-F65E-F44C-81B0-3DF19BE483E3"/>
+</associations>
 </Column>
 <Column name="NUMERO_COMMANDE" id="709BBAA3-7F72-79C7-43B4-58A3B2BB88C5">
 <createdBy>root</createdBy>
@@ -110,6 +114,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="32873A05-7DC3-83A5-A633-C6B5ED027724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF6BBB4B-83EC-63CF-E38F-254481C0FA06" name="COMMANDE_CONTENU_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:49:52 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A337EA8-01E2-607F-0292-5F2E0C0F809E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8A97605-7F2C-FB40-4427-E8B41D0FEDD2" name="COMMANDE_MOYEN_PAIEMENT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:50:26 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B52EE02-C055-3B61-2A28-C2308E59A395"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

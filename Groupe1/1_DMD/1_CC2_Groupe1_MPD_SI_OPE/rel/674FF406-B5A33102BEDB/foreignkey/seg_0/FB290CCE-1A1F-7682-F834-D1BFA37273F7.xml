@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB290CCE-1A1F-7682-F834-D1BFA37273F7" containerWithKeyObject="50C9B3E8-0998-CBDB-DCD1-EBDF364C64F9" localFKIndex="52C59D98-5FC7-A359-11A4-BEA4E61F4D40" name="LIVREUR_MOYEN_LIVRAISON_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-10 19:53:00 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<referredTableLongName>DSID_LIV_OPE.MOYEN_LIVRAISON</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>F4433BCA-22C0-A169-606E-63CD32BC646E</referredTableID>
+<keyObject>96966074-9CD9-F07E-AA25-93063BA5E683</keyObject>
+<referredKeyID>96966074-9CD9-F07E-AA25-93063BA5E683</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MOYEN_LIVRAISON</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
