@@ -1,9 +1,15 @@
 -- Généré par Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   à :        2023-12-19 22:51:44 CET
---   site :      Oracle Database 11g
---   type :      Oracle Database 11g
+--   à :        2023-12-19 23:15:56 CET
+--   site :      Oracle Database 21c
+--   type :      Oracle Database 21c
 
 
+
+DROP VIEW DSID_LIV_OPE.vue_dm1 CASCADE CONSTRAINTS 
+;
+
+DROP VIEW DSID_LIV_OPE.vue_dm2 CASCADE CONSTRAINTS 
+;
 
 DROP TABLE dsid_liv_ope.adresse_client CASCADE CONSTRAINTS;
 
@@ -30,6 +36,32 @@ DROP TABLE dsid_liv_ope.moyen_paiement CASCADE CONSTRAINTS;
 DROP TABLE dsid_liv_ope.preparation CASCADE CONSTRAINTS;
 
 DROP TABLE dsid_liv_ope.restaurant CASCADE CONSTRAINTS;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_adresse_client;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_adresse_norm_client;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_adresse_norm_restaurant;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_adresse_restaurant;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_client;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_commande;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_livraison;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_livreur;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_menu;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_moyen_livraison;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_moyen_paiement;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_preparation;
+
+DROP SEQUENCE dsid_liv_ope.seq_id_restaurant;
 
 -- predefined type, no DDL - MDSYS.SDO_GEOMETRY
 
