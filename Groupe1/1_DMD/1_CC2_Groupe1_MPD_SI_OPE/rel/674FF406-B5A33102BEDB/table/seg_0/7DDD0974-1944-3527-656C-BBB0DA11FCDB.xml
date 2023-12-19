@@ -44,7 +44,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1108FDDA-B3E0-7B04-2EC8-BF0BF7D6A185" referredColumn="D60E6291-2DCF-9E26-6D6F-96957D569408"/>
+<colAssociation fkAssociation="2428206E-78C5-3A68-87DD-BFF475D8E6B6" referredColumn="7AEBDBB7-F3C1-5FA4-AA46-E98B4DB7B0F2"/>
 </associations>
 </Column>
 <Column name="DATE_DEBUT_PREPARATION" id="99DAAAF8-8F33-A245-BA63-CA966ECC0228">
@@ -92,9 +92,9 @@
 <colUsage columnID="4690D7E0-5179-FAB4-1403-0F840E262614"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="24A33E43-E3EA-2185-AD5C-8684477F6EED" name="PREPARATION_DSID_LIV_OPE.RESTAURANT_FK">
+<ind_PK_UK id="63D93ADD-1E35-F53D-A270-EAE30B9B7BF1" name="PREPARATION_RESTAURANT_FK">
 <createdBy>root</createdBy>
-<createdTime>2023-12-09 22:12:42 UTC</createdTime>
+<createdTime>2023-12-19 20:57:20 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

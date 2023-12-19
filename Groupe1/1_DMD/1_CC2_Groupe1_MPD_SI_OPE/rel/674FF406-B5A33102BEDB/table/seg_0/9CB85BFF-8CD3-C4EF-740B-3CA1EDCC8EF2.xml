@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1D01CCC-0F51-83BE-89F9-C496FE77E362" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="RESTAURANT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CB85BFF-8CD3-C4EF-740B-3CA1EDCC8EF2" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="RESTAURANT">
 <createdBy>root</createdBy>
-<createdTime>2023-12-09 21:32:54 UTC</createdTime>
+<createdTime>2023-12-19 20:54:57 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_RESTAURANT" id="D60E6291-2DCF-9E26-6D6F-96957D569408">
+<Column name="ID_RESTAURANT" id="7AEBDBB7-F3C1-5FA4-AA46-E98B4DB7B0F2">
 <createdBy>root</createdBy>
-<createdTime>2023-12-09 21:35:00 UTC</createdTime>
+<createdTime>2023-12-19 20:55:24 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -21,9 +21,9 @@
 <autoIncrementSequenceName>SEQ_ID_RESTAURANT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="ID_ADRESSE_RESTAURANT" id="7EAB6CA3-AC27-D2AC-27A8-93B72877B8E5">
+<Column name="ID_ADRESSE_RESTAURANT" id="424E2AFB-1F78-CA10-E397-5A5AA9C347C2">
 <createdBy>root</createdBy>
-<createdTime>2023-12-09 21:35:00 UTC</createdTime>
+<createdTime>2023-12-19 20:56:53 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,12 +31,12 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BDD9B44B-9347-5425-7482-03DD9698198F" referredColumn="6442A2CC-5161-0AEB-A14D-83417C0F8562"/>
+<colAssociation fkAssociation="E5BFAE08-AB9B-ED6D-D5A0-6AF435EF5628" referredColumn="551C21EF-094D-AB42-46C8-D36E0959D0F1"/>
 </associations>
 </Column>
-<Column name="OODE_RESTAURANT" id="80A5174D-7B8A-ECCE-A105-30FAB2EC1C3D">
+<Column name="CODE_RESTAURANT" id="8B5FD5B3-0D41-8C00-DBAA-408A402C4103">
 <createdBy>root</createdBy>
-<createdTime>2023-12-09 21:35:00 UTC</createdTime>
+<createdTime>2023-12-19 20:56:53 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,39 +46,39 @@
 <ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RAISON_SOCIALE_RESTAURANT" id="54D4F7E2-0B8E-CA8A-3F9E-80938EB67E8B">
+<Column name="RAISON_SOCIALE_RESTAURANT" id="7AD447A7-72A2-E735-A90C-ADDBBAE41520">
 <createdBy>root</createdBy>
-<createdTime>2023-12-09 21:35:00 UTC</createdTime>
+<createdTime>2023-12-19 20:56:53 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BDFCD8A6-8FB7-DB63-530C-4D8378CF65B4" name="RESTAURANT_PK">
+<ind_PK_UK id="3E4DC4C3-C368-302F-DD32-0544E343216E" name="RESTAURANT_PK">
 <createdBy>root</createdBy>
-<createdTime>2023-12-09 21:35:00 UTC</createdTime>
+<createdTime>2023-12-19 20:55:24 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D60E6291-2DCF-9E26-6D6F-96957D569408"/>
+<colUsage columnID="7AEBDBB7-F3C1-5FA4-AA46-E98B4DB7B0F2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="520DF7AD-03BA-E7F7-C04E-2F01EAB946A3" name="RESTAURANT_ADRESSE_RESTAURANT_FK">
+<ind_PK_UK id="AEBCC2C9-DFA4-42BD-55C0-06709587CD35" name="ADRESSE_RESTAURANT_FKv1">
 <createdBy>root</createdBy>
-<createdTime>2023-12-10 19:53:40 UTC</createdTime>
+<createdTime>2023-12-19 21:41:43 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7EAB6CA3-AC27-D2AC-27A8-93B72877B8E5"/>
+<colUsage columnID="424E2AFB-1F78-CA10-E397-5A5AA9C347C2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

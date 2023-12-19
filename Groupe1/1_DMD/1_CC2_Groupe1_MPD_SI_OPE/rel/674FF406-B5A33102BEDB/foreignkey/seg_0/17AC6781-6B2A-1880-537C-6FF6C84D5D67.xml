@@ -4,7 +4,7 @@
 <createdTime>2023-12-10 19:50:53 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <referredTableLongName>DSID_LIV_OPE.LIVREUR</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>50C9B3E8-0998-CBDB-DCD1-EBDF364C64F9</referredTableID>
 <keyObject>C415B35C-5B36-024F-3A10-29B9075169DC</keyObject>
 <referredKeyID>C415B35C-5B36-024F-3A10-29B9075169DC</referredKeyID>

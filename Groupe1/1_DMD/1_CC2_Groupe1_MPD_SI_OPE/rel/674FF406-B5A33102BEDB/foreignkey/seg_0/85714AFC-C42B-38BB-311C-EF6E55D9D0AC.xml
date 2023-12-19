@@ -4,7 +4,7 @@
 <createdTime>2023-12-10 19:50:26 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <referredTableLongName>DSID_LIV_OPE.MOYEN_PAIEMENT</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>D4405473-5E77-424F-B551-32FF51537511</referredTableID>
 <keyObject>9B315950-040A-C502-822C-4966125E494F</keyObject>
 <referredKeyID>9B315950-040A-C502-822C-4966125E494F</referredKeyID>

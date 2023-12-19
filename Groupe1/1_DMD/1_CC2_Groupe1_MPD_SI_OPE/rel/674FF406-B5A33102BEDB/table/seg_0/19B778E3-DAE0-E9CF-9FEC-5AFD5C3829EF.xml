@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC511004-B4DC-9A57-27C3-F38CEAF4C1C9" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="ADRESSE_RESTAURANT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B778E3-DAE0-E9CF-9FEC-5AFD5C3829EF" schemaObject="3E0B6818-0F87-9BCD-4069-2819D94F2F4E" name="ADRESSE_RESTAURANT">
 <createdBy>root</createdBy>
-<createdTime>2023-12-10 18:48:48 UTC</createdTime>
+<createdTime>2023-12-19 21:20:15 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
+<ordsAlias>table_6</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_ADRESSE_RESTAURANT" id="6442A2CC-5161-0AEB-A14D-83417C0F8562">
+<Column name="ID_ADRESSE_RESTAURANT" id="551C21EF-094D-AB42-46C8-D36E0959D0F1">
 <createdBy>root</createdBy>
-<createdTime>2023-12-10 18:54:07 UTC</createdTime>
+<createdTime>2023-12-19 21:20:15 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -21,9 +21,9 @@
 <autoIncrementSequenceName>SEQ_ID_ADRESSE_RESTAURANT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="ADRESSE_RESTAURANT" id="D306CF93-F6CB-40FD-D640-ABFEABA8D774">
+<Column name="ADRESSE_RESTAURANT" id="4EFEE441-07D0-6308-E705-B314D08896CC">
 <createdBy>root</createdBy>
-<createdTime>2023-12-10 18:54:07 UTC</createdTime>
+<createdTime>2023-12-19 21:20:15 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,15 +35,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2E872DE7-A351-813B-0769-ADC4DBAF19B9" name="ADRESSE_RESTAURANT_PK">
+<ind_PK_UK id="DB626852-B070-1977-B27D-3B3C5FAA6F20" name="ADRESSE_RESTAURANT">
 <createdBy>root</createdBy>
-<createdTime>2023-12-10 18:54:07 UTC</createdTime>
+<createdTime>2023-12-19 21:20:15 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6442A2CC-5161-0AEB-A14D-83417C0F8562"/>
+<colUsage columnID="551C21EF-094D-AB42-46C8-D36E0959D0F1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

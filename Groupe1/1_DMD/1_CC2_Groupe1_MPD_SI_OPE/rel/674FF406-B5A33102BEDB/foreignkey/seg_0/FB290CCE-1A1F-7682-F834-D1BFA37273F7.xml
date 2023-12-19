@@ -4,7 +4,7 @@
 <createdTime>2023-12-10 19:53:00 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <referredTableLongName>DSID_LIV_OPE.MOYEN_LIVRAISON</referredTableLongName>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 <referredTableID>F4433BCA-22C0-A169-606E-63CD32BC646E</referredTableID>
 <keyObject>96966074-9CD9-F07E-AA25-93063BA5E683</keyObject>
 <referredKeyID>96966074-9CD9-F07E-AA25-93063BA5E683</referredKeyID>
