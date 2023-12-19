@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="WRK" id="73F1EE1B-B274-60ED-3206-A6A4537708C3" mainViewID="C9D21154-F25E-829B-7BAC-214240AEEA27">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 22:45:32 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

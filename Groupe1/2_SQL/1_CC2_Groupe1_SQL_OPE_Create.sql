@@ -1,5 +1,5 @@
 -- Généré par Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   à :        2023-12-19 23:15:56 CET
+--   à :        2023-12-20 00:21:45 CET
 --   site :      Oracle Database 21c
 --   type :      Oracle Database 21c
 
@@ -112,7 +112,7 @@ CREATE TABLE dsid_liv_ope.client (
     id_client         NUMBER NOT NULL,
     id_adresse_client NUMBER NOT NULL,
     nom_client        VARCHAR2(100 CHAR),
-    renom_client      VARCHAR2(100 CHAR)
+    prenom_client     VARCHAR2(100 CHAR)
 );
 
 ALTER TABLE dsid_liv_ope.client ADD CONSTRAINT client_pk PRIMARY KEY ( id_client );
@@ -243,9 +243,47 @@ ALTER TABLE dsid_liv_ope.preparation
     ADD CONSTRAINT preparation_restaurant_fk FOREIGN KEY ( id_restaurant )
         REFERENCES dsid_liv_ope.restaurant ( id_restaurant );
 
-CREATE OR REPLACE VIEW dsid_liv_ope.vue_dm1 ( ID_COMMANDE, ID_CLIENT, ID_MENU, ID_MOYEN_PAIEMENT, NUMERO_COMMANDE, DATE_COMMANDE, MONTANT_TOTAL, ID_MENU_1, CODE_MENU, LIBELLE_MENU, NOMBRE_ARTICLES, TEMPS_THEO_PREPARATION, ID_PREPARATION, ID_COMMANDE_1, ID_RESTAURANT, DATE_DEBUT_PREPARATION, DATE_FIN_PREPARATION, ID_CLIENT_1, ID_ADRESSE_CLIENT, NOM_CLIENT, RENOM_CLIENT, ID_ADRESSE_CLIENT_1, ADRESSE_CLIENT, ID_ADRESSE_NORM_CLIENT, ID_ADRESSE_CLIENT_2, NUMERO_VOIE, NOM_VOIE, CODE_POSTAL, NOM_VILLE, LONGITUDE, LATITUDE, ID_RESTAURANT_1, ID_ADRESSE_RESTAURANT, CODE_RESTAURANT, RAISON_SOCIALE_RESTAURANT, ID_ADRESSE_RESTAURANT_1, ADRESSE_RESTAURANT, ID_ADRESSE_NORM_RESTAURANT, ID_ADRESSE_RESTAURANT_2, NUMERO_VOIE_1, NOM_VOIE_1, CODE_POSTAL_1, NOM_VILLE_1, LONGITUDE_1, LATITUDE_1, ID_MOYEN_PAIEMENT_1, CODE_MOYEN_PAIEMENT, LIVELLE_MOYEN_PAIEMENT ) AS
+CREATE OR REPLACE VIEW dsid_liv_ope.vue_dm1 ( id_commande, numero_commande, date_commande, montant_total, id_menu, code_menu, libelle_menu, nombre_articles, temps_theo_preparation, id_preparation, date_debut_preparation, date_fin_preparation, id_adresse_norm_client, numero_voie, nom_voie, code_postal, nom_ville, longitude, latitude, id_adresse_restaurant, adresse_restaurant, id_client, id_adresse_client, adresse_client, id_restaurant, code_restaurant, raison_sociale_restaurant, id_adresse_norm_restaurant, numero_voie1, nom_voie1, code_postal1, nom_ville1, id_moyen_paiement, code_moyen_paiement, livelle_moyen_paiement, longitude1, latitude1, nom_client, prenom_client ) AS
 SELECT
-    *
+    commande.id_commande,
+    commande.numero_commande,
+    commande.date_commande,
+    commande.montant_total,
+    menu.id_menu,
+    menu.code_menu,
+    menu.libelle_menu,
+    menu.nombre_articles,
+    menu.temps_theo_preparation,
+    preparation.id_preparation,
+    preparation.date_debut_preparation,
+    preparation.date_fin_preparation,
+    adresse_normalisee_client.id_adresse_norm_client,
+    adresse_normalisee_client.numero_voie,
+    adresse_normalisee_client.nom_voie,
+    adresse_normalisee_client.code_postal,
+    adresse_normalisee_client.nom_ville,
+    adresse_normalisee_client.longitude,
+    adresse_normalisee_client.latitude,
+    adresse_restaurant.id_adresse_restaurant,
+    adresse_restaurant.adresse_restaurant,
+    client.id_client,
+    client.nom_client,
+    client.prenom_client,
+    adresse_client.id_adresse_client,
+    adresse_client.adresse_client,
+    restaurant.id_restaurant,
+    restaurant.code_restaurant,
+    restaurant.raison_sociale_restaurant,
+    adresse_normalisee_restaurant.id_adresse_norm_restaurant,
+    adresse_normalisee_restaurant.numero_voie AS numero_voie1,
+    adresse_normalisee_restaurant.nom_voie    AS nom_voie1,
+    adresse_normalisee_restaurant.code_postal AS code_postal1,
+    adresse_normalisee_restaurant.nom_ville   AS nom_ville1,
+    adresse_normalisee_restaurant.longitude   AS longitude1,
+    adresse_normalisee_restaurant.latitude    AS latitude1,
+    moyen_paiement.id_moyen_paiement,
+    moyen_paiement.code_moyen_paiement,
+    moyen_paiement.livelle_moyen_paiement
 FROM
          commande
     INNER JOIN menu ON menu.id_menu = commande.id_menu
@@ -259,9 +297,52 @@ FROM
     INNER JOIN moyen_paiement ON moyen_paiement.id_moyen_paiement = commande.id_moyen_paiement 
 ;
 
-CREATE OR REPLACE VIEW dsid_liv_ope.vue_dm2 ( ID_LIVRAISON, ID_PREPARATION, ID_LIVREUR, NUMERO_LIVRAISON, DATE_DEBUT_LIVRAISON, DATE_FIN_LIVRAISON, NOMBRE_ARTICLE_LIVRES, ID_LIVREUR_1, ID_MOYEN, NOM_LIVREUR, PRENOM_LIVREUR, ID_MOYEN_LIVRAISON, CODE_MOYEN_LIVRAISON, LIBELLE_MOYEN_LIVRAISON, ID_MENU, CODE_MENU, LIBELLE_MENU, NOMBRE_ARTICLES, TEMPS_THEO_PREPARATION, ID_COMMANDE, ID_CLIENT, ID_MENU_1, ID_MOYEN_PAIEMENT, NUMERO_COMMANDE, DATE_COMMANDE, MONTANT_TOTAL, ID_CLIENT_1, ID_ADRESSE_CLIENT, NOM_CLIENT, RENOM_CLIENT, ID_ADRESSE_CLIENT_1, ADRESSE_CLIENT, ID_ADRESSE_NORM_CLIENT, ID_ADRESSE_CLIENT_2, NUMERO_VOIE, NOM_VOIE, CODE_POSTAL, NOM_VILLE, LONGITUDE, LATITUDE, ID_RESTAURANT, ID_ADRESSE_RESTAURANT, CODE_RESTAURANT, RAISON_SOCIALE_RESTAURANT, ID_ADRESSE_RESTAURANT_1, ADRESSE_RESTAURANT, ID_ADRESSE_NORM_RESTAURANT, ID_ADRESSE_RESTAURANT_2, NUMERO_VOIE_1, NOM_VOIE_1, CODE_POSTAL_1, NOM_VILLE_1, LONGITUDE_1, LATITUDE_1 ) AS
+CREATE OR REPLACE VIEW dsid_liv_ope.vue_dm2 ( id_adresse_norm_client, numero_voie, nom_voie, code_postal, nom_ville, longitude, latitude, id_restaurant, code_restaurant, raison_sociale_restaurant, id_adresse_client, adresse_client, id_adresse_restaurant, adresse_restaurant, id_adresse_norm_restaurant, numero_voie1, nom_voie1, code_postal1, nom_ville1, longitude1, latitude1, id_client, id_commande, numero_commande, date_commande, montant_total, id_menu, code_menu, libelle_menu, nombre_articles, temps_theo_preparation, id_livraison, numero_livraison, date_debut_livraison, date_fin_livraison, nombre_article_livres, id_livreur, nom_client, nom_livreur, prenom_livreur, id_moyen_livraison, code_moyen_livraison, libelle_moyen_livraison, prenom_client ) AS
 SELECT
-    *
+    adresse_normalisee_client.id_adresse_norm_client,
+    adresse_normalisee_client.numero_voie,
+    adresse_normalisee_client.nom_voie,
+    adresse_normalisee_client.code_postal,
+    adresse_normalisee_client.nom_ville,
+    adresse_normalisee_client.longitude,
+    adresse_normalisee_client.latitude,
+    restaurant.id_restaurant,
+    restaurant.code_restaurant,
+    restaurant.raison_sociale_restaurant,
+    adresse_client.id_adresse_client,
+    adresse_client.adresse_client,
+    adresse_restaurant.id_adresse_restaurant,
+    adresse_restaurant.adresse_restaurant,
+    adresse_normalisee_restaurant.id_adresse_norm_restaurant,
+    adresse_normalisee_restaurant.numero_voie AS numero_voie1,
+    adresse_normalisee_restaurant.nom_voie    AS nom_voie1,
+    adresse_normalisee_restaurant.code_postal AS code_postal1,
+    adresse_normalisee_restaurant.nom_ville   AS nom_ville1,
+    adresse_normalisee_restaurant.longitude   AS longitude1,
+    adresse_normalisee_restaurant.latitude    AS latitude1,
+    client.id_client,
+    client.prenom_client,
+    client.nom_client,
+    commande.id_commande,
+    commande.numero_commande,
+    commande.date_commande,
+    commande.montant_total,
+    menu.id_menu,
+    menu.code_menu,
+    menu.libelle_menu,
+    menu.nombre_articles,
+    menu.temps_theo_preparation,
+    livraison.id_livraison,
+    livraison.numero_livraison,
+    livraison.date_debut_livraison,
+    livraison.date_fin_livraison,
+    livraison.nombre_article_livres,
+    livreur.id_livreur,
+    livreur.nom_livreur,
+    livreur.prenom_livreur,
+    moyen_livraison.id_moyen_livraison,
+    moyen_livraison.code_moyen_livraison,
+    moyen_livraison.libelle_moyen_livraison
 FROM
          livraison
     INNER JOIN livreur ON livreur.id_livreur = livraison.id_livreur

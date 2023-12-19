@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3566F50D-33BC-B992-4A2E-35DE2A405B76" schemaObject="E4F12336-DAC5-6F6F-4713-282CA20C03D5" name="DM1_STAING">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 22:48:30 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_STAGING_DM1" id="D563B79B-0495-F8ED-B78A-D2F19C849437">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 22:50:01 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_STAGING_DM1</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C76BA841-0189-B8B4-35D2-602A36F39238" name="DM1_STAING_PK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 22:50:01 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D563B79B-0495-F8ED-B78A-D2F19C849437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
