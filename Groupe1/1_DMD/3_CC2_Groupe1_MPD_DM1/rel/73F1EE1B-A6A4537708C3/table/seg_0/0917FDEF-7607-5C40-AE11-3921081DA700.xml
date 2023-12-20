@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3566F50D-33BC-B992-4A2E-35DE2A405B76" schemaObject="E4F12336-DAC5-6F6F-4713-282CA20C03D5" name="DM1_STAING">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0917FDEF-7607-5C40-AE11-3921081DA700" schemaObject="E4F12336-DAC5-6F6F-4713-282CA20C03D5" name="DM1_ODS">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 22:48:30 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <ordsAlias>table_1</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_STAGING_DM1" id="D563B79B-0495-F8ED-B78A-D2F19C849437">
+<Column name="ID_ODS_DM1" id="1FF86037-832A-570D-CFE8-8AE4045D5D32">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 22:50:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +18,13 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>SEQ_ID_STAGING_DM1</autoIncrementSequenceName>
+<autoIncrementSequenceName>SEQ_ID_ODS_DM1</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<notNullConstraintName>NNC_DM1_STAINGv1_ID_STAGING_DM11</notNullConstraintName>
 </Column>
-<Column name="ID_PREPARATION" id="25787AB2-0579-5E5F-9D71-346E50C55984">
+<Column name="ID_PREPARATION" id="5195E363-F441-E9B3-D5DF-F5D4F6EF6EFB">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,9 +36,9 @@
 <autoIncrementSequenceName>SEQ_ID_PREPARATION</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="DATE_DEBUT_PREPARATION" id="82DDC1B4-9B61-6313-A401-2C149AB9BB0F">
+<Column name="DATE_DEBUT_PREPARATION" id="9ECCDCE1-E625-67F2-2B37-6615EE75CCFD">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +47,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DATE_FIN_PREPARATION" id="9C465A3B-EFCE-0CF6-0866-F6C3AE87263D">
+<Column name="DATE_FIN_PREPARATION" id="BA617AB7-5311-20C9-F3FD-FF63178A7564">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,9 +58,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_MOYEN_PAIEMENT" id="B5A16643-26FE-0100-E843-414603692EEA">
+<Column name="TEMPS_REEL_PREPARATION" id="13E9BA7C-5F70-2A17-BD99-3A408B1684E8">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 21:18:28 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MOYEN_PAIEMENT" id="53BD006B-6011-8E72-A056-36F2C79977B3">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,9 +83,9 @@
 <autoIncrementSequenceName>SEQ_ID_MOYEN_PAIEMENT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="CODE_MOYEN_PAIEMENT" id="B6A9E1E7-B7E2-1973-BD2C-7E3E0FB10DD0">
+<Column name="CODE_MOYEN_PAIEMENT" id="3DD6915C-56D7-9B4F-2607-D257B5D7A00D">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,9 +95,9 @@
 <ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LIVELLE_MOYEN_PAIEMENT" id="C6EA030C-25A8-455E-F31D-213CB6F8FB78">
+<Column name="LIVELLE_MOYEN_PAIEMENT" id="0E63C46C-2E68-FE36-38D6-476E58629223">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -95,9 +107,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_MENU" id="A84AA812-1B48-5767-DCEC-404F8742B9EF">
+<Column name="ID_MENU" id="9AC46687-AC75-93B9-AA02-840D960DA57B">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -109,9 +121,9 @@
 <autoIncrementSequenceName>SEQ_ID_MENU</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="CODE_MENU" id="1B2AF5F0-8807-88EE-DA7E-27628C58350A">
+<Column name="CODE_MENU" id="F5DD7E7F-0981-9808-0E86-35C0B7F5619E">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -121,9 +133,9 @@
 <ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LIBELLE_MENU" id="33B18343-7E78-E4E6-06A7-ED499E35A1C5">
+<Column name="LIBELLE_MENU" id="A44AF45C-A7D4-91DF-5907-B89C4F7F756E">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -133,9 +145,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE_ARTICLES" id="C7B2FD11-C5DC-E40B-FF8B-72C9F787A275">
+<Column name="NOMBRE_ARTICLES" id="E0D431CE-16C7-7894-DBE0-A9D1CF194113">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -144,9 +156,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TEMPS_THEO_PREPARATION" id="19ED9D9F-2DEF-4F46-B9F3-5FF4E9DB7655">
+<Column name="TEMPS_THEO_PREPARATION" id="D102F6E8-31F1-DCF0-4CF0-DF03385FDE77">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -155,9 +167,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_COMMANDE" id="E50DFF72-1B38-3B11-3CB1-6BF417648118">
+<Column name="ID_COMMANDE" id="B3FA39B4-DCFC-BF89-53C0-34D7A0268578">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -169,9 +181,9 @@
 <autoIncrementSequenceName>SEQ_ID_COMMANDE</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="NUMERO_COMMANDE" id="5429CFAD-BB72-7FF6-C0CE-72100AFA2142">
+<Column name="NUMERO_COMMANDE" id="868A5072-8233-42E4-7714-1B90BF3E8FB4">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -180,9 +192,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DATE_COMMANDE" id="6F1F5E64-3E7B-216E-DB2C-E3F2640BA213">
+<Column name="DATE_COMMANDE" id="6302C2E7-EFB2-F209-E13E-ADAE36F7E781">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -191,9 +203,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MONTANT_TOTAL" id="8571F718-975F-3771-51FC-0DFD23625CAC">
+<Column name="MONTANT_TOTAL" id="10027945-A23D-2999-B415-BE5683979BDB">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -202,9 +214,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_ADRESSE_NORM_RESTAURANT" id="7EC2D87F-8661-71AB-6507-D440AF7F68D7">
+<Column name="ID_ADRESSE_NORM_RESTAURANT" id="E05888A6-CD20-116A-4496-16A8CE8D3567">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -216,9 +228,9 @@
 <autoIncrementSequenceName>SEQ_ID_ADRESSE_NORM_RESTAURANT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="NUMERO_VOIE_RESTAU" id="5377AC55-E21E-5684-CD9D-06F444014D0C">
+<Column name="NUMERO_VOIE_RESTAU" id="141AFAB8-B31D-1231-E6C6-05124FB6AF47">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -228,9 +240,9 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOM_VOIE_RESTAU" id="25FB4DCF-3B50-E706-7139-6E85C0FA48D5">
+<Column name="NOM_VOIE_RESTAU" id="09D3E6E8-5B0F-6CC9-EE9F-0C654E1878F0">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -240,9 +252,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CODE_POSTAL_RESTAU" id="6DD1173F-9952-AA8A-CEEE-0E33DEE46E39">
+<Column name="CODE_POSTAL_RESTAU" id="758B924C-D6A8-960B-1D9B-3520D2F9E007">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -252,9 +264,9 @@
 <ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOM_VILLE_RESTAU" id="3BDB18FD-E489-DBF0-93C4-1CC3F02452BA">
+<Column name="NOM_VILLE_RESTAU" id="096C3456-EF7B-FDAA-7248-D5260F1A3021">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -264,9 +276,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LONGITUDE_RESTAU" id="BCBE2757-3B55-8572-886A-95BA7CD33DA8">
+<Column name="LONGITUDE_RESTAU" id="2CBC0478-5F3E-2807-3317-9C83FFEB2D9B">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -276,9 +288,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LATITUDE_RESTAU" id="BDF33DF5-8D00-6438-1B63-B1F6D665222D">
+<Column name="LATITUDE_RESTAU" id="B2CBAD81-4041-492F-ACF5-D91B04402C3F">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -288,9 +300,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_ADRESSE_RESTAURANT" id="0E2A4824-389A-4837-4DBB-BD887EB326B9">
+<Column name="ID_ADRESSE_RESTAURANT" id="4565B2A3-9F13-500B-4A44-3A83E31AA03A">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -302,9 +314,9 @@
 <autoIncrementSequenceName>SEQ_ID_ADRESSE_RESTAURANT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="ADRESSE_RESTAURANT" id="27195C23-5EA2-034E-425F-738950C8B483">
+<Column name="ADRESSE_RESTAURANT" id="0A8F5148-A009-7A02-83CB-CF6ACB04C6AE">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -314,9 +326,9 @@
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_RESTAURANT" id="FAA25B23-A7F6-F33E-BFBE-C7B4E6548DE5">
+<Column name="ID_RESTAURANT" id="D94A577C-3CBB-A565-1B8E-69A163E5D724">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -328,9 +340,9 @@
 <autoIncrementSequenceName>SEQ_ID_RESTAURANT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="CODE_RESTAURANT" id="414B95F5-65ED-A68C-164A-6C41C9E9C89E">
+<Column name="CODE_RESTAURANT" id="B7309A4C-DFFA-C101-2C43-A020CB0B46A2">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -340,9 +352,9 @@
 <ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RAISON_SOCIALE_RESTAURANT" id="6866B870-1EA3-6AAF-5B30-C8B1D9614777">
+<Column name="RAISON_SOCIALE_RESTAURANT" id="0A6C177A-C3FA-AE65-AE3B-F1EC1DBBA51B">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -352,9 +364,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_ADRESSE_NORM_CLIENT" id="CF483320-577D-ED93-DDF0-40FB1C2CA965">
+<Column name="ID_ADRESSE_NORM_CLIENT" id="1F348BA6-F656-321F-0531-1D0F7E1309B9">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -366,9 +378,9 @@
 <autoIncrementSequenceName>SEQ_ID_ADRESSE_NORM_CLIENT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="NUMERO_VOIE" id="C5160013-6668-77AE-3367-5F1FD4FFBDC3">
+<Column name="NUMERO_VOIE" id="97AB059F-363D-D7B7-DB99-6C50B9B51126">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -378,9 +390,9 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOM_VOIE" id="95C909DB-6B1C-1A83-E1D7-DCDDC70CFE35">
+<Column name="NOM_VOIE" id="B3BF5B53-C291-FD8C-18AB-53A94E9EB329">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -390,9 +402,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CODE_POSTAL" id="33AB4398-0136-C0D8-3B42-E26BEDE0FB3E">
+<Column name="CODE_POSTAL" id="64EAC5B3-9FD1-7C52-6BEE-F75B1D222C19">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -402,9 +414,9 @@
 <ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOM_VILLE" id="E6474491-D1BB-E456-026F-907B63934E41">
+<Column name="NOM_VILLE" id="9921452D-2E9F-17B9-7456-C4A0C1D4F623">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -414,9 +426,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LONGITUDE" id="C6694D92-878B-FA5C-65A9-486DE4FF4D91">
+<Column name="LONGITUDE" id="83ED204E-24A2-536A-55E5-5F8BF9802BFA">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -426,9 +438,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="LATITUDE" id="1F26FB1E-89B9-ACE7-FCC1-AC5DE130B8F7">
+<Column name="LATITUDE" id="F7237C70-F21F-307D-5DB5-6B2827848B71">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -438,9 +450,9 @@
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_ADRESSE_CLIENT" id="1EC6C110-4B1D-46DD-28F5-3C3F8860E36D">
+<Column name="ID_ADRESSE_CLIENT" id="61ECA3B6-C57F-D362-7130-AB426F1FDCA6">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -452,9 +464,9 @@
 <autoIncrementSequenceName>SEQ_ID_ADRESSE_CLIENT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="ADRESSE_CLIENT" id="52092E18-E2DC-2CF7-AD3F-1FCC8C9BEAC6">
+<Column name="ADRESSE_CLIENT" id="4E6F7187-B2DB-0FFA-6579-328B5FA74494">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:32 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -464,9 +476,9 @@
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_CLIENT" id="337D8256-2DA1-EEA0-8B26-AC4026C5DE1C">
+<Column name="ID_CLIENT" id="AD67B915-F6C3-89EF-1ACA-A905C723A928">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -478,9 +490,9 @@
 <autoIncrementSequenceName>SEQ_ID_CLIENT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="NOM_CLIENT" id="D30853E2-09B7-D597-FBE1-C731F5690B40">
+<Column name="NOM_CLIENT" id="E4F937BB-ED61-3884-574A-9F9DE14BAB24">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -490,9 +502,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PRENOM_CLIENT" id="608D55F0-0FF2-6BEE-4518-486C55695E70">
+<Column name="PRENOM_CLIENT" id="AB2B6147-B546-8E57-746A-E1B5E0403131">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -504,15 +516,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3866A874-0D7E-E70B-48E4-89FFBBFC4274" name="DM1_STAGING_PK">
+<ind_PK_UK id="AE55F83C-A87F-5671-C13E-BEFBE41387B6" name="DM1_ODS_PK">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 23:43:01 UTC</createdTime>
+<createdTime>2023-12-20 20:43:04 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D563B79B-0495-F8ED-B78A-D2F19C849437"/>
+<colUsage columnID="1FF86037-832A-570D-CFE8-8AE4045D5D32"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
