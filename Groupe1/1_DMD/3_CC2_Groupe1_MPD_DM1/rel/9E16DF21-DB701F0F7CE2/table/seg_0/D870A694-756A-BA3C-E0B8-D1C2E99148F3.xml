@@ -99,6 +99,19 @@
 <colAssociation fkAssociation="E2928101-79ED-1963-4DFF-03E65AFDB8DD" referredColumn="50D8E32E-1025-524A-0560-FC70F72372CF"/>
 </associations>
 </Column>
+<Column name="ID_MOYEN_PAIEMENT" id="77459AF7-52C0-6155-434E-FDEF35871CE2">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 23:20:30 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B399E666-1136-7EEF-2EC6-6DB03547A0FF" referredColumn="F71FD11A-277F-F203-70A1-7CF00D643654"/>
+</associations>
+</Column>
 <Column name="MONTANT_TOTAL" id="D233EA2D-8F0F-BDC2-00B1-6AB37CB75BBB">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:51:05 UTC</createdTime>
@@ -142,19 +155,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_MOYEN_PAIEMENT" id="77459AF7-52C0-6155-434E-FDEF35871CE2">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 23:20:30 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B399E666-1136-7EEF-2EC6-6DB03547A0FF" referredColumn="F71FD11A-277F-F203-70A1-7CF00D643654"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
