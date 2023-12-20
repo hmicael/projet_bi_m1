@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="DSID_LIV_OPE" directorySegmentName="seg_0" id="EA085F4E-513C-5364-C29E-936F7DBB1D46">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 23:41:20 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+</SchemaObject>

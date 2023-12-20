@@ -46,7 +46,7 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RENOM_CLIENT" id="05F11BF3-D152-12B4-4CC1-3889734455F6">
+<Column name="PRENOM_CLIENT" id="05F11BF3-D152-12B4-4CC1-3889734455F6">
 <createdBy>root</createdBy>
 <createdTime>2023-12-09 21:19:08 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>

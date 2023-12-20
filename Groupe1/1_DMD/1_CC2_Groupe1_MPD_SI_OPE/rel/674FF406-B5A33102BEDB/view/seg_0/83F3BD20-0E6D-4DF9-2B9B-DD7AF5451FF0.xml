@@ -21,15 +21,13 @@
     adresse_restaurant.id_adresse_restaurant,
     adresse_restaurant.adresse_restaurant,
     adresse_normalisee_restaurant.id_adresse_norm_restaurant,
-    adresse_normalisee_restaurant.numero_voie AS numero_voie1,
-    adresse_normalisee_restaurant.nom_voie    AS nom_voie1,
-    adresse_normalisee_restaurant.code_postal AS code_postal1,
-    adresse_normalisee_restaurant.nom_ville   AS nom_ville1,
-    adresse_normalisee_restaurant.longitude   AS longitude1,
-    adresse_normalisee_restaurant.latitude    AS latitude1,
+    adresse_normalisee_restaurant.numero_voie AS numero_voie_restau,
+    adresse_normalisee_restaurant.nom_voie    AS nom_voie_restau,
+    adresse_normalisee_restaurant.code_postal AS code_postal_restau,
+    adresse_normalisee_restaurant.nom_ville   AS nom_ville_restau,
+    adresse_normalisee_restaurant.longitude   AS longitude_restau,
+    adresse_normalisee_restaurant.latitude    AS latitude_restau,
     client.id_client,
-    client.nom_client,
-    client.renom_client,
     commande.id_commande,
     commande.numero_commande,
     commande.date_commande,
@@ -49,7 +47,9 @@
     livreur.prenom_livreur,
     moyen_livraison.id_moyen_livraison,
     moyen_livraison.code_moyen_livraison,
-    moyen_livraison.libelle_moyen_livraison
+    moyen_livraison.libelle_moyen_livraison,
+    client.prenom_client,
+    client.nom_client
 FROM
          livraison
     INNER JOIN livreur ON livreur.id_livreur = livraison.id_livreur
@@ -242,83 +242,77 @@ FROM
 <referencedColumn>F844704F-1706-1147-11F3-BF1A4A5E81B2</referencedColumn>
 <table>CF6547CC-4A58-EFB8-4311-8FD925CD9487</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="numero_voie1" id="9EFE2D5A-9DCB-5A80-A654-8897021F008B">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="numero_voie_restau" id="5D6F242B-F323-036A-9AD3-1C98A7432704">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<createdTime>2023-12-20 20:18:23 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<alias>numero_voie1</alias>
+<alias>numero_voie_restau</alias>
 <dataType>VARCHAR2 (10 CHAR)</dataType>
-<headerAlias>numero_voie1</headerAlias>
+<headerAlias>numero_voie_restau</headerAlias>
 <reference>false</reference>
 <referencedColumn>57BB8762-1B62-4C03-CA62-D9F793FE8012</referencedColumn>
-<table>CF6547CC-4A58-EFB8-4311-8FD925CD9487</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nom_voie1" id="6B7EE270-142F-D670-454E-43AF7A7E95C5">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nom_voie_restau" id="FA61EBCB-ADD1-EC12-64E1-5E756BF3EF61">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<createdTime>2023-12-20 20:18:23 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<alias>nom_voie1</alias>
+<alias>nom_voie_restau</alias>
 <dataType>VARCHAR2 (100 CHAR)</dataType>
-<headerAlias>nom_voie1</headerAlias>
+<headerAlias>nom_voie_restau</headerAlias>
 <reference>false</reference>
 <referencedColumn>B91AA3D6-59A2-767B-7C5A-3F27476A2D84</referencedColumn>
-<table>CF6547CC-4A58-EFB8-4311-8FD925CD9487</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="code_postal1" id="D2C8BD63-47F3-FF49-3FD9-9F92453723A8">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="code_postal_restau" id="6A332196-D9DA-3216-F977-FD7A2B742CDA">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<createdTime>2023-12-20 20:18:23 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<alias>code_postal1</alias>
+<alias>code_postal_restau</alias>
 <dataType>VARCHAR2 (5 CHAR)</dataType>
-<headerAlias>code_postal1</headerAlias>
+<headerAlias>code_postal_restau</headerAlias>
 <reference>false</reference>
 <referencedColumn>4FC6BC3A-02F3-A974-59F6-C8ABDEE730A0</referencedColumn>
-<table>CF6547CC-4A58-EFB8-4311-8FD925CD9487</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nom_ville1" id="9B84D720-5C09-CF83-6AE0-639646C63968">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nom_ville_restau" id="114C0825-C763-80FF-DC31-B9510B6AC3AA">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<createdTime>2023-12-20 20:18:23 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<alias>nom_ville1</alias>
+<alias>nom_ville_restau</alias>
 <dataType>VARCHAR2 (100 CHAR)</dataType>
-<headerAlias>nom_ville1</headerAlias>
+<headerAlias>nom_ville_restau</headerAlias>
 <reference>false</reference>
 <referencedColumn>130F72D3-A888-66C6-D505-222D49A7D929</referencedColumn>
-<table>CF6547CC-4A58-EFB8-4311-8FD925CD9487</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="longitude1" id="0267E0CD-DEFB-093C-B9B1-11DB59716DF1">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="longitude_restau" id="ED23AA3F-FE15-8854-3140-A9B992D1E3E5">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<createdTime>2023-12-20 20:18:23 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<alias>longitude1</alias>
+<alias>longitude_restau</alias>
 <dataType>VARCHAR2 (20 CHAR)</dataType>
-<headerAlias>longitude1</headerAlias>
+<headerAlias>longitude_restau</headerAlias>
 <reference>false</reference>
 <referencedColumn>05E80BE1-1AA7-A4BA-3467-916819D26EEF</referencedColumn>
-<table>CF6547CC-4A58-EFB8-4311-8FD925CD9487</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="latitude1" id="D7FDCE73-71C0-F604-00EE-BF755ACB27F9">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="latitude_restau" id="53526172-8001-0FD1-1A89-6E7D74074667">
 <createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<createdTime>2023-12-20 20:18:23 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<alias>latitude1</alias>
+<alias>latitude_restau</alias>
 <dataType>VARCHAR2 (20 CHAR)</dataType>
-<headerAlias>latitude1</headerAlias>
+<headerAlias>latitude_restau</headerAlias>
 <reference>false</reference>
 <referencedColumn>666D3E84-D8CD-0081-33E9-093BC0B34DFA</referencedColumn>
-<table>CF6547CC-4A58-EFB8-4311-8FD925CD9487</table>
 </viewElement>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_client" id="658C3F08-4C1B-004D-B93E-77B7A32A51F6">
 <createdBy>root</createdBy>
@@ -331,30 +325,6 @@ FROM
 <reference>false</reference>
 <referencedColumn>F833BD88-CE17-0281-7C77-186F35B276D7</referencedColumn>
 <table>DF4CAA82-29EB-E9EB-B153-E57B47DCFBC0</table>
-</viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_livraison" id="6A447A06-4DED-CD4F-468D-71CDD53FAA19">
-<createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
-<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<dataType>NUMBER</dataType>
-<headerAlias>id_livraison</headerAlias>
-<reference>false</reference>
-<referencedColumn>5B438526-E0DE-4263-8CC5-8E22A963F666</referencedColumn>
-<table>AEEFA506-428C-268F-9CF7-73B0EF6612FF</table>
-</viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nom_client" id="C27EEBFB-0E6D-196C-1EF3-FC1236C1894E">
-<createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
-<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<dataType>VARCHAR2 (100 CHAR)</dataType>
-<headerAlias>nom_client</headerAlias>
-<reference>false</reference>
-<referencedColumn>2A224055-ACB4-0FE0-C0BF-7B53562110A0</referencedColumn>
-<table>A33C6552-7815-C675-D074-945E3B57B732</table>
 </viewElement>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_commande" id="0BDA36E1-D440-4192-15CD-C25E590CEDD1">
 <createdBy>root</createdBy>
@@ -464,28 +434,16 @@ FROM
 <referencedColumn>0A5248EE-EBEA-B115-D470-309CE9C316C1</referencedColumn>
 <table>B163D37B-9C83-4020-C12A-4CA0884EABD0</table>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="renom_client" id="6D5D0362-A59D-A398-338A-DDD98E834A00">
-<createdBy>root</createdBy>
-<createdTime>2023-12-19 21:47:35 UTC</createdTime>
-<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<dataType>VARCHAR2 (100 CHAR)</dataType>
-<headerAlias>renom_client</headerAlias>
-<reference>false</reference>
-<referencedColumn>05F11BF3-D152-12B4-4CC1-3889734455F6</referencedColumn>
-<table>A33C6552-7815-C675-D074-945E3B57B732</table>
-</viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_livreur" id="1119BBA8-F186-1DCF-372C-22DE61BDAF79">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_livraison" id="6A447A06-4DED-CD4F-468D-71CDD53FAA19">
 <createdBy>root</createdBy>
 <createdTime>2023-12-19 21:47:35 UTC</createdTime>
 <ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <dataType>NUMBER</dataType>
-<headerAlias>id_livreur</headerAlias>
+<headerAlias>id_livraison</headerAlias>
 <reference>false</reference>
-<referencedColumn>C2B4C44A-CEAB-EE08-9A4B-5B879449287C</referencedColumn>
+<referencedColumn>5B438526-E0DE-4263-8CC5-8E22A963F666</referencedColumn>
 <table>AEEFA506-428C-268F-9CF7-73B0EF6612FF</table>
 </viewElement>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="numero_livraison" id="E00E53F5-3AD3-9C79-589C-986464114056">
@@ -534,6 +492,18 @@ FROM
 <headerAlias>nombre_article_livres</headerAlias>
 <reference>false</reference>
 <referencedColumn>0BCA8F06-C764-1B6A-8DE8-B69DE3009121</referencedColumn>
+<table>AEEFA506-428C-268F-9CF7-73B0EF6612FF</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="id_livreur" id="1119BBA8-F186-1DCF-372C-22DE61BDAF79">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>id_livreur</headerAlias>
+<reference>false</reference>
+<referencedColumn>C2B4C44A-CEAB-EE08-9A4B-5B879449287C</referencedColumn>
 <table>AEEFA506-428C-268F-9CF7-73B0EF6612FF</table>
 </viewElement>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nom_livreur" id="0A39B5D4-A9C1-33A0-450A-5E2320D3EC75">
@@ -595,6 +565,30 @@ FROM
 <reference>false</reference>
 <referencedColumn>7436DC75-4B0B-94E6-B60A-861EB6F048C0</referencedColumn>
 <table>F4433BCA-22C0-A169-606E-63CD32BC646E</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="prenom_client" id="6D5D0362-A59D-A398-338A-DDD98E834A00">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 CHAR)</dataType>
+<headerAlias>prenom_client</headerAlias>
+<reference>false</reference>
+<referencedColumn>05F11BF3-D152-12B4-4CC1-3889734455F6</referencedColumn>
+<table>A33C6552-7815-C675-D074-945E3B57B732</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="nom_client" id="C27EEBFB-0E6D-196C-1EF3-FC1236C1894E">
+<createdBy>root</createdBy>
+<createdTime>2023-12-19 21:47:35 UTC</createdTime>
+<ownerDesignName>1_CC2_Groupe1_MPD_SI_OPE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 CHAR)</dataType>
+<headerAlias>nom_client</headerAlias>
+<reference>false</reference>
+<referencedColumn>2A224055-ACB4-0FE0-C0BF-7B53562110A0</referencedColumn>
+<table>A33C6552-7815-C675-D074-945E3B57B732</table>
 </viewElement>
 </viewElements>
 <usedObjects>
@@ -733,16 +727,6 @@ FROM
 <schema>DSID_LIV_OPE</schema>
 <tableName>CLIENT</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2A224055-ACB4-0FE0-C0BF-7B53562110A0">
-<columnName>NOM_CLIENT</columnName>
-<schema>DSID_LIV_OPE</schema>
-<tableName>CLIENT</tableName>
-</UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="05F11BF3-D152-12B4-4CC1-3889734455F6">
-<columnName>RENOM_CLIENT</columnName>
-<schema>DSID_LIV_OPE</schema>
-<tableName>CLIENT</tableName>
-</UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C81BAFA1-2C9C-B781-0B47-28CA4E613423">
 <columnName>ID_COMMANDE</columnName>
 <schema>DSID_LIV_OPE</schema>
@@ -843,6 +827,16 @@ FROM
 <schema>DSID_LIV_OPE</schema>
 <tableName>MOYEN_LIVRAISON</tableName>
 </UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="05F11BF3-D152-12B4-4CC1-3889734455F6">
+<columnName>PRENOM_CLIENT</columnName>
+<schema>DSID_LIV_OPE</schema>
+<tableName>CLIENT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2A224055-ACB4-0FE0-C0BF-7B53562110A0">
+<columnName>NOM_CLIENT</columnName>
+<schema>DSID_LIV_OPE</schema>
+<tableName>CLIENT</tableName>
+</UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8CAC7A02-4D42-DBCC-1B17-4AC24DA43764">
 <columnName>ID_MOYEN</columnName>
 <schema>DSID_LIV_OPE</schema>
@@ -853,18 +847,23 @@ FROM
 <schema>DSID_LIV_OPE</schema>
 <tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="57BB8762-1B62-4C03-CA62-D9F793FE8012">
-<columnName>NUMERO_VOIE</columnName>
-<schema>DSID_LIV_OPE</schema>
-<tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
-</UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="424E2AFB-1F78-CA10-E397-5A5AA9C347C2">
 <columnName>ID_ADRESSE_RESTAURANT</columnName>
 <schema>DSID_LIV_OPE</schema>
 <tableName>RESTAURANT</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B91AA3D6-59A2-767B-7C5A-3F27476A2D84">
-<columnName>NOM_VOIE</columnName>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="05E80BE1-1AA7-A4BA-3467-916819D26EEF">
+<columnName>LONGITUDE</columnName>
+<schema>DSID_LIV_OPE</schema>
+<tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="666D3E84-D8CD-0081-33E9-093BC0B34DFA">
+<columnName>LATITUDE</columnName>
+<schema>DSID_LIV_OPE</schema>
+<tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4FC6BC3A-02F3-A974-59F6-C8ABDEE730A0">
+<columnName>CODE_POSTAL</columnName>
 <schema>DSID_LIV_OPE</schema>
 <tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
 </UsedObject>
@@ -883,18 +882,13 @@ FROM
 <schema>DSID_LIV_OPE</schema>
 <tableName>ADRESSE_NORMALISEE_CLIENT</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="05E80BE1-1AA7-A4BA-3467-916819D26EEF">
-<columnName>LONGITUDE</columnName>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B91AA3D6-59A2-767B-7C5A-3F27476A2D84">
+<columnName>NOM_VOIE</columnName>
 <schema>DSID_LIV_OPE</schema>
 <tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
 </UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="666D3E84-D8CD-0081-33E9-093BC0B34DFA">
-<columnName>LATITUDE</columnName>
-<schema>DSID_LIV_OPE</schema>
-<tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
-</UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4FC6BC3A-02F3-A974-59F6-C8ABDEE730A0">
-<columnName>CODE_POSTAL</columnName>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="57BB8762-1B62-4C03-CA62-D9F793FE8012">
+<columnName>NUMERO_VOIE</columnName>
 <schema>DSID_LIV_OPE</schema>
 <tableName>ADRESSE_NORMALISEE_RESTAURANT</tableName>
 </UsedObject>
