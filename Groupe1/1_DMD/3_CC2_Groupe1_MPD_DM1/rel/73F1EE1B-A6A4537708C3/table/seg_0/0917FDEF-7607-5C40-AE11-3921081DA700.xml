@@ -8,9 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_ODS_DM1" id="1FF86037-832A-570D-CFE8-8AE4045D5D32">
+<Column name="ID_ODS_DM1" id="74F1C1F5-FB41-DE7F-8E5E-643A1DF2B1EE">
 <createdBy>root</createdBy>
-<createdTime>2023-12-20 20:43:04 UTC</createdTime>
+<createdTime>2023-12-20 21:54:13 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,7 +20,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <autoIncrementSequenceName>SEQ_ID_ODS_DM1</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
-<notNullConstraintName>NNC_DM1_STAINGv1_ID_STAGING_DM11</notNullConstraintName>
 </Column>
 <Column name="ID_PREPARATION" id="5195E363-F441-E9B3-D5DF-F5D4F6EF6EFB">
 <createdBy>root</createdBy>
@@ -524,7 +523,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1FF86037-832A-570D-CFE8-8AE4045D5D32"/>
+<colUsage columnID="74F1C1F5-FB41-DE7F-8E5E-643A1DF2B1EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
