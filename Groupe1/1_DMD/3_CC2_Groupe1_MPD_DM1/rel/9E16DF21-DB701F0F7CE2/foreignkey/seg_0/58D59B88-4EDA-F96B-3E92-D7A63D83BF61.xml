@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58D59B88-4EDA-F96B-3E92-D7A63D83BF61" containerWithKeyObject="D870A694-756A-BA3C-E0B8-D1C2E99148F3" localFKIndex="E6B54DFD-1C8A-6706-C258-940E0ABD56E4" name="DM1_PREPARATION_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 23:22:20 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<referredTableLongName>DSID_LIV_DM1.DIM_PREPARATION_D</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C96DDF8-66E3-80C3-E8BC-E25D5410A764</referredTableID>
+<keyObject>32E8A2E4-E20E-B669-CCA0-D255D2F893FE</keyObject>
+<referredKeyID>32E8A2E4-E20E-B669-CCA0-D255D2F893FE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PREPARATION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
