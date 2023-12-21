@@ -1,5 +1,5 @@
--- Généré par Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   à :        2023-12-21 15:42:25 CET
+-- GÃ©nÃ©rÃ© par Oracle SQL Developer Data Modeler 22.2.0.165.1149
+--   Ã  :        2023-12-21 15:42:25 CET
 --   site :      Oracle Database 11g
 --   type :      Oracle Database 11g
 
@@ -166,25 +166,25 @@ ALTER TABLE dsid_liv_dm1.fait_dm1_f
     ADD CONSTRAINT fait_dm1_f_dim_restaurant_d_fk FOREIGN KEY ( id_restaurant )
         REFERENCES dsid_liv_dm1.dim_restaurant_d ( id_restaurant );
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_client START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_client START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_restaurant START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_restaurant START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_client START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_client START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_commande START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_commande START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_moyen_paiement START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_moyen_paiement START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_preparation START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_preparation START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_restaurant START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_restaurant START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_dm1 START WITH 1 NOCACHE ORDER;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_dm1 START WITH 1;
 
 
 
--- Rapport récapitulatif d'Oracle SQL Developer Data Modeler : 
+-- Rapport rÃ©capitulatif d'Oracle SQL Developer Data Modeler : 
 -- 
 -- CREATE TABLE                             8
 -- CREATE INDEX                             0
