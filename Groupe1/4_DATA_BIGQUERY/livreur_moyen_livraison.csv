@@ -1,0 +1,5 @@
+id_livreur,id_moyen,nom_livreur,prenom_livreur,code_moyen_livraison,libelle_moyen_livraison
+1,1,nom_livreur1,prenom_livreur1,code1,libelle1
+2,2,nom_livreur2,prenom_livreur2,code2,libelle2
+3,3,nom_livreur3,prenom_livreur3,code3,libelle3
+4,4,nom_livreur4,prenom_livreur4,code4,libelle4
