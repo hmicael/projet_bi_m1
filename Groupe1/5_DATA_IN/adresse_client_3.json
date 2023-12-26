@@ -2,5 +2,9 @@
 	{
 		"id_adresse_client": 6,
 		"adresse_client": "22 Rue Charles de Gaulle 91400 Orsay"
+	},
+	{
+		"id_adresse_client": 7,
+		"adresse_client": "18 Rue des États Généraux, 78000 Versailles"
 	}
 ]
