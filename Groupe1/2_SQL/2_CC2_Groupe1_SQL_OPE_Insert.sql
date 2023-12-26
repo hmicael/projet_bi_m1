@@ -1,5 +1,6 @@
 -- Insertion Client(id_client, id_adresse_client, nom_client, prenom_client)
 INSERT INTO dsid_liv_ope.client VALUES (dsid_liv_ope.seq_id_client.nextval, 1, 'nom1', 'prenom1');
+INSERT INTO dsid_liv_ope.client VALUES (dsid_liv_ope.seq_id_client.nextval, 3, 'nom1', 'prenom2');
 
 -- Insertion Restaurant(id_restaurant, id_adresse_restaurant, code_restaurant, 'raison_sociale_restaurant')
 INSERT INTO dsid_liv_ope.restaurant VALUES (dsid_liv_ope.seq_id_restaurant.nextval, 1, 'code1', 'raison_sociale_1');
