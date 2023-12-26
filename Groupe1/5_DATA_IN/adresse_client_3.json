@@ -1,10 +1,6 @@
 [
 	{
 		"id_adresse_client": 5,
-		"adresse_client": "adresse5"
-	},
-	{
-		"id_adresse_client": 6,
-		"adresse_client": "adresse6"
+		"adresse_client": "22 Rue Charles de Gaulle 91400 Orsay"
 	}
 ]
