@@ -21,6 +21,17 @@
 <autoIncrementSequenceName>SEQ_ID_COMMANDE</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
+<Column name="ID_COMMANDE_SRC" id="D6A896AB-248A-BE8B-E321-4F4F9123B4C5">
+<createdBy>root</createdBy>
+<createdTime>2023-12-27 20:01:36 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_CLIENT" id="54A53EBE-5117-D65E-8EEE-5DF438D8EF71">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:18 UTC</createdTime>

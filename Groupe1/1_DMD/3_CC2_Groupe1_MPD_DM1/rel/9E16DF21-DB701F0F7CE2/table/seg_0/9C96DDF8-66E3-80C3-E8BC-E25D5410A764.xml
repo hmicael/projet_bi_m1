@@ -21,6 +21,17 @@
 <autoIncrementSequenceName>SEQ_ID_PREPARATION</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
+<Column name="ID_PREPARATION_SRC" id="64451FFB-1C89-8B04-12CD-60FA626BF27B">
+<createdBy>root</createdBy>
+<createdTime>2023-12-27 19:58:14 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_COMMANDE" id="BA361487-8614-821F-3723-DDD4CEB16B74">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:18 UTC</createdTime>

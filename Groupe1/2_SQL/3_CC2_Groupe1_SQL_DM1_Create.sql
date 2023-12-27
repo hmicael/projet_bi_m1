@@ -1,5 +1,5 @@
--- GÃ©nÃ©rÃ© par Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   Ã  :        2023-12-21 15:42:25 CET
+-- Généré par Oracle SQL Developer Data Modeler 22.2.0.165.1149
+--   à :        2023-12-27 21:03:03 CET
 --   site :      Oracle Database 11g
 --   type :      Oracle Database 11g
 
@@ -42,20 +42,22 @@ DROP SEQUENCE dsid_liv_dm1.seq_id_dm1;
 -- predefined type, no DDL - XMLTYPE
 
 CREATE TABLE dsid_liv_dm1.dim_adresse_norm_client_d (
-    id_adresse_norm_client INTEGER NOT NULL,
-    id_adresse_client      INTEGER,
-    numero_voie            CHARACTER VARYING(10),
-    nom_voie               CHARACTER VARYING(100),
-    code_postal            CHARACTER VARYING(5),
-    nom_ville              CHARACTER VARYING(100),
-    longitude              CHARACTER VARYING(20),
-    latitude               CHARACTER VARYING(20)
+    id_adresse_norm_client     INTEGER NOT NULL,
+    id_adresse_norm_client_src INTEGER,
+    id_adresse_client          INTEGER,
+    numero_voie                CHARACTER VARYING(10),
+    nom_voie                   CHARACTER VARYING(100),
+    code_postal                CHARACTER VARYING(5),
+    nom_ville                  CHARACTER VARYING(100),
+    longitude                  CHARACTER VARYING(20),
+    latitude                   CHARACTER VARYING(20)
 );
 
 ALTER TABLE dsid_liv_dm1.dim_adresse_norm_client_d ADD CONSTRAINT adresse_norm_client_pk PRIMARY KEY ( id_adresse_norm_client );
 
 CREATE TABLE dsid_liv_dm1.dim_adresse_norm_restaurant_d (
     id_adresse_norm_restaurant INTEGER NOT NULL,
+    id_adresse_norm_restau_src INTEGER,
     id_adresse_restaurant      INTEGER,
     numero_voie                CHARACTER VARYING(10),
     nom_voie                   CHARACTER VARYING(100),
@@ -70,32 +72,30 @@ ALTER TABLE dsid_liv_dm1.dim_adresse_norm_restaurant_d ADD CONSTRAINT adresse_no
 
 CREATE TABLE dsid_liv_dm1.dim_client_d (
     id_client         INTEGER NOT NULL,
+    id_client_src     INTEGER,
     id_adresse_client INTEGER,
     nom_client        CHARACTER VARYING(100),
-    prenom_client     CHARACTER VARYING(100),
-    nom_precedent     CHARACTER VARYING(100)
+    prenom_client     CHARACTER VARYING(100)
 );
 
 ALTER TABLE dsid_liv_dm1.dim_client_d ADD CONSTRAINT client_pk PRIMARY KEY ( id_client );
 
 CREATE TABLE dsid_liv_dm1.dim_commande_d (
     id_commande       INTEGER NOT NULL,
+    id_commande_src   INTEGER,
     id_client         INTEGER,
     id_menu           INTEGER,
     id_moyen_paiement INTEGER,
     numero_commande   INTEGER,
     date_commande     DATE,
-    montant_total     FLOAT,
-    scd_start         DATE,
-    scd_end           DATE,
-    scd_version       INTEGER,
-    scd_active        CHARACTER VARYING(5)
+    montant_total     FLOAT
 );
 
 ALTER TABLE dsid_liv_dm1.dim_commande_d ADD CONSTRAINT commande_pk PRIMARY KEY ( id_commande );
 
 CREATE TABLE dsid_liv_dm1.dim_moyen_paiement_d (
     id_moyen_paiement      INTEGER NOT NULL,
+    id_moyen_paiement_src  INTEGER,
     code_moyen_paiement    CHARACTER VARYING(5),
     livelle_moyen_paiement CHARACTER VARYING(100)
 );
@@ -104,6 +104,7 @@ ALTER TABLE dsid_liv_dm1.dim_moyen_paiement_d ADD CONSTRAINT moyen_paiement_pk P
 
 CREATE TABLE dsid_liv_dm1.dim_preparation_d (
     id_preparation         INTEGER NOT NULL,
+    id_preparation_src     INTEGER,
     id_commande            INTEGER,
     id_restaurant          INTEGER,
     date_debut_preparation DATE,
@@ -114,6 +115,7 @@ ALTER TABLE dsid_liv_dm1.dim_preparation_d ADD CONSTRAINT preparation_pk PRIMARY
 
 CREATE TABLE dsid_liv_dm1.dim_restaurant_d (
     id_restaurant             INTEGER NOT NULL,
+    id_restaurant_src         INTEGER,
     id_adresse_restaurant     INTEGER,
     code_restaurant           CHARACTER VARYING(5),
     raison_sociale_restaurant CHARACTER VARYING(100)
@@ -184,7 +186,7 @@ CREATE SEQUENCE dsid_liv_dm1.seq_id_dm1 START WITH 1;
 
 
 
--- Rapport rÃ©capitulatif d'Oracle SQL Developer Data Modeler : 
+-- Rapport récapitulatif d'Oracle SQL Developer Data Modeler : 
 -- 
 -- CREATE TABLE                             8
 -- CREATE INDEX                             0

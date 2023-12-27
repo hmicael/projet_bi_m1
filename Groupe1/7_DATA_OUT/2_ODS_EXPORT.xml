@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<root>
+<row>
+<id_client>3</id_client>
+<date_commande>02-01-2024</date_commande>
+<montant_total>50.0</montant_total>
+<temps_reel_preparation></temps_reel_preparation>
+</row>
+<row>
+<id_client>1</id_client>
+<date_commande>01-01-2024</date_commande>
+<montant_total>150.25</montant_total>
+<temps_reel_preparation></temps_reel_preparation>
+</row>
+</root>

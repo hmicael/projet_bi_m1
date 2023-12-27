@@ -13,12 +13,19 @@ INSERT INTO dsid_liv_ope.commande VALUES (dsid_liv_ope.seq_id_commande.nextval, 
 INSERT INTO dsid_liv_ope.commande VALUES (dsid_liv_ope.seq_id_commande.nextval, 2, 2, 2, 2, to_date('02-01-2024','DD-MM-YYYY'), 300.1);
 INSERT INTO dsid_liv_ope.commande VALUES (dsid_liv_ope.seq_id_commande.nextval, 3, 3, 3, 3, to_date('02-01-2024','DD-MM-YYYY'), 50);
 
+-- Doublon commande à supprimer en REJET
+INSERT INTO dsid_liv_ope.commande VALUES (dsid_liv_ope.seq_id_commande.nextval, 3, 3, 3, 3, to_date('02-01-2024','DD-MM-YYYY'), 50);
+
 -- Insertion Preparation(id_preparation, id_commande, id_restaurant, date_debut, date_fin)
 INSERT INTO dsid_liv_ope.preparation VALUES (dsid_liv_ope.seq_id_preparation.nextval, 1, 1, to_date('01-01-2024','DD-MM-YYYY'), to_date('01-01-2024','DD-MM-YYYY'));
 INSERT INTO dsid_liv_ope.preparation VALUES (dsid_liv_ope.seq_id_preparation.nextval, 2, 2, to_date('02-01-2024','DD-MM-YYYY'), to_date('02-01-2024','DD-MM-YYYY'));
+INSERT INTO dsid_liv_ope.preparation VALUES (dsid_liv_ope.seq_id_preparation.nextval, 3, 3, to_date('02-01-2024','DD-MM-YYYY'), to_date('02-01-2024','DD-MM-YYYY'));
+-- Doublons
 INSERT INTO dsid_liv_ope.preparation VALUES (dsid_liv_ope.seq_id_preparation.nextval, 3, 3, to_date('02-01-2024','DD-MM-YYYY'), to_date('02-01-2024','DD-MM-YYYY'));
 
 -- Insertion Livraison(id_livraison, id_preparation, id_livreur, numero_livraison, date_debut, date_fin, nombre_article_livre)
 INSERT INTO dsid_liv_ope.livraison VALUES (dsid_liv_ope.seq_id_livraison.nextval, 1, 1, 1, to_date('01-01-2024','DD-MM-YYYY'), to_date('01-01-2024','DD-MM-YYYY'), 2);
 INSERT INTO dsid_liv_ope.livraison VALUES (dsid_liv_ope.seq_id_livraison.nextval, 2, 2, 1, to_date('01-01-2024','DD-MM-YYYY'), to_date('01-01-2024','DD-MM-YYYY'), 2);
+INSERT INTO dsid_liv_ope.livraison VALUES (dsid_liv_ope.seq_id_livraison.nextval, 3, 3, 1, to_date('01-01-2024','DD-MM-YYYY'), to_date('01-01-2024','DD-MM-YYYY'), 2);
+-- Doubons
 INSERT INTO dsid_liv_ope.livraison VALUES (dsid_liv_ope.seq_id_livraison.nextval, 3, 3, 1, to_date('01-01-2024','DD-MM-YYYY'), to_date('01-01-2024','DD-MM-YYYY'), 2);

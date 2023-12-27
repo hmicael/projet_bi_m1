@@ -21,6 +21,17 @@
 <autoIncrementSequenceName>SEQ_ID_MOYEN_PAIEMENT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
+<Column name="ID_MOYEN_PAIEMENT_SRC" id="3E47B2AE-43B9-8645-6905-918C1ECCAFAC">
+<createdBy>root</createdBy>
+<createdTime>2023-12-27 19:59:49 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="CODE_MOYEN_PAIEMENT" id="528149AD-7F85-F4E2-6109-D274080C0E64">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:47 UTC</createdTime>

@@ -21,6 +21,17 @@
 <autoIncrementSequenceName>SEQ_ID_ADRESSE_NORM_CLIENT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
+<Column name="ID_ADRESSE_NORM_CLIENT_SRC" id="432C1E13-7470-D8A8-BF68-2E06E406ED17">
+<createdBy>root</createdBy>
+<createdTime>2023-12-27 20:00:08 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_ADRESSE_CLIENT" id="222AFE40-050C-9E2A-4327-729DB7576F8F">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:47 UTC</createdTime>

@@ -21,6 +21,17 @@
 <autoIncrementSequenceName>SEQ_ID_RESTAURANT</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
+<Column name="ID_RESTAURANT_SRC" id="94AF92F1-F20A-ED82-DE99-130313004394">
+<createdBy>root</createdBy>
+<createdTime>2023-12-27 19:58:59 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ID_ADRESSE_RESTAURANT" id="80E1AF44-FAD5-3291-480E-36C3A3BA48F2">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:47 UTC</createdTime>
