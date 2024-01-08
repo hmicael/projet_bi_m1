@@ -32,17 +32,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_ADRESSE_CLIENT" id="222AFE40-050C-9E2A-4327-729DB7576F8F">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:47 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="NUMERO_VOIE" id="1464D38A-722C-34FE-1938-64D082251ED8">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:47 UTC</createdTime>

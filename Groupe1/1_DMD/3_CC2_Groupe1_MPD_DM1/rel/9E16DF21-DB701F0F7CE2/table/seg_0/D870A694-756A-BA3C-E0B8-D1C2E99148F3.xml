@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D870A694-756A-BA3C-E0B8-D1C2E99148F3" schemaObject="BD13A841-AF71-EA39-3503-24EFEB1A0A91" name="FAIT_DM1_F">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D870A694-756A-BA3C-E0B8-D1C2E99148F3" schemaObject="BD13A841-AF71-EA39-3503-24EFEB1A0A91" name="FAIT_COMMANDE_F">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:41:16 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_DM1" id="A08DC3DA-2BF9-81CB-4E5A-14CF795A8F84">
+<Column name="ID_COMMANDE" id="A08DC3DA-2BF9-81CB-4E5A-14CF795A8F84">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:43:10 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
@@ -18,10 +18,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>SEQ_ID_DM1</autoIncrementSequenceName>
+<autoIncrementSequenceName>SEQ_ID_COMMANDE</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
 </Column>
-<Column name="ID_COMMANDE" id="091F8196-47F7-F063-5F04-48FD8BBA2558">
+<Column name="ID_DATE_COMMANDE" id="091F8196-47F7-F063-5F04-48FD8BBA2558">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:49:26 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
@@ -158,7 +158,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EA54F39C-6E12-D3D6-AC48-9025691FC407" name="FAIT_DM1_F_PK">
+<ind_PK_UK id="EA54F39C-6E12-D3D6-AC48-9025691FC407" name="FAIT_DM1_COMMANDE_PK">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:43:10 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>

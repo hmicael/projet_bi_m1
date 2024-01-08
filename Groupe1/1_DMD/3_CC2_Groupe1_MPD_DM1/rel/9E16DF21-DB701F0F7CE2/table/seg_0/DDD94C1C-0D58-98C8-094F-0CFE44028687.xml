@@ -32,17 +32,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_ADRESSE_CLIENT" id="14867017-83EB-79C1-8CD6-60D6A1A7A2BB">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:47 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="NOM_CLIENT" id="53B13184-F488-C8A2-B503-DE2432C901C0">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:47 UTC</createdTime>
@@ -58,6 +47,18 @@
 <Column name="PRENOM_CLIENT" id="ACEA5039-2EED-5F07-33C7-D192D3578440">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:47 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_PRECEDENT" id="3EE9A7EC-F755-B600-99CE-C13369D08FF7">
+<createdBy>root</createdBy>
+<createdTime>2024-01-08 18:52:24 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>

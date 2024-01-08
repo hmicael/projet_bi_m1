@@ -1,5 +1,5 @@
 -- Généré par Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   à :        2023-12-27 21:03:03 CET
+--   à :        2024-01-08 20:03:26 CET
 --   site :      Oracle Database 11g
 --   type :      Oracle Database 11g
 
@@ -11,7 +11,7 @@ DROP TABLE dsid_liv_dm1.dim_adresse_norm_restaurant_d CASCADE;
 
 DROP TABLE dsid_liv_dm1.dim_client_d CASCADE;
 
-DROP TABLE dsid_liv_dm1.dim_commande_d CASCADE;
+DROP TABLE dsid_liv_dm1.dim_date_commande_d CASCADE;
 
 DROP TABLE dsid_liv_dm1.dim_moyen_paiement_d CASCADE;
 
@@ -19,7 +19,7 @@ DROP TABLE dsid_liv_dm1.dim_preparation_d CASCADE;
 
 DROP TABLE dsid_liv_dm1.dim_restaurant_d CASCADE;
 
-DROP TABLE dsid_liv_dm1.fait_dm1_f CASCADE;
+DROP TABLE dsid_liv_dm1.fait_commande_f CASCADE;
 
 DROP SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_client;
 
@@ -27,7 +27,7 @@ DROP SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_restaurant;
 
 DROP SEQUENCE dsid_liv_dm1.seq_id_client;
 
-DROP SEQUENCE dsid_liv_dm1.seq_id_commande;
+DROP SEQUENCE dsid_liv_dm1.seq_id_date_commande;
 
 DROP SEQUENCE dsid_liv_dm1.seq_id_moyen_paiement;
 
@@ -35,7 +35,7 @@ DROP SEQUENCE dsid_liv_dm1.seq_id_preparation;
 
 DROP SEQUENCE dsid_liv_dm1.seq_id_restaurant;
 
-DROP SEQUENCE dsid_liv_dm1.seq_id_dm1;
+DROP SEQUENCE dsid_liv_dm1.seq_id_commande;
 
 -- predefined type, no DDL - MDSYS.SDO_GEOMETRY
 
@@ -44,7 +44,6 @@ DROP SEQUENCE dsid_liv_dm1.seq_id_dm1;
 CREATE TABLE dsid_liv_dm1.dim_adresse_norm_client_d (
     id_adresse_norm_client     INTEGER NOT NULL,
     id_adresse_norm_client_src INTEGER,
-    id_adresse_client          INTEGER,
     numero_voie                CHARACTER VARYING(10),
     nom_voie                   CHARACTER VARYING(100),
     code_postal                CHARACTER VARYING(5),
@@ -58,7 +57,6 @@ ALTER TABLE dsid_liv_dm1.dim_adresse_norm_client_d ADD CONSTRAINT adresse_norm_c
 CREATE TABLE dsid_liv_dm1.dim_adresse_norm_restaurant_d (
     id_adresse_norm_restaurant INTEGER NOT NULL,
     id_adresse_norm_restau_src INTEGER,
-    id_adresse_restaurant      INTEGER,
     numero_voie                CHARACTER VARYING(10),
     nom_voie                   CHARACTER VARYING(100),
     code_postal                CHARACTER VARYING(5),
@@ -71,27 +69,25 @@ ALTER TABLE dsid_liv_dm1.dim_adresse_norm_restaurant_d ADD CONSTRAINT adresse_no
 );
 
 CREATE TABLE dsid_liv_dm1.dim_client_d (
-    id_client         INTEGER NOT NULL,
-    id_client_src     INTEGER,
-    id_adresse_client INTEGER,
-    nom_client        CHARACTER VARYING(100),
-    prenom_client     CHARACTER VARYING(100)
+    id_client     INTEGER NOT NULL,
+    id_client_src INTEGER,
+    nom_client    CHARACTER VARYING(100),
+    prenom_client CHARACTER VARYING(100),
+    nom_precedent CHARACTER VARYING(100)
 );
 
 ALTER TABLE dsid_liv_dm1.dim_client_d ADD CONSTRAINT client_pk PRIMARY KEY ( id_client );
 
-CREATE TABLE dsid_liv_dm1.dim_commande_d (
-    id_commande       INTEGER NOT NULL,
-    id_commande_src   INTEGER,
-    id_client         INTEGER,
-    id_menu           INTEGER,
-    id_moyen_paiement INTEGER,
-    numero_commande   INTEGER,
-    date_commande     DATE,
-    montant_total     FLOAT
+CREATE TABLE dsid_liv_dm1.dim_date_commande_d (
+    id_date_commande INTEGER NOT NULL,
+    date_commande    DATE,
+    jour             CHARACTER VARYING(5),
+    semaine          CHARACTER VARYING(5),
+    mois             CHARACTER VARYING(5),
+    annee            CHARACTER VARYING(5)
 );
 
-ALTER TABLE dsid_liv_dm1.dim_commande_d ADD CONSTRAINT commande_pk PRIMARY KEY ( id_commande );
+ALTER TABLE dsid_liv_dm1.dim_date_commande_d ADD CONSTRAINT date_commande_pk PRIMARY KEY ( id_date_commande );
 
 CREATE TABLE dsid_liv_dm1.dim_moyen_paiement_d (
     id_moyen_paiement      INTEGER NOT NULL,
@@ -105,8 +101,6 @@ ALTER TABLE dsid_liv_dm1.dim_moyen_paiement_d ADD CONSTRAINT moyen_paiement_pk P
 CREATE TABLE dsid_liv_dm1.dim_preparation_d (
     id_preparation         INTEGER NOT NULL,
     id_preparation_src     INTEGER,
-    id_commande            INTEGER,
-    id_restaurant          INTEGER,
     date_debut_preparation DATE,
     date_fin_preparation   DATE
 );
@@ -116,16 +110,19 @@ ALTER TABLE dsid_liv_dm1.dim_preparation_d ADD CONSTRAINT preparation_pk PRIMARY
 CREATE TABLE dsid_liv_dm1.dim_restaurant_d (
     id_restaurant             INTEGER NOT NULL,
     id_restaurant_src         INTEGER,
-    id_adresse_restaurant     INTEGER,
     code_restaurant           CHARACTER VARYING(5),
-    raison_sociale_restaurant CHARACTER VARYING(100)
+    raison_sociale_restaurant CHARACTER VARYING(100),
+    scd_start                 DATE,
+    scd_end                   DATE,
+    scd_version               INTEGER,
+    scd_active                CHARACTER VARYING(5)
 );
 
 ALTER TABLE dsid_liv_dm1.dim_restaurant_d ADD CONSTRAINT restaurant_pk PRIMARY KEY ( id_restaurant );
 
-CREATE TABLE dsid_liv_dm1.fait_dm1_f (
-    id_dm1                     INTEGER NOT NULL,
+CREATE TABLE dsid_liv_dm1.fait_commande_f (
     id_commande                INTEGER NOT NULL,
+    id_date_commande           INTEGER NOT NULL,
     id_preparation             INTEGER NOT NULL,
     id_client                  INTEGER NOT NULL,
     id_adresse_norm_client     INTEGER NOT NULL,
@@ -138,34 +135,34 @@ CREATE TABLE dsid_liv_dm1.fait_dm1_f (
     numero_commande            INTEGER
 );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f ADD CONSTRAINT fait_dm1_f_pk PRIMARY KEY ( id_dm1 );
+ALTER TABLE dsid_liv_dm1.fait_commande_f ADD CONSTRAINT fait_commande_f_pk PRIMARY KEY ( id_commande );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f
+ALTER TABLE dsid_liv_dm1.fait_commande_f
     ADD CONSTRAINT dm1_adresse_norm_restaurant_fk FOREIGN KEY ( id_adresse_norm_restaurant )
         REFERENCES dsid_liv_dm1.dim_adresse_norm_restaurant_d ( id_adresse_norm_restaurant );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f
+ALTER TABLE dsid_liv_dm1.fait_commande_f
     ADD CONSTRAINT dm1_dim_adresse_norm_client_fk FOREIGN KEY ( id_adresse_norm_client )
         REFERENCES dsid_liv_dm1.dim_adresse_norm_client_d ( id_adresse_norm_client );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f
+ALTER TABLE dsid_liv_dm1.fait_commande_f
     ADD CONSTRAINT dm1_dim_moyen_paiement_fk FOREIGN KEY ( id_moyen_paiement )
         REFERENCES dsid_liv_dm1.dim_moyen_paiement_d ( id_moyen_paiement );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f
+ALTER TABLE dsid_liv_dm1.fait_commande_f
     ADD CONSTRAINT dm1_preparation_fk FOREIGN KEY ( id_preparation )
         REFERENCES dsid_liv_dm1.dim_preparation_d ( id_preparation );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f
-    ADD CONSTRAINT fait_dm1_f_dim_client_d_fk FOREIGN KEY ( id_client )
+ALTER TABLE dsid_liv_dm1.fait_commande_f
+    ADD CONSTRAINT fait_commande_f_dim_client_d_fk FOREIGN KEY ( id_client )
         REFERENCES dsid_liv_dm1.dim_client_d ( id_client );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f
-    ADD CONSTRAINT fait_dm1_f_dim_commande_d_fk FOREIGN KEY ( id_commande )
-        REFERENCES dsid_liv_dm1.dim_commande_d ( id_commande );
+ALTER TABLE dsid_liv_dm1.fait_commande_f
+    ADD CONSTRAINT fait_commande_f_dim_commande_d_fk FOREIGN KEY ( id_date_commande )
+        REFERENCES dsid_liv_dm1.dim_date_commande_d ( id_date_commande );
 
-ALTER TABLE dsid_liv_dm1.fait_dm1_f
-    ADD CONSTRAINT fait_dm1_f_dim_restaurant_d_fk FOREIGN KEY ( id_restaurant )
+ALTER TABLE dsid_liv_dm1.fait_commande_f
+    ADD CONSTRAINT fait_commande_f_dim_restaurant_d_fk FOREIGN KEY ( id_restaurant )
         REFERENCES dsid_liv_dm1.dim_restaurant_d ( id_restaurant );
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_client START WITH 1;
@@ -174,7 +171,7 @@ CREATE SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_restaurant START WITH 1;
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_client START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_commande START WITH 1;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_date_commande START WITH 1;
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_moyen_paiement START WITH 1;
 
@@ -182,7 +179,7 @@ CREATE SEQUENCE dsid_liv_dm1.seq_id_preparation START WITH 1;
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_restaurant START WITH 1;
 
-CREATE SEQUENCE dsid_liv_dm1.seq_id_dm1 START WITH 1;
+CREATE SEQUENCE dsid_liv_dm1.seq_id_commande START WITH 1;
 
 
 

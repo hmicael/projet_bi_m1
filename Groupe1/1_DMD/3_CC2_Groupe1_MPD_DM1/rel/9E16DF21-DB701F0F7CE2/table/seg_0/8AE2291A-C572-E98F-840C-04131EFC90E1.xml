@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AE2291A-C572-E98F-840C-04131EFC90E1" schemaObject="BD13A841-AF71-EA39-3503-24EFEB1A0A91" name="DIM_COMMANDE_D">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AE2291A-C572-E98F-840C-04131EFC90E1" schemaObject="BD13A841-AF71-EA39-3503-24EFEB1A0A91" name="DIM_DATE_COMMANDE_D">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:18 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_COMMANDE" id="5EEDFC61-92EF-9A8D-78DB-84807363046B">
+<Column name="ID_DATE_COMMANDE" id="5EEDFC61-92EF-9A8D-78DB-84807363046B">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:18 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
@@ -18,63 +18,8 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>SEQ_ID_COMMANDE</autoIncrementSequenceName>
+<autoIncrementSequenceName>SEQ_ID_DATE_COMMANDE</autoIncrementSequenceName>
 <autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
-</Column>
-<Column name="ID_COMMANDE_SRC" id="D6A896AB-248A-BE8B-E321-4F4F9123B4C5">
-<createdBy>root</createdBy>
-<createdTime>2023-12-27 20:01:36 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_CLIENT" id="54A53EBE-5117-D65E-8EEE-5DF438D8EF71">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:18 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_MENU" id="B8421547-EE3C-5932-05B3-FD65403F8A0C">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:18 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_MOYEN_PAIEMENT" id="1C249478-14F1-9D13-35F5-14794F1D2618">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:18 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="NUMERO_COMMANDE" id="15ECCDBA-8269-775C-FA91-6D934881BF22">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:18 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DATE_COMMANDE" id="0C696B69-7813-6E5D-1B54-914FE9BB5E40">
 <createdBy>root</createdBy>
@@ -87,20 +32,57 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MONTANT_TOTAL" id="06533D2A-391A-41A4-B714-43ECF0CF48E5">
+<Column name="JOUR" id="16693799-EA75-07CE-4024-927201412DC8">
 <createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:18 UTC</createdTime>
+<createdTime>2024-01-08 18:58:42 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMAINE" id="108D73E5-CBE0-1E66-B815-8B1A0379E5F6">
+<createdBy>root</createdBy>
+<createdTime>2024-01-08 18:59:18 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOIS" id="DD2F992B-1F46-1A02-A9F0-48260CAC0AFA">
+<createdBy>root</createdBy>
+<createdTime>2024-01-08 18:59:41 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANNEE" id="098C8753-405C-FB43-3EEC-3FDE0D03FB6F">
+<createdBy>root</createdBy>
+<createdTime>2024-01-08 19:00:04 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="83FCC490-3577-9017-4E37-B82C8A79A5A5" name="COMMANDE_PK">
+<ind_PK_UK id="83FCC490-3577-9017-4E37-B82C8A79A5A5" name="DATE_COMMANDE_PK">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:18 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>

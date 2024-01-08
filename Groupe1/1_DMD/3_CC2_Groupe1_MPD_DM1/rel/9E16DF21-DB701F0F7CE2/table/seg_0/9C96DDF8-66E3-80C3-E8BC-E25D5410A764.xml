@@ -32,28 +32,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ID_COMMANDE" id="BA361487-8614-821F-3723-DDD4CEB16B74">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:18 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_RESTAURANT" id="7F00AE52-BCA8-F208-C07C-FB6EF6F3D3E1">
-<createdBy>root</createdBy>
-<createdTime>2023-12-20 22:26:18 UTC</createdTime>
-<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="DATE_DEBUT_PREPARATION" id="9FD98D98-703E-DC85-D73B-ED9929DC4517">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:26:18 UTC</createdTime>

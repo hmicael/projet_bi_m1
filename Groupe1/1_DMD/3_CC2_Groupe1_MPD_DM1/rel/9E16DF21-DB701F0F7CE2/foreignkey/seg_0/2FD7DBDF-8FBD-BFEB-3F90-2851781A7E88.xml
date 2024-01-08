@@ -3,13 +3,13 @@
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:51:36 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
-<referredTableLongName>DSID_LIV_DM1.DIM_COMMANDE_D</referredTableLongName>
+<referredTableLongName>DSID_LIV_DM1.DIM_DATE_COMMANDE_D</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>8AE2291A-C572-E98F-840C-04131EFC90E1</referredTableID>
 <keyObject>83FCC490-3577-9017-4E37-B82C8A79A5A5</keyObject>
 <referredKeyID>83FCC490-3577-9017-4E37-B82C8A79A5A5</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_COMMANDE</refColNames>
+<refColNames>ID_DATE_COMMANDE</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
