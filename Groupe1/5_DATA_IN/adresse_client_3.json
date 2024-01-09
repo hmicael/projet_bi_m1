@@ -1,10 +1,22 @@
 [
 	{
-		"id_adresse_client": 6,
+		"id_adresse_client": 11,
 		"adresse_client": "22 Rue Charles de Gaulle 91400 Orsay"
 	},
 	{
-		"id_adresse_client": 7,
+		"id_adresse_client": 12,
 		"adresse_client": "18 Rue des États Généraux, 78000 Versailles"
+	},
+	{
+		"id_adresse_client": 13,
+		"adresse_client": "12 Rue de la Seine, 75001 Paris"
+	},
+	{
+		"id_adresse_client": 14,
+		"adresse_client": "34 Avenue des Champs-Élysées, 75008 Paris"
+	},
+	{
+		"id_adresse_client": 15,
+		"adresse_client": "90 Avenue de la Grande Armée, 75116 Paris"
 	}
 ]
