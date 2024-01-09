@@ -112,6 +112,19 @@
 <colAssociation fkAssociation="B399E666-1136-7EEF-2EC6-6DB03547A0FF" referredColumn="F71FD11A-277F-F203-70A1-7CF00D643654"/>
 </associations>
 </Column>
+<Column name="ID_MENU" id="74D7A872-4C1C-7508-D461-E9612A2B1CD9">
+<createdBy>root</createdBy>
+<createdTime>2024-01-09 12:10:21 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B8E6B3E-8A5B-EB0B-AA4A-BAC59ABA83B4" referredColumn="E9221E59-585A-3B45-1A24-5C02A7798953"/>
+</associations>
+</Column>
 <Column name="MONTANT_TOTAL" id="D233EA2D-8F0F-BDC2-00B1-6AB37CB75BBB">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:51:05 UTC</createdTime>
@@ -237,6 +250,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A48751AD-2690-173F-0BD4-BFD1C7B0048B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="956E0FCB-E7FE-E5B5-C51E-DCE5F4B5863C" name="FAIT_COMMANDE_F_DIM_MENU_D_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-01-09 12:23:24 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74D7A872-4C1C-7508-D461-E9612A2B1CD9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

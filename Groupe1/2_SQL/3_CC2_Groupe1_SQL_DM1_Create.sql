@@ -1,8 +1,167 @@
 -- Généré par Oracle SQL Developer Data Modeler 22.2.0.165.1149
---   à :        2024-01-08 20:03:26 CET
+--   à :        2024-01-09 13:23:47 CET
 --   site :      Oracle Database 11g
 --   type :      Oracle Database 11g
 
+DROP TABLE dsid_liv_wrk.dm1_staging CASCADE;
+
+DROP TABLE dsid_liv_wrk.dm1_ods CASCADE;
+
+DROP TABLE dsid_liv_wrk.dm1_rejet CASCADE;
+
+DROP SEQUENCE dsid_liv_wrk.seq_id_ods_dm1;
+
+DROP SEQUENCE dsid_liv_wrk.seq_id_rejet_dm1;
+
+DROP SEQUENCE dsid_liv_wrk.seq_id_staging_dm1;
+
+-- predefined type, no DDL - MDSYS.SDO_GEOMETRY
+
+-- predefined type, no DDL - XMLTYPE
+
+CREATE TABLE dsid_liv_wrk.dm1_ods (
+    id_ods_dm1                 INTEGER NOT NULL,
+    id_preparation             INTEGER,
+    date_debut_preparation     DATE,
+    date_fin_preparation       DATE,
+    temps_reel_preparation     TEXT,
+    id_moyen_paiement          INTEGER,
+    code_moyen_paiement        CHARACTER VARYING(5),
+    livelle_moyen_paiement     CHARACTER VARYING(100),
+    id_menu                    INTEGER,
+    code_menu                  CHARACTER VARYING(5),
+    libelle_menu               CHARACTER VARYING(100),
+    nombre_articles            INTEGER,
+    temps_theo_preparation     TEXT,
+    id_commande                INTEGER,
+    numero_commande            INTEGER,
+    date_commande              DATE,
+    montant_total              FLOAT,
+    id_adresse_norm_restaurant INTEGER,
+    numero_voie_restau         CHARACTER VARYING(10),
+    nom_voie_restau            CHARACTER VARYING(100),
+    code_postal_restau         CHARACTER VARYING(5),
+    nom_ville_restau           CHARACTER VARYING(100),
+    longitude_restau           CHARACTER VARYING(20),
+    latitude_restau            CHARACTER VARYING(20),
+    id_adresse_restaurant      INTEGER,
+    adresse_restaurant         CHARACTER VARYING(200),
+    id_restaurant              INTEGER,
+    code_restaurant            CHARACTER VARYING(5),
+    raison_sociale_restaurant  CHARACTER VARYING(100),
+    id_adresse_norm_client     INTEGER,
+    numero_voie                CHARACTER VARYING(10),
+    nom_voie                   CHARACTER VARYING(100),
+    code_postal                CHARACTER VARYING(5),
+    nom_ville                  CHARACTER VARYING(100),
+    longitude                  CHARACTER VARYING(20),
+    latitude                   CHARACTER VARYING(20),
+    id_adresse_client          INTEGER,
+    adresse_client             CHARACTER VARYING(200),
+    id_client                  INTEGER,
+    nom_client                 CHARACTER VARYING(100),
+    prenom_client              CHARACTER VARYING(100)
+);
+
+ALTER TABLE dsid_liv_wrk.dm1_ods ADD CONSTRAINT dm1_ods_pk PRIMARY KEY ( id_ods_dm1 );
+
+CREATE TABLE dsid_liv_wrk.dm1_rejet (
+    id_rejet_dm1               INTEGER NOT NULL,
+    id_preparation             INTEGER,
+    date_debut_preparation     DATE,
+    date_fin_preparation       DATE,
+    id_moyen_paiement          INTEGER,
+    code_moyen_paiement        CHARACTER VARYING(5),
+    livelle_moyen_paiement     CHARACTER VARYING(100),
+    id_menu                    INTEGER,
+    code_menu                  CHARACTER VARYING(5),
+    libelle_menu               CHARACTER VARYING(100),
+    nombre_articles            INTEGER,
+    temps_theo_preparation     TEXT,
+    id_commande                INTEGER,
+    numero_commande            INTEGER,
+    date_commande              DATE,
+    montant_total              FLOAT,
+    id_adresse_norm_restaurant INTEGER,
+    numero_voie_restau         CHARACTER VARYING(10),
+    nom_voie_restau            CHARACTER VARYING(100),
+    code_postal_restau         CHARACTER VARYING(5),
+    nom_ville_restau           CHARACTER VARYING(100),
+    longitude_restau           CHARACTER VARYING(20),
+    latitude_restau            CHARACTER VARYING(20),
+    id_adresse_restaurant      INTEGER,
+    adresse_restaurant         CHARACTER VARYING(200),
+    id_restaurant              INTEGER,
+    code_restaurant            CHARACTER VARYING(5),
+    raison_sociale_restaurant  CHARACTER VARYING(100),
+    id_adresse_norm_client     INTEGER,
+    numero_voie                CHARACTER VARYING(10),
+    nom_voie                   CHARACTER VARYING(100),
+    code_postal                CHARACTER VARYING(5),
+    nom_ville                  CHARACTER VARYING(100),
+    longitude                  CHARACTER VARYING(20),
+    latitude                   CHARACTER VARYING(20),
+    id_adresse_client          INTEGER,
+    adresse_client             CHARACTER VARYING(200),
+    id_client                  INTEGER,
+    nom_client                 CHARACTER VARYING(100),
+    prenom_client              CHARACTER VARYING(100),
+    type_rejet                 CHARACTER VARYING(100),
+    message_log                CHARACTER VARYING(300)
+);
+
+ALTER TABLE dsid_liv_wrk.dm1_rejet ADD CONSTRAINT dm1_rejet_pk PRIMARY KEY ( id_rejet_dm1 );
+
+CREATE TABLE dsid_liv_wrk.dm1_staging (
+    id_staging_dm1             INTEGER NOT NULL,
+    id_preparation             INTEGER,
+    date_debut_preparation     DATE,
+    date_fin_preparation       DATE,
+    id_moyen_paiement          INTEGER,
+    code_moyen_paiement        CHARACTER VARYING(5),
+    livelle_moyen_paiement     CHARACTER VARYING(100),
+    id_menu                    INTEGER,
+    code_menu                  CHARACTER VARYING(5),
+    libelle_menu               CHARACTER VARYING(100),
+    nombre_articles            INTEGER,
+    temps_theo_preparation     TEXT,
+    id_commande                INTEGER,
+    numero_commande            INTEGER,
+    date_commande              DATE,
+    montant_total              FLOAT,
+    id_adresse_norm_restaurant INTEGER,
+    numero_voie_restau         CHARACTER VARYING(10),
+    nom_voie_restau            CHARACTER VARYING(100),
+    code_postal_restau         CHARACTER VARYING(5),
+    nom_ville_restau           CHARACTER VARYING(100),
+    longitude_restau           CHARACTER VARYING(20),
+    latitude_restau            CHARACTER VARYING(20),
+    id_adresse_restaurant      INTEGER,
+    adresse_restaurant         CHARACTER VARYING(200),
+    id_restaurant              INTEGER,
+    code_restaurant            CHARACTER VARYING(5),
+    raison_sociale_restaurant  CHARACTER VARYING(100),
+    id_adresse_norm_client     INTEGER,
+    numero_voie                CHARACTER VARYING(10),
+    nom_voie                   CHARACTER VARYING(100),
+    code_postal                CHARACTER VARYING(5),
+    nom_ville                  CHARACTER VARYING(100),
+    longitude                  CHARACTER VARYING(20),
+    latitude                   CHARACTER VARYING(20),
+    id_adresse_client          INTEGER,
+    adresse_client             CHARACTER VARYING(200),
+    id_client                  INTEGER,
+    nom_client                 CHARACTER VARYING(100),
+    prenom_client              CHARACTER VARYING(100)
+);
+
+ALTER TABLE dsid_liv_wrk.dm1_staging ADD CONSTRAINT dm1_staging_pk PRIMARY KEY ( id_staging_dm1 );
+
+CREATE SEQUENCE dsid_liv_wrk.seq_id_ods_dm1 START WITH 1;
+
+CREATE SEQUENCE dsid_liv_wrk.seq_id_rejet_dm1 START WITH 1;
+
+CREATE SEQUENCE dsid_liv_wrk.seq_id_staging_dm1 START WITH 1;
 
 
 DROP TABLE dsid_liv_dm1.dim_adresse_norm_client_d CASCADE;
@@ -12,6 +171,8 @@ DROP TABLE dsid_liv_dm1.dim_adresse_norm_restaurant_d CASCADE;
 DROP TABLE dsid_liv_dm1.dim_client_d CASCADE;
 
 DROP TABLE dsid_liv_dm1.dim_date_commande_d CASCADE;
+
+DROP TABLE dsid_liv_dm1.dim_menu_d CASCADE;
 
 DROP TABLE dsid_liv_dm1.dim_moyen_paiement_d CASCADE;
 
@@ -28,6 +189,8 @@ DROP SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_restaurant;
 DROP SEQUENCE dsid_liv_dm1.seq_id_client;
 
 DROP SEQUENCE dsid_liv_dm1.seq_id_date_commande;
+
+DROP SEQUENCE dsid_liv_dm1.seq_id_menu;
 
 DROP SEQUENCE dsid_liv_dm1.seq_id_moyen_paiement;
 
@@ -87,7 +250,18 @@ CREATE TABLE dsid_liv_dm1.dim_date_commande_d (
     annee            CHARACTER VARYING(5)
 );
 
-ALTER TABLE dsid_liv_dm1.dim_date_commande_d ADD CONSTRAINT date_commande_pk PRIMARY KEY ( id_date_commande );
+ALTER TABLE dsid_liv_dm1.dim_date_commande_d ADD CONSTRAINT commande_pk PRIMARY KEY ( id_date_commande );
+
+CREATE TABLE dsid_liv_dm1.dim_menu_d (
+    id_menu                INTEGER NOT NULL,
+    id_menu_src            INTEGER,
+    code_menu              CHARACTER VARYING(5),
+    libelle_menu           CHARACTER VARYING(100),
+    nombre_articles        INTEGER,
+    temps_theo_preparation TEXT
+);
+
+ALTER TABLE dsid_liv_dm1.dim_menu_d ADD CONSTRAINT contenu_pk PRIMARY KEY ( id_menu );
 
 CREATE TABLE dsid_liv_dm1.dim_moyen_paiement_d (
     id_moyen_paiement      INTEGER NOT NULL,
@@ -129,13 +303,14 @@ CREATE TABLE dsid_liv_dm1.fait_commande_f (
     id_restaurant              INTEGER NOT NULL,
     id_adresse_norm_restaurant INTEGER NOT NULL,
     id_moyen_paiement          INTEGER NOT NULL,
+    id_menu                    INTEGER NOT NULL,
     montant_total              FLOAT,
     temps_theo_preparation     TEXT,
     temps_reel_preparation     TEXT,
     numero_commande            INTEGER
 );
 
-ALTER TABLE dsid_liv_dm1.fait_commande_f ADD CONSTRAINT fait_commande_f_pk PRIMARY KEY ( id_commande );
+ALTER TABLE dsid_liv_dm1.fait_commande_f ADD CONSTRAINT fait_dm1_commande_pk PRIMARY KEY ( id_commande );
 
 ALTER TABLE dsid_liv_dm1.fait_commande_f
     ADD CONSTRAINT dm1_adresse_norm_restaurant_fk FOREIGN KEY ( id_adresse_norm_restaurant )
@@ -154,15 +329,19 @@ ALTER TABLE dsid_liv_dm1.fait_commande_f
         REFERENCES dsid_liv_dm1.dim_preparation_d ( id_preparation );
 
 ALTER TABLE dsid_liv_dm1.fait_commande_f
-    ADD CONSTRAINT fait_commande_f_dim_client_d_fk FOREIGN KEY ( id_client )
+    ADD CONSTRAINT fait_commande_f_dim_menu_d_fk FOREIGN KEY ( id_menu )
+        REFERENCES dsid_liv_dm1.dim_menu_d ( id_menu );
+
+ALTER TABLE dsid_liv_dm1.fait_commande_f
+    ADD CONSTRAINT fait_dm1_f_dim_client_d_fk FOREIGN KEY ( id_client )
         REFERENCES dsid_liv_dm1.dim_client_d ( id_client );
 
 ALTER TABLE dsid_liv_dm1.fait_commande_f
-    ADD CONSTRAINT fait_commande_f_dim_commande_d_fk FOREIGN KEY ( id_date_commande )
+    ADD CONSTRAINT fait_dm1_f_dim_commande_d_fk FOREIGN KEY ( id_date_commande )
         REFERENCES dsid_liv_dm1.dim_date_commande_d ( id_date_commande );
 
 ALTER TABLE dsid_liv_dm1.fait_commande_f
-    ADD CONSTRAINT fait_commande_f_dim_restaurant_d_fk FOREIGN KEY ( id_restaurant )
+    ADD CONSTRAINT fait_dm1_f_dim_restaurant_d_fk FOREIGN KEY ( id_restaurant )
         REFERENCES dsid_liv_dm1.dim_restaurant_d ( id_restaurant );
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_client START WITH 1;
@@ -173,6 +352,8 @@ CREATE SEQUENCE dsid_liv_dm1.seq_id_client START WITH 1;
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_date_commande START WITH 1;
 
+CREATE SEQUENCE dsid_liv_dm1.seq_id_menu START WITH 1;
+
 CREATE SEQUENCE dsid_liv_dm1.seq_id_moyen_paiement START WITH 1;
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_preparation START WITH 1;
@@ -182,12 +363,11 @@ CREATE SEQUENCE dsid_liv_dm1.seq_id_restaurant START WITH 1;
 CREATE SEQUENCE dsid_liv_dm1.seq_id_commande START WITH 1;
 
 
-
 -- Rapport récapitulatif d'Oracle SQL Developer Data Modeler : 
 -- 
--- CREATE TABLE                             8
+-- CREATE TABLE                            10
 -- CREATE INDEX                             0
--- ALTER TABLE                             15
+-- ALTER TABLE                             18
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0
 -- CREATE PACKAGE                           0
@@ -207,7 +387,7 @@ CREATE SEQUENCE dsid_liv_dm1.seq_id_commande START WITH 1;
 -- CREATE DISK GROUP                        0
 -- CREATE ROLE                              0
 -- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          8
+-- CREATE SEQUENCE                         10
 -- CREATE MATERIALIZED VIEW                 0
 -- CREATE MATERIALIZED VIEW LOG             0
 -- CREATE SYNONYM                           0
