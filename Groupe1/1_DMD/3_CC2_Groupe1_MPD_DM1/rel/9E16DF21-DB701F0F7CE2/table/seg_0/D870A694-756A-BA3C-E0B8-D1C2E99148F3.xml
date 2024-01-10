@@ -1,0 +1,266 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D870A694-756A-BA3C-E0B8-D1C2E99148F3" schemaObject="BD13A841-AF71-EA39-3503-24EFEB1A0A91" name="FAIT_COMMANDE_F">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:41:16 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMMANDE" id="A08DC3DA-2BF9-81CB-4E5A-14CF795A8F84">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:43:10 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_COMMANDE</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="ID_DATE_COMMANDE" id="091F8196-47F7-F063-5F04-48FD8BBA2558">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:49:26 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FD7DBDF-8FBD-BFEB-3F90-2851781A7E88" referredColumn="5EEDFC61-92EF-9A8D-78DB-84807363046B"/>
+</associations>
+</Column>
+<Column name="ID_PREPARATION" id="AE2F33E7-90BE-41DC-2BD0-EBF4929047A4">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:49:26 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58D59B88-4EDA-F96B-3E92-D7A63D83BF61" referredColumn="8B84C346-C194-73DC-9A12-18A2F606F027"/>
+</associations>
+</Column>
+<Column name="ID_CLIENT" id="8CD421EB-2DA4-0CF9-559C-0DF109A7E1EB">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:49:26 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A331F0A2-8067-E36A-7C1F-E8A5F747ABC7" referredColumn="4D5C7E30-90EA-2F60-9DB2-6B1E573246B8"/>
+</associations>
+</Column>
+<Column name="ID_ADRESSE_NORM_CLIENT" id="36B76057-EE7A-FDBD-0422-9B1F5B685800">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:49:26 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F49D2AC3-9D15-468C-8847-C47DD1D9D111" referredColumn="81E11552-6C8F-AEAC-1AE3-C1F4E9A8100C"/>
+</associations>
+</Column>
+<Column name="ID_RESTAURANT" id="37D9B0AB-7E2E-9712-A02A-D3CF84C16FFE">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:49:26 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46E9BE98-2566-05ED-BE94-B0D387A8ABD0" referredColumn="B6EB8853-1A77-D1F9-18E8-C381BFCC19BB"/>
+</associations>
+</Column>
+<Column name="ID_ADRESSE_NORM_RESTAURANT" id="A48751AD-2690-173F-0BD4-BFD1C7B0048B">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:49:26 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2928101-79ED-1963-4DFF-03E65AFDB8DD" referredColumn="50D8E32E-1025-524A-0560-FC70F72372CF"/>
+</associations>
+</Column>
+<Column name="ID_MOYEN_PAIEMENT" id="77459AF7-52C0-6155-434E-FDEF35871CE2">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 23:20:30 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B399E666-1136-7EEF-2EC6-6DB03547A0FF" referredColumn="F71FD11A-277F-F203-70A1-7CF00D643654"/>
+</associations>
+</Column>
+<Column name="ID_MENU" id="74D7A872-4C1C-7508-D461-E9612A2B1CD9">
+<createdBy>root</createdBy>
+<createdTime>2024-01-09 12:10:21 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B8E6B3E-8A5B-EB0B-AA4A-BAC59ABA83B4" referredColumn="E9221E59-585A-3B45-1A24-5C02A7798953"/>
+</associations>
+</Column>
+<Column name="MONTANT_TOTAL" id="D233EA2D-8F0F-BDC2-00B1-6AB37CB75BBB">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:51:05 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPS_THEO_PREPARATION" id="37288A75-11FA-B8B0-ED77-4BBF25D1BAE8">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:51:05 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPS_REEL_PREPARATION" id="550B1967-49EE-5A90-6B29-CF76DC67BB17">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:51:05 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_COMMANDE" id="F2BA6A3D-8478-6185-50C4-42B0D9C0CB5C">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:56:04 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA54F39C-6E12-D3D6-AC48-9025691FC407" name="FAIT_DM1_COMMANDE_PK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:43:10 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A08DC3DA-2BF9-81CB-4E5A-14CF795A8F84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F325B016-0704-84DF-54E5-141338E2278C" name="FAIT_DM1_F_DIM_COMMANDE_D_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:51:36 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="091F8196-47F7-F063-5F04-48FD8BBA2558"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B00891E6-DD87-5964-0DC0-76A77D121152" name="FAIT_DM1_F_DIM_CLIENT_D_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:52:13 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD421EB-2DA4-0CF9-559C-0DF109A7E1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEF0D507-6FD5-03A2-AE41-973E7D55717A" name="FAIT_DM1_F_DIM_RESTAURANT_D_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 22:53:55 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37D9B0AB-7E2E-9712-A02A-D3CF84C16FFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D4A0B58-CF7F-EA19-1416-A9EC537AAC08" name="DM1_DIM_MOYEN_PAIEMENT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 23:20:36 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77459AF7-52C0-6155-434E-FDEF35871CE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6B54DFD-1C8A-6706-C258-940E0ABD56E4" name="DM1_PREPARATION_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 23:22:20 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE2F33E7-90BE-41DC-2BD0-EBF4929047A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B65DF2BD-C2F6-2E63-B8FE-2AD7C1CE19DF" name="DM1_DIM_ADRESSE_NORM_CLIENT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 23:23:28 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36B76057-EE7A-FDBD-0422-9B1F5B685800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B36D42AD-DD7C-3365-89CC-BAB1335D6F0E" name="DM1_ADRESSE_NORM_RESTAURANT_FK">
+<createdBy>root</createdBy>
+<createdTime>2023-12-20 23:24:31 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A48751AD-2690-173F-0BD4-BFD1C7B0048B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="956E0FCB-E7FE-E5B5-C51E-DCE5F4B5863C" name="FAIT_COMMANDE_F_DIM_MENU_D_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-01-09 12:23:24 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74D7A872-4C1C-7508-D461-E9612A2B1CD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

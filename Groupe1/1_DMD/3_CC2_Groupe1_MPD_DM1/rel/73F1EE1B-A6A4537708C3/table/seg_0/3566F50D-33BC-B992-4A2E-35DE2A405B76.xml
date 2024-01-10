@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3566F50D-33BC-B992-4A2E-35DE2A405B76" schemaObject="E4F12336-DAC5-6F6F-4713-282CA20C03D5" name="DM1_STAING">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3566F50D-33BC-B992-4A2E-35DE2A405B76" schemaObject="E4F12336-DAC5-6F6F-4713-282CA20C03D5" name="DM1_STAGING">
 <createdBy>root</createdBy>
 <createdTime>2023-12-19 22:48:30 UTC</createdTime>
 <ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
@@ -198,7 +198,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
+<logicalDatatype>LOGDT022</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

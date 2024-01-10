@@ -1,0 +1,5 @@
+id_moyen_paiement;code_moyen_paiement;libelle_moyen_paiement
+1;001;Carte bleue
+2;002;Chèque
+3;003;Tickets restaurant
+4;004;Espèces
