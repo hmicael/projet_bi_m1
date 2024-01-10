@@ -22,9 +22,9 @@ DROP SEQUENCE dsid_liv_wrk.seq_id_staging_dm1;
 CREATE TABLE dsid_liv_wrk.dm1_ods (
     id_ods_dm1                 INTEGER NOT NULL,
     id_preparation             INTEGER,
-    date_debut_preparation     DATE,
-    date_fin_preparation       DATE,
-    temps_reel_preparation     TEXT,
+    date_debut_preparation     TIMESTAMP,
+    date_fin_preparation       TIMESTAMP,
+    temps_reel_preparation     BIGINT,
     id_moyen_paiement          INTEGER,
     code_moyen_paiement        CHARACTER VARYING(5),
     livelle_moyen_paiement     CHARACTER VARYING(100),
@@ -32,11 +32,11 @@ CREATE TABLE dsid_liv_wrk.dm1_ods (
     code_menu                  CHARACTER VARYING(5),
     libelle_menu               CHARACTER VARYING(100),
     nombre_articles            INTEGER,
-    temps_theo_preparation     TEXT,
+    temps_theo_preparation     BIGINT,
     id_commande                INTEGER,
     numero_commande            INTEGER,
     date_commande              DATE,
-    montant_total              FLOAT,
+    montant_total              REAL,
     id_adresse_norm_restaurant INTEGER,
     numero_voie_restau         CHARACTER VARYING(10),
     nom_voie_restau            CHARACTER VARYING(100),
@@ -68,8 +68,8 @@ ALTER TABLE dsid_liv_wrk.dm1_ods ADD CONSTRAINT dm1_ods_pk PRIMARY KEY ( id_ods_
 CREATE TABLE dsid_liv_wrk.dm1_rejet (
     id_rejet_dm1               INTEGER NOT NULL,
     id_preparation             INTEGER,
-    date_debut_preparation     DATE,
-    date_fin_preparation       DATE,
+    date_debut_preparation     TIMESTAMP,
+    date_fin_preparation       TIMESTAMP,
     id_moyen_paiement          INTEGER,
     code_moyen_paiement        CHARACTER VARYING(5),
     livelle_moyen_paiement     CHARACTER VARYING(100),
@@ -77,11 +77,11 @@ CREATE TABLE dsid_liv_wrk.dm1_rejet (
     code_menu                  CHARACTER VARYING(5),
     libelle_menu               CHARACTER VARYING(100),
     nombre_articles            INTEGER,
-    temps_theo_preparation     TEXT,
+    temps_theo_preparation     BIGINT,
     id_commande                INTEGER,
     numero_commande            INTEGER,
     date_commande              DATE,
-    montant_total              FLOAT,
+    montant_total              REAL,
     id_adresse_norm_restaurant INTEGER,
     numero_voie_restau         CHARACTER VARYING(10),
     nom_voie_restau            CHARACTER VARYING(100),
@@ -115,8 +115,8 @@ ALTER TABLE dsid_liv_wrk.dm1_rejet ADD CONSTRAINT dm1_rejet_pk PRIMARY KEY ( id_
 CREATE TABLE dsid_liv_wrk.dm1_staging (
     id_staging_dm1             INTEGER NOT NULL,
     id_preparation             INTEGER,
-    date_debut_preparation     DATE,
-    date_fin_preparation       DATE,
+    date_debut_preparation     TIMESTAMP,
+    date_fin_preparation       TIMESTAMP,
     id_moyen_paiement          INTEGER,
     code_moyen_paiement        CHARACTER VARYING(5),
     livelle_moyen_paiement     CHARACTER VARYING(100),
@@ -124,11 +124,11 @@ CREATE TABLE dsid_liv_wrk.dm1_staging (
     code_menu                  CHARACTER VARYING(5),
     libelle_menu               CHARACTER VARYING(100),
     nombre_articles            INTEGER,
-    temps_theo_preparation     TEXT,
+    temps_theo_preparation     BIGINT,
     id_commande                INTEGER,
     numero_commande            INTEGER,
     date_commande              DATE,
-    montant_total              FLOAT,
+    montant_total              REAL,
     id_adresse_norm_restaurant INTEGER,
     numero_voie_restau         CHARACTER VARYING(10),
     nom_voie_restau            CHARACTER VARYING(100),
@@ -275,8 +275,8 @@ ALTER TABLE dsid_liv_dm1.dim_moyen_paiement_d ADD CONSTRAINT moyen_paiement_pk P
 CREATE TABLE dsid_liv_dm1.dim_preparation_d (
     id_preparation         INTEGER NOT NULL,
     id_preparation_src     INTEGER,
-    date_debut_preparation DATE,
-    date_fin_preparation   DATE
+    date_debut_preparation TIMESTAMP,
+    date_fin_preparation   TIMESTAMP
 );
 
 ALTER TABLE dsid_liv_dm1.dim_preparation_d ADD CONSTRAINT preparation_pk PRIMARY KEY ( id_preparation );
@@ -304,9 +304,9 @@ CREATE TABLE dsid_liv_dm1.fait_commande_f (
     id_adresse_norm_restaurant INTEGER NOT NULL,
     id_moyen_paiement          INTEGER NOT NULL,
     id_menu                    INTEGER NOT NULL,
-    montant_total              FLOAT,
-    temps_theo_preparation     TEXT,
-    temps_reel_preparation     TEXT,
+    montant_total              REAL,
+    temps_theo_preparation     BIGINT,
+    temps_reel_preparation     BIGINT,
     numero_commande            INTEGER
 );
 
