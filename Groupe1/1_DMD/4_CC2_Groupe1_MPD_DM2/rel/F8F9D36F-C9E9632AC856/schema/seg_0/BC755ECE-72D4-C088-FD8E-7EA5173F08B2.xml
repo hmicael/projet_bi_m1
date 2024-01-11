@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="DSID_LIV_WRK" directorySegmentName="seg_0" id="BC755ECE-72D4-C088-FD8E-7EA5173F08B2">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:02:37 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<ordsAlias>schema_1</ordsAlias>
+</SchemaObject>
