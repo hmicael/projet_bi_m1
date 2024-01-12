@@ -1,0 +1,274 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD3B9639-45F3-D8CA-9763-5AE97210472A" schemaObject="4D2B6A1C-45FB-C485-4E53-6F9BA5D44CE6" name="FAIT_LIVRAISON_F">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 12:39:45 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LIVRAISON" id="F19EAD27-568D-6533-B333-24407895184F">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:22:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_LIVRAISON</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="DIM_LIVREUR_D_ID_LIVREUR" id="6A5A95DA-F1B2-66FF-2A29-428D72DDDB00">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:24:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8557BC3-CC2F-7609-0821-510474CDF54A" referredColumn="13E2B793-66C2-81A9-A842-443157EA1C83"/>
+</associations>
+</Column>
+<Column name="DIM_MOYEN_LIVRAISON_D_ID_MOYEN_LIVRAISON" id="E3458927-7D37-B5A7-AA23-01F5DFDA61E3">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:26:45 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5065591-B0BB-6B16-28D7-7594BF407B79" referredColumn="CA1F2CEC-EC44-6EE2-BCA2-27F417019D79"/>
+</associations>
+</Column>
+<Column name="DIM_CLIENT_D_ID_CLIENT" id="D666AA13-0721-6189-4623-4251D686463F">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:26:56 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5DC402D-176A-E6AE-565C-D185E7C9374E" referredColumn="64FDED36-342E-048C-F9AC-C96C4A20CFC0"/>
+</associations>
+</Column>
+<Column name="DIM_ADRESSE_NORM_CLIENT_D_ID_ADRESSE_NORM_CLIENT" id="4FAD6ACE-CA7B-F0C3-D19A-A888A9BE1BEE">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:27:04 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38E7A0AF-249F-72E2-B9B8-6825E0B02FEF" referredColumn="D184B63A-A4E8-EBD2-E1B0-869AA1597775"/>
+</associations>
+</Column>
+<Column name="DIM_RESTAURANT_D_ID_RESTAURANT" id="4CE5E2D9-C349-4BB2-5869-B1E21A47917D">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:29:43 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCAB7CF8-5D15-6E7B-9B43-D4561C50EAE8" referredColumn="0CB97439-333F-469A-9504-3976F10797FD"/>
+</associations>
+</Column>
+<Column name="DIM_ADRESSE_NORM_RESTAURANT_D_ID_ADRESSE_NORM_RESTAURANT" id="334622D9-9C74-08C4-8F1E-84D1A6324CA0">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:30:09 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F5F547F-7A17-13CC-6D15-2A75AA491F74" referredColumn="57C23F5D-E4DA-75FC-D1B5-5E2D86EAD5D0"/>
+</associations>
+</Column>
+<Column name="DIM_MENU_D_ID_MENU" id="A1236085-2A06-A80B-E96E-CFA18BAB651C">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:30:47 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F72152C3-3D5D-EFDA-5262-EA3826CF0BB4" referredColumn="D5EA1234-9D82-BF02-D7C1-84F7B5CDA0E8"/>
+</associations>
+</Column>
+<Column name="DIM_DATE_FIN_LIVRAISON_D_ID_DATE_FIN_LIVRAISON" id="FD364A82-DA4E-9C96-B46F-BE18778ABA24">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:30:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1EA6C48-E54F-B278-2CEE-347615614864" referredColumn="8ECB1B61-0C5F-812A-17E8-4CBF81F8FD71"/>
+</associations>
+</Column>
+<Column name="NUMERO_LIVRAISON" id="D967C976-079E-1A24-A451-809747F2D690">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:40:43 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPS_LIVRAISON" id="338AE32D-4182-BC69-BDDF-896B3A59B358">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:40:43 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ARTICLES_LIVRES" id="7C83CF51-8D46-5A87-996F-57F76D4E2EBD">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:40:43 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REMUNERATION_LIVREUR" id="52C55E3C-9223-1359-7912-7FD51FCFCAAD">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:40:43 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B64195FB-7F41-34EC-5B9B-8034E07CB237" name="FAIT_LIVRAISON_F_PK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:22:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F19EAD27-568D-6533-B333-24407895184F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE1C658B-852D-965E-CC0D-A45A1077C79F" name="FAIT_LIVRAISON_F_DIM_LIVREUR_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:24:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5A95DA-F1B2-66FF-2A29-428D72DDDB00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC6C37F6-A558-746B-8BFB-5ECF5ADCCD17" name="FAIT_LIVRAISON_F_DIM_MOYEN_LIVRAISON_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:26:45 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3458927-7D37-B5A7-AA23-01F5DFDA61E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13CDFCB6-A3DB-7AE9-A1D9-2B33AA37BBAE" name="FAIT_LIVRAISON_F_DIM_CLIENT_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:26:56 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D666AA13-0721-6189-4623-4251D686463F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1036C878-661F-E3A7-F3CD-077408CBDF70" name="FAIT_LIVRAISON_F_DIM_ADRESSE_NORM_CLIENT_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:27:04 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FAD6ACE-CA7B-F0C3-D19A-A888A9BE1BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5112CEC2-E353-6630-A6CB-E0F7C0C1F23A" name="FAIT_LIVRAISON_F_DIM_RESTAURANT_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:29:43 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE5E2D9-C349-4BB2-5869-B1E21A47917D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0AC2D40-CF42-7894-CCAF-FE38D89DF06F" name="FAIT_LIVRAISON_F_DIM_ADRESSE_NORM_RESTAURANT_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:30:09 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="334622D9-9C74-08C4-8F1E-84D1A6324CA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC2AA771-1560-4452-DAD7-F21CBEAE7CB0" name="FAIT_LIVRAISON_F_DIM_MENU_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:30:47 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1236085-2A06-A80B-E96E-CFA18BAB651C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="692844D9-2CE0-8AF1-E574-8BCF4BC36614" name="FAIT_LIVRAISON_F_DIM_DATE_FIN_LIVRAISON_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:30:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD364A82-DA4E-9C96-B46F-BE18778ABA24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
