@@ -337,10 +337,20 @@ FROM
     INNER JOIN moyen_paiement ON moyen_paiement.id_moyen_paiement = commande.id_moyen_paiement 
 ;
 
-CREATE OR REPLACE VIEW dsid_liv_ope.vue_dm2 ( 
+CREATE OR REPLACE VIEW vue_dm2 (
+    id_livraison,
+    numero_livraison,
+    date_debut_livraison,
+    date_fin_livraison,
+    nombre_article_livres,
+    id_livreur,
+    nom_livreur,
+    prenom_livreur,
     id_client,
-    prenom_client,
     nom_client,
+    prenom_client,
+    id_adresse_client,
+    adresse_client,
     id_adresse_norm_client,
     numero_voie,
     nom_voie,
@@ -348,8 +358,6 @@ CREATE OR REPLACE VIEW dsid_liv_ope.vue_dm2 (
     nom_ville,
     longitude,
     latitude,
-    id_adresse_client,
-    adresse_client,
     id_restaurant,
     code_restaurant,
     raison_sociale_restaurant,
@@ -362,83 +370,74 @@ CREATE OR REPLACE VIEW dsid_liv_ope.vue_dm2 (
     nom_ville_restau,
     longitude_restau,
     latitude_restau,
+    id_moyen_livraison,
+    code_moyen_livraison,
+    libelle_moyen_livraison,
     id_commande,
     numero_commande,
     date_commande,
     montant_total,
-    id_menu,
-    code_menu,
-    libelle_menu,
-    nombre_articles,
-    temps_theo_preparation,
-    id_livraison,
-    numero_livraison,
-    date_debut_livraison,
-    date_fin_livraison,
-    nombre_article_livres,
-    id_livreur,
-    nom_livreur,
-    prenom_livreur,
-    id_moyen_livraison,
-    code_moyen_livraison,
-    libelle_moyen_livraison
-    ) AS
-SELECT
-    client.id_client,
-    client.prenom_client,
-    client.nom_client,
-    adresse_normalisee_client.id_adresse_norm_client,
-    adresse_normalisee_client.numero_voie,
-    adresse_normalisee_client.nom_voie,
-    adresse_normalisee_client.code_postal,
-    adresse_normalisee_client.nom_ville,
-    adresse_normalisee_client.longitude,
-    adresse_normalisee_client.latitude,
-    adresse_client.id_adresse_client,
-    adresse_client.adresse_client,
-    restaurant.id_restaurant,
-    restaurant.code_restaurant,
-    restaurant.raison_sociale_restaurant,
-    adresse_restaurant.id_adresse_restaurant,
-    adresse_restaurant.adresse_restaurant,
-    adresse_normalisee_restaurant.id_adresse_norm_restaurant,
-    adresse_normalisee_restaurant.numero_voie AS numero_voie_restau,
-    adresse_normalisee_restaurant.nom_voie    AS nom_voie_restau,
-    adresse_normalisee_restaurant.code_postal AS code_postal_restau,
-    adresse_normalisee_restaurant.nom_ville   AS nom_ville_restau,
-    adresse_normalisee_restaurant.longitude   AS longitude_restau,
-    adresse_normalisee_restaurant.latitude    AS latitude_restau,
-    commande.id_commande,
-    commande.numero_commande,
-    commande.date_commande,
-    commande.montant_total,
-    menu.id_menu,
-    menu.code_menu,
-    menu.libelle_menu,
-    menu.nombre_articles,
-    menu.temps_theo_preparation,
-    livraison.id_livraison,
-    livraison.numero_livraison,
-    livraison.date_debut_livraison,
-    livraison.date_fin_livraison,
-    livraison.nombre_article_livres,
-    livreur.id_livreur,
-    livreur.nom_livreur,
-    livreur.prenom_livreur,
-    moyen_livraison.id_moyen_livraison,
-    moyen_livraison.code_moyen_livraison,
-    moyen_livraison.libelle_moyen_livraison
-FROM
-         livraison
-    INNER JOIN livreur ON livreur.id_livreur = livraison.id_livreur
-    INNER JOIN moyen_livraison ON moyen_livraison.id_moyen_livraison = livreur.id_moyen, menu
-    INNER JOIN commande ON menu.id_menu = commande.id_menu
-    INNER JOIN client ON client.id_client = commande.id_client
-    INNER JOIN adresse_client ON adresse_client.id_adresse_client = client.id_adresse_client
-    INNER JOIN adresse_normalisee_client ON adresse_client.id_adresse_client = adresse_normalisee_client.id_adresse_client, restaurant
-    INNER JOIN adresse_restaurant ON adresse_restaurant.id_adresse_restaurant = restaurant.id_adresse_restaurant
-    INNER JOIN adresse_normalisee_restaurant ON adresse_restaurant.id_adresse_restaurant = adresse_normalisee_restaurant.id_adresse_restaurant 
-;
+    id_preparation,
+    date_debut_preparation,
+    date_fin_preparation
+) AS
+    SELECT DISTINCT
+        livraison.id_livraison,
+        livraison.numero_livraison,
+        livraison.date_debut_livraison,
+        livraison.date_fin_livraison,
+        livraison.nombre_article_livres,
+        livreur.id_livreur,
+        livreur.nom_livreur,
+        livreur.prenom_livreur,
+        client.id_client,
+        client.nom_client,
+        client.prenom_client,
+        adresse_client.id_adresse_client,
+        adresse_client.adresse_client,
+        adresse_normalisee_client.id_adresse_norm_client,
+        adresse_normalisee_client.numero_voie,
+        adresse_normalisee_client.nom_voie,
+        adresse_normalisee_client.code_postal,
+        adresse_normalisee_client.nom_ville,
+        adresse_normalisee_client.longitude,
+        adresse_normalisee_client.latitude,
+        restaurant.id_restaurant,
+        restaurant.code_restaurant,
+        restaurant.raison_sociale_restaurant,
+        adresse_restaurant.id_adresse_restaurant,
+        adresse_restaurant.adresse_restaurant,
+        adresse_normalisee_restaurant.id_adresse_norm_restaurant,
+        adresse_normalisee_restaurant.numero_voie AS "numero_voie_restau",
+        adresse_normalisee_restaurant.nom_voie    AS "nom_voie_restau",
+        adresse_normalisee_restaurant.code_postal AS "code_postal_restau",
+        adresse_normalisee_restaurant.nom_ville   AS "nom_ville_restau",
+        adresse_normalisee_restaurant.longitude   AS "longitude_restau",
+        adresse_normalisee_restaurant.latitude    AS "latitude_restau",
+        moyen_livraison.id_moyen_livraison,
+        moyen_livraison.code_moyen_livraison,
+        moyen_livraison.libelle_moyen_livraison,
+        commande.id_commande,
+        commande.numero_commande,
+        commande.date_commande,
+        commande.montant_total,
+        preparation.id_preparation,
+        preparation.date_debut_preparation,
+        preparation.date_fin_preparation
+    FROM
+             livraison
+        INNER JOIN livreur ON livreur.id_livreur = livraison.id_livreur
+        INNER JOIN moyen_livraison ON moyen_livraison.id_moyen_livraison = livreur.id_moyen
+        INNER JOIN preparation ON preparation.id_preparation = livraison.id_preparation
+        INNER JOIN commande ON commande.id_commande = preparation.id_commande
+        INNER JOIN menu ON menu.id_menu = commande.id_menu
+        INNER JOIN client ON client.id_client = commande.id_client
+        INNER JOIN adresse_client ON adresse_client.id_adresse_client = client.id_adresse_client
+        INNER JOIN adresse_normalisee_client ON adresse_client.id_adresse_client = adresse_normalisee_client.id_adresse_client
+        INNER JOIN restaurant ON restaurant.id_restaurant = preparation.id_restaurant
+        INNER JOIN adresse_restaurant ON adresse_restaurant.id_adresse_restaurant = restaurant.id_adresse_restaurant
+        INNER JOIN adresse_normalisee_restaurant ON adresse_restaurant.id_adresse_restaurant = adresse_normalisee_restaurant.id_adresse_restaurant
+        ;
 
 CREATE SEQUENCE dsid_liv_ope.seq_id_adresse_client START WITH 1 NOCACHE ORDER;
 
