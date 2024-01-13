@@ -297,7 +297,8 @@ CREATE TABLE dsid_liv_dm2.dim_client_d (
     id_client     INTEGER NOT NULL,
     id_client_src INTEGER,
     nom_client    CHARACTER VARYING(100),
-    prenom_client CHARACTER VARYING(100)
+    prenom_client CHARACTER VARYING(100),
+    nom_precedent CHARACTER VARYING(100)
 );
 
 ALTER TABLE dsid_liv_dm2.dim_client_d ADD CONSTRAINT client_pk PRIMARY KEY ( id_client );
@@ -346,7 +347,11 @@ CREATE TABLE dsid_liv_dm2.dim_restaurant_d (
     id_restaurant             INTEGER NOT NULL,
     id_restaurant_src         INTEGER,
     code_restaurant           CHARACTER VARYING(5) NOT NULL,
-    raison_sociale_restaurant CHARACTER VARYING(100) NOT NULL
+    raison_sociale_restaurant CHARACTER VARYING(100) NOT NULL,
+    scd_start                 DATE,
+    scd_end                   DATE,
+    scd_version               INTEGER,
+    scd_active                CHARACTER VARYING(5)
 );
 
 ALTER TABLE dsid_liv_dm2.dim_restaurant_d ADD CONSTRAINT restaurant_pk PRIMARY KEY ( id_restaurant );
