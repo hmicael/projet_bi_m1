@@ -1,0 +1,522 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92EE04B2-2E33-0107-F4F5-4EDF4D146181" schemaObject="BC755ECE-72D4-C088-FD8E-7EA5173F08B2" name="DM2_STAGING">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:04:55 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_STAGING_DM2" id="133D2BFF-A9A1-0B18-1716-01B69DA4B515">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:08:16 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_STAGING_DM2</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="ID_ADRESSE_NORM_CLIENT" id="E707805F-E861-91DB-D5DF-5F02B0FDAC78">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 18:47:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_VOIE" id="E72F2325-2739-BED4-B1F9-4CB9B674CE79">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:08:16 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_VOIE" id="66F71AAA-AA21-6028-FB2C-26D7D54C29A1">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:08:16 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_POSTAL" id="42080D41-6AC3-3696-58AE-27627A882D42">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:08:16 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_VILLE" id="29FDE0FC-71BC-2B8B-55E2-0998469B180E">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:21:31 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE" id="EA363FC6-F9B2-754F-8F7F-33396E05DECF">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:21:31 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE" id="C07C8008-AB5E-8E23-A0ED-F62732D0FE08">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:21:31 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RESTAURANT" id="D4E2D497-4CBB-34B0-0954-82F29BE2CD1B">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:26:44 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_RESTAURANT" id="396D0BCA-B495-AC64-8360-FBEAEF4BAAB3">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:26:44 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAISON_SOCIALE_RESTAURANT" id="ABED4F67-685E-16C0-2C74-06E698DDDFC4">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:21:31 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ADRESSE_NORM_RESTAURANT" id="0A016858-1F81-B258-4EBF-17E4024E5930">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:26:44 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_VOIE_RESTAU" id="779B2FEE-F2F8-4A0E-E2BE-B0F4D48706CC">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:26:44 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_VOIE_RESTAU" id="CE43C12C-A444-4D71-68AA-76949A791AF3">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:26:44 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_POSTAL_RESTAU" id="8D49726C-9F93-F974-1555-595B6D63E0FA">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 20:47:06 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_VILLE_RESTAU" id="D13AB907-543D-0988-19DE-0FD7885F9495">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 20:47:06 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUDE_RESTAU" id="59060D6B-F0B7-84D1-D64A-F3943D629DD1">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 20:47:06 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUDE_RESTAU" id="AC88A4E0-C6A2-6FD8-83D0-EAB4A8FFC0E9">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 20:47:06 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENT" id="C76D62B3-1AB8-1D8E-4553-FE37B5101A35">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 20:47:06 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LIVRAISON" id="0AC4F105-6CEC-F61B-26DA-3D6F9C53163F">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMMANDE" id="61541AAC-25A9-6ADD-CCE2-7EBFF3F2A9D8">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 20:47:06 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_COMMANDE" id="5A704C92-346C-FB37-E99D-81B8790CF217">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 20:47:06 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_COMMANDE" id="B932994D-32FD-54BE-227E-9C9CA9A36C16">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTANT_TOTAL" id="9A1F708E-17AC-2EE7-5A73-E9F098968834">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MENU" id="004984F7-5FD3-5125-F2C4-C0BC366D7D08">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_MENU" id="0E284E8C-D82C-F51B-036F-09C555092756">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIBELLE_MENU" id="94AA1E80-0B28-FD50-EDEE-F476E17A2626">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ARTICLES" id="81BC87A1-6BFE-3ADE-0C1B-E1B182D019EF">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMPS_THEO_PREPARATION" id="1449ADF4-9F70-95B0-51B4-764839EB4204">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_LIVRAISON" id="CD84EDC5-B0A6-0A87-DA74-626DABE74817">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DEBUT_LIVRAISON" id="1D2D70D4-A535-5D20-35F6-7074BB622FB4">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_FIN_LIVRAISON" id="6B8537B8-46FE-F948-FE03-B4FD13D2E439">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LIVREUR" id="50495D71-7CC0-A087-6124-A2C012DBF11B">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:19:29 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_LIVREUR" id="69034F3B-0D2B-38ED-D1F8-3A7BF1BFB9C2">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:24:52 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRENOM_LIVREUR" id="5CC5CD41-2113-710C-D840-22FB00332F28">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:24:52 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MOYEN_LIVRAISON" id="63C3CEA2-FA74-5210-E40B-76587168DF80">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:24:52 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_MOYEN_LIVRAISON" id="89813E08-AA99-FDBE-E0CB-8C85180E6BB8">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:24:52 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIBELLE_MOYEN_LIVRAISON" id="5436CC03-9294-3F3F-46FC-3EE4A48EA48E">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:24:52 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_CLIENT" id="57AA8FA7-392E-AACB-6575-C81C9C626A25">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:24:52 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRENOM_CLIENT" id="DBFC1BE6-13D2-4DE0-42F4-13C24CFAD706">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 21:24:52 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PREPARATION" id="D19864A2-B8CB-C62C-3102-F1E5DC4BD94C">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 18:54:03 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DEBUT_PREPARATION" id="0613FFD3-3191-3A27-2D59-2B4262D56B7B">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 18:54:03 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_FIN_PREPARATION" id="D0C10531-E620-E2AC-45EC-8AE3E570FEEB">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 18:54:03 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17A1D682-908D-87DB-49A0-B34B771A3940" name="DM2_STAGING_PK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-11 18:08:16 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="133D2BFF-A9A1-0B18-1716-01B69DA4B515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

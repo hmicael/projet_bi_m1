@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7B0D4FA-E7E9-F323-B7C1-1FD4248E1C8A" schemaObject="4D2B6A1C-45FB-C485-4E53-6F9BA5D44CE6" name="DIM_MOYEN_LIVRAISON_D">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 16:34:10 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MOYEN_LIVRAISON" id="CA1F2CEC-EC44-6EE2-BCA2-27F417019D79">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 16:38:04 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_MOYEN_LIVRAISON</autoIncrementSequenceName>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="ID_MOYEN_LIVRAISON_SRC" id="ACC9F8F0-EBE1-926A-DA2B-B982F47D1EF1">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 16:38:56 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE_MOYEN_LIVRAISON" id="949C5AC6-AAAD-2E98-8F95-FA092FEDCE34">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 16:38:04 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIBELLE_MOYEN_LIVRAISON" id="AA47A2EF-9C72-E9D3-370F-984490FD767F">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 16:38:04 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1CBC29D-AB8A-CCA8-87A0-A2C0CECD0082" name="MOYEN_LIVRAISON_PK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 16:38:04 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA1F2CEC-EC44-6EE2-BCA2-27F417019D79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

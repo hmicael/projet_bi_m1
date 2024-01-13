@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1EA6C48-E54F-B278-2CEE-347615614864" containerWithKeyObject="DD3B9639-45F3-D8CA-9763-5AE97210472A" localFKIndex="692844D9-2CE0-8AF1-E574-8BCF4BC36614" name="DIM_DATE_FIN_LIVRAISON_D_FK">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-12 17:30:53 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<referredTableLongName>DSID_LIV_DM2.DIM_DATE_FIN_LIVRAISON_D</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7782615-E49F-E820-50B7-A5A732233FB1</referredTableID>
+<keyObject>91E364EF-A3EA-8D49-D1A9-D2D25CA68B5C</keyObject>
+<referredKeyID>91E364EF-A3EA-8D49-D1A9-D2D25CA68B5C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_DATE_FIN_LIVRAISON</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

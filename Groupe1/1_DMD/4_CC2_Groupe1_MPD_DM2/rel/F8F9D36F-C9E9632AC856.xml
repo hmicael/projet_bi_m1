@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F8F9D36F-8D5F-303A-A7F4-C9E9632AC856" mainViewID="AE35FFE2-3BBD-4836-3FD5-6D33583938E9">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="WRK" id="F8F9D36F-8D5F-303A-A7F4-C9E9632AC856" mainViewID="AE35FFE2-3BBD-4836-3FD5-6D33583938E9">
 <createdBy>root</createdBy>
 <createdTime>2023-12-08 22:36:34 UTC</createdTime>
 <ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
+<shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
 </relationalModel>
