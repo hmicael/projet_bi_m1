@@ -54,6 +54,51 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="SCD_START" id="0B7C278D-9A36-BBEB-B19E-48BE7C62040C">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-13 15:23:28 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCD_END" id="F521F3A4-899C-B58D-7643-6537D69CDA23">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-13 15:23:28 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCD_VERSION" id="3F8CF840-866A-6456-E4FE-4C8E36346ACF">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-13 15:23:28 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCD_ACTIVE" id="B0021574-2B85-99E6-F1A3-1416C2D70BF9">
+<createdBy>Novaz</createdBy>
+<createdTime>2024-01-13 15:23:28 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E4BF707F-DAD8-9814-1846-087B34C0AECC" name="RESTAURANT_PK">
