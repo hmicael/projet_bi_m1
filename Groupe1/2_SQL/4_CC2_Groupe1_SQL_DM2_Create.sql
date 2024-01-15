@@ -117,7 +117,8 @@ CREATE TABLE dsid_liv_wrk.dm2_rejet (
     date_debut_preparation     TIMESTAMP,
     date_fin_preparation       TIMESTAMP,
     type_rejet                 CHARACTER VARYING(100),
-    message_log                CHARACTER VARYING(300)
+    message_log                CHARACTER VARYING(300),
+    nombre_article_livres      INTEGER
 );
 
 ALTER TABLE dsid_liv_wrk.dm2_rejet ADD CONSTRAINT dm2_rejet_pk PRIMARY KEY ( id_rejet_dm2 );
@@ -165,7 +166,8 @@ CREATE TABLE dsid_liv_wrk.dm2_staging (
     prenom_client              CHARACTER VARYING(100),
     id_preparation             INTEGER,
     date_debut_preparation     TIMESTAMP,
-    date_fin_preparation       TIMESTAMP
+    date_fin_preparation       TIMESTAMP,
+    nombre_article_livres      INTEGER
 );
 
 ALTER TABLE dsid_liv_wrk.dm2_staging ADD CONSTRAINT dm2_staging_pk PRIMARY KEY ( id_staging_dm2 );
