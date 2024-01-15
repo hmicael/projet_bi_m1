@@ -311,7 +311,7 @@ ALTER TABLE dsid_liv_dm2.dim_client_d ADD CONSTRAINT client_pk PRIMARY KEY ( id_
 
 CREATE TABLE dsid_liv_dm2.dim_date_debut_livraison_d (
     id_date_debut_livraison INTEGER NOT NULL,
-    date_fin_livraison      TIMESTAMP,
+    date_debut_livraison      TIMESTAMP,
     jour                    CHARACTER VARYING(5 ),
     semaine                 CHARACTER VARYING(5 ),
     mois                    CHARACTER VARYING(5 ),
