@@ -30,8 +30,8 @@
 <nombre_articles>3</nombre_articles>
 <temps_theo_preparation>45</temps_theo_preparation>
 <numero_livraison>1</numero_livraison>
-<date_debut_livraison>01-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>01-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>01-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>01-01-2023 12:55</date_fin_livraison>
 <id_livreur>1</id_livreur>
 <nom_livreur>Smith</nom_livreur>
 <prenom_livreur>John</prenom_livreur>
@@ -46,418 +46,13 @@
 <nombre_article_livres>10</nombre_article_livres>
 </row>
 <row>
-<id_adresse_norm_client>2</id_adresse_norm_client>
-<numero_voie>4</numero_voie>
-<nom_voie>4 Avenue du Berry</nom_voie>
+<id_adresse_norm_client>1</id_adresse_norm_client>
+<numero_voie>1</numero_voie>
+<nom_voie>1 Avenue de Normandie</nom_voie>
 <code_postal>91940</code_postal>
 <nom_ville>Les Ulis</nom_ville>
-<longitude>2.168249</longitude>
-<latitude>48.682703</latitude>
-<id_restaurant>2</id_restaurant>
-<code_restaurant>RST02</code_restaurant>
-<raison_sociale_restaurant>La Brasserie</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>2</id_adresse_norm_restaurant>
-<numero_voie_restau>2</numero_voie_restau>
-<nom_voie_restau>2 Rue d?Aubrac</nom_voie_restau>
-<code_postal_restau>91940</code_postal_restau>
-<nom_ville_restau>Les Ulis</nom_ville_restau>
-<longitude_restau>2.173088</longitude_restau>
-<latitude_restau>48.677394</latitude_restau>
-<id_client>2</id_client>
-<id_livraison>2</id_livraison>
-<id_commande>2</id_commande>
-<numero_commande>2</numero_commande>
-<date_commande>02-01-2023</date_commande>
-<montant_total>65.5</montant_total>
-<id_menu>2</id_menu>
-<code_menu>2</code_menu>
-<libelle_menu>Gourmet</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>60</temps_theo_preparation>
-<numero_livraison>2</numero_livraison>
-<date_debut_livraison>02-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>02-01-2023 00:00</date_fin_livraison>
-<id_livreur>2</id_livreur>
-<nom_livreur>Doe</nom_livreur>
-<prenom_livreur>Jane</prenom_livreur>
-<id_moyen_livraison>2</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Sophie</nom_client>
-<prenom_client>Martin</prenom_client>
-<id_preparation>2</id_preparation>
-<date_debut_preparation>02-01-2023 15:30</date_debut_preparation>
-<date_fin_preparation>02-01-2023 16:05</date_fin_preparation>
-<nombre_article_livres>8</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>3</id_adresse_norm_client>
-<numero_voie></numero_voie>
-<nom_voie>Beauplan</nom_voie>
-<code_postal>78470</code_postal>
-<nom_ville>Saint-Rémy-lès-Chevreuse</nom_ville>
-<longitude>2.081689</longitude>
-<latitude>48.717636</latitude>
-<id_restaurant>3</id_restaurant>
-<code_restaurant>RST03</code_restaurant>
-<raison_sociale_restaurant>Chez Marie</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>3</id_adresse_norm_restaurant>
-<numero_voie_restau></numero_voie_restau>
-<nom_voie_restau>Boulevard Saint-Germain</nom_voie_restau>
-<code_postal_restau>75006</code_postal_restau>
-<nom_ville_restau>Paris</nom_ville_restau>
-<longitude_restau>2.336722</longitude_restau>
-<latitude_restau>48.853055</latitude_restau>
-<id_client>3</id_client>
-<id_livraison>3</id_livraison>
-<id_commande>3</id_commande>
-<numero_commande>3</numero_commande>
-<date_commande>03-01-2023</date_commande>
-<montant_total>40.2</montant_total>
-<id_menu>3</id_menu>
-<code_menu>4</code_menu>
-<libelle_menu>Végétarien</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>40</temps_theo_preparation>
-<numero_livraison>3</numero_livraison>
-<date_debut_livraison>03-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>03-01-2023 00:00</date_fin_livraison>
-<id_livreur>3</id_livreur>
-<nom_livreur>Johnson</nom_livreur>
-<prenom_livreur>Mark</prenom_livreur>
-<id_moyen_livraison>3</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
-<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
-<nom_client>Thomas</nom_client>
-<prenom_client>Lefevre</prenom_client>
-<id_preparation>3</id_preparation>
-<date_debut_preparation>03-01-2023 12:45</date_debut_preparation>
-<date_fin_preparation>03-01-2023 13:00</date_fin_preparation>
-<nombre_article_livres>12</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>4</id_adresse_norm_client>
-<numero_voie></numero_voie>
-<nom_voie>Rue de la Pompe</nom_voie>
-<code_postal>75016</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.279158</longitude>
-<latitude>48.865289</latitude>
-<id_restaurant>4</id_restaurant>
-<code_restaurant>RST04</code_restaurant>
-<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
-<numero_voie_restau></numero_voie_restau>
-<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
-<code_postal_restau>75011</code_postal_restau>
-<nom_ville_restau>Paris</nom_ville_restau>
-<longitude_restau>2.382002</longitude_restau>
-<latitude_restau>48.850532</latitude_restau>
-<id_client>4</id_client>
-<id_livraison>4</id_livraison>
-<id_commande>4</id_commande>
-<numero_commande>4</numero_commande>
-<date_commande>04-01-2023</date_commande>
-<montant_total>75.8</montant_total>
-<id_menu>4</id_menu>
-<code_menu>5</code_menu>
-<libelle_menu>Enfant</libelle_menu>
-<nombre_articles>2</nombre_articles>
-<temps_theo_preparation>30</temps_theo_preparation>
-<numero_livraison>4</numero_livraison>
-<date_debut_livraison>04-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>04-01-2023 00:00</date_fin_livraison>
-<id_livreur>4</id_livreur>
-<nom_livreur>Williams</nom_livreur>
-<prenom_livreur>Susan</prenom_livreur>
-<id_moyen_livraison>4</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
-<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
-<nom_client>Amandine</nom_client>
-<prenom_client>Dubois</prenom_client>
-<id_preparation>4</id_preparation>
-<date_debut_preparation>04-01-2023 16:15</date_debut_preparation>
-<date_fin_preparation>04-01-2023 17:20</date_fin_preparation>
-<nombre_article_livres>15</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>5</id_adresse_norm_client>
-<numero_voie>45</numero_voie>
-<nom_voie>45 Quai de la Tournelle</nom_voie>
-<code_postal>75005</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.352319</longitude>
-<latitude>48.850638</latitude>
-<id_restaurant>5</id_restaurant>
-<code_restaurant>RST05</code_restaurant>
-<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
-<numero_voie_restau>14</numero_voie_restau>
-<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
-<code_postal_restau>91410</code_postal_restau>
-<nom_ville_restau>Dourdan</nom_ville_restau>
-<longitude_restau>2.019167</longitude_restau>
-<latitude_restau>48.530022</latitude_restau>
-<id_client>5</id_client>
-<id_livraison>5</id_livraison>
-<id_commande>5</id_commande>
-<numero_commande>5</numero_commande>
-<date_commande>05-01-2023</date_commande>
-<montant_total>90.5</montant_total>
-<id_menu>5</id_menu>
-<code_menu>5</code_menu>
-<libelle_menu>Spécial Poisson</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>55</temps_theo_preparation>
-<numero_livraison>5</numero_livraison>
-<date_debut_livraison>05-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>05-01-2023 00:00</date_fin_livraison>
-<id_livreur>5</id_livreur>
-<nom_livreur>Brown</nom_livreur>
-<prenom_livreur>Michael</prenom_livreur>
-<id_moyen_livraison>5</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Lucie</nom_client>
-<prenom_client>Leclerc</prenom_client>
-<id_preparation>5</id_preparation>
-<date_debut_preparation>05-01-2023 18:00</date_debut_preparation>
-<date_fin_preparation>05-01-2023 18:40</date_fin_preparation>
-<nombre_article_livres>14</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>6</id_adresse_norm_client>
-<numero_voie>4</numero_voie>
-<nom_voie>4 Boulevard Dubreuil</nom_voie>
-<code_postal>91400</code_postal>
-<nom_ville>Orsay</nom_ville>
-<longitude>2.182381</longitude>
-<latitude>48.69736</latitude>
-<id_restaurant>6</id_restaurant>
-<code_restaurant>RST06</code_restaurant>
-<raison_sociale_restaurant>Au Petit Chef</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>6</id_adresse_norm_restaurant>
-<numero_voie_restau>24</numero_voie_restau>
-<nom_voie_restau>24 Rue Charles de Gaulle</nom_voie_restau>
-<code_postal_restau>91400</code_postal_restau>
-<nom_ville_restau>Orsay</nom_ville_restau>
-<longitude_restau>2.191857</longitude_restau>
-<latitude_restau>48.703545</latitude_restau>
-<id_client>6</id_client>
-<id_livraison>6</id_livraison>
-<id_commande>6</id_commande>
-<numero_commande>6</numero_commande>
-<date_commande>06-01-2023</date_commande>
-<montant_total>55.0</montant_total>
-<id_menu>6</id_menu>
-<code_menu>6</code_menu>
-<libelle_menu>Exotique</libelle_menu>
-<nombre_articles>5</nombre_articles>
-<temps_theo_preparation>70</temps_theo_preparation>
-<numero_livraison>6</numero_livraison>
-<date_debut_livraison>06-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>06-01-2023 00:00</date_fin_livraison>
-<id_livreur>6</id_livreur>
-<nom_livreur>Davis</nom_livreur>
-<prenom_livreur>Emily</prenom_livreur>
-<id_moyen_livraison>6</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
-<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
-<nom_client>Antoine</nom_client>
-<prenom_client>Moreau</prenom_client>
-<id_preparation>6</id_preparation>
-<date_debut_preparation>06-01-2023 13:30</date_debut_preparation>
-<date_fin_preparation>06-01-2023 14:25</date_fin_preparation>
-<nombre_article_livres>11</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>7</id_adresse_norm_client>
-<numero_voie>233</numero_voie>
-<nom_voie>233 Rue Pierre de Coubertin</nom_voie>
-<code_postal>91440</code_postal>
-<nom_ville>Bures-sur-Yvette</nom_ville>
-<longitude>2.165549</longitude>
-<latitude>48.699975</latitude>
-<id_restaurant>7</id_restaurant>
-<code_restaurant>RST07</code_restaurant>
-<raison_sociale_restaurant>La Trattoria</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>7</id_adresse_norm_restaurant>
-<numero_voie_restau>3</numero_voie_restau>
-<nom_voie_restau>3 Rue du Général Leclerc</nom_voie_restau>
-<code_postal_restau>91440</code_postal_restau>
-<nom_ville_restau>Bures-sur-Yvette</nom_ville_restau>
-<longitude_restau>2.162451</longitude_restau>
-<latitude_restau>48.696487</latitude_restau>
-<id_client>7</id_client>
-<id_livraison>7</id_livraison>
-<id_commande>7</id_commande>
-<numero_commande>7</numero_commande>
-<date_commande>07-01-2023</date_commande>
-<montant_total>80.2</montant_total>
-<id_menu>7</id_menu>
-<code_menu>7</code_menu>
-<libelle_menu>Santé</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>40</temps_theo_preparation>
-<numero_livraison>7</numero_livraison>
-<date_debut_livraison>07-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>07-01-2023 00:00</date_fin_livraison>
-<id_livreur>7</id_livreur>
-<nom_livreur>Miller</nom_livreur>
-<prenom_livreur>Robert</prenom_livreur>
-<id_moyen_livraison>7</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
-<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
-<nom_client>Julie</nom_client>
-<prenom_client>Fournier</prenom_client>
-<id_preparation>7</id_preparation>
-<date_debut_preparation>07-01-2023 11:15</date_debut_preparation>
-<date_fin_preparation>07-01-2023 12:00</date_fin_preparation>
-<nombre_article_livres>9</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>8</id_adresse_norm_client>
-<numero_voie>67</numero_voie>
-<nom_voie>67 Avenue des Gobelins</nom_voie>
-<code_postal>75013</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.354267</longitude>
-<latitude>48.833773</latitude>
-<id_restaurant>8</id_restaurant>
-<code_restaurant>RST08</code_restaurant>
-<raison_sociale_restaurant>Le Panier Gourmand</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>8</id_adresse_norm_restaurant>
-<numero_voie_restau>18</numero_voie_restau>
-<nom_voie_restau>18 Rue des Etats Généraux</nom_voie_restau>
-<code_postal_restau>78000</code_postal_restau>
-<nom_ville_restau>Versailles</nom_ville_restau>
-<longitude_restau>2.133369</longitude_restau>
-<latitude_restau>48.799281</latitude_restau>
-<id_client>8</id_client>
-<id_livraison>8</id_livraison>
-<id_commande>8</id_commande>
-<numero_commande>8</numero_commande>
-<date_commande>08-01-2023</date_commande>
-<montant_total>65.8</montant_total>
-<id_menu>8</id_menu>
-<code_menu>8</code_menu>
-<libelle_menu>Classique</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>50</temps_theo_preparation>
-<numero_livraison>8</numero_livraison>
-<date_debut_livraison>08-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>08-01-2023 00:00</date_fin_livraison>
-<id_livreur>8</id_livreur>
-<nom_livreur>Anderson</nom_livreur>
-<prenom_livreur>Emma</prenom_livreur>
-<id_moyen_livraison>8</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Alexandre</nom_client>
-<prenom_client>Girard</prenom_client>
-<id_preparation>8</id_preparation>
-<date_debut_preparation>08-01-2023 15:45</date_debut_preparation>
-<date_fin_preparation>08-01-2023 16:30</date_fin_preparation>
-<nombre_article_livres>13</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>9</id_adresse_norm_client>
-<numero_voie>89</numero_voie>
-<nom_voie>89 Rue de la Roquette</nom_voie>
-<code_postal>75011</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.378814</longitude>
-<latitude>48.857221</latitude>
-<id_restaurant>9</id_restaurant>
-<code_restaurant>RST09</code_restaurant>
-<raison_sociale_restaurant>Sushi Express</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>9</id_adresse_norm_restaurant>
-<numero_voie_restau>6</numero_voie_restau>
-<nom_voie_restau>6 Avenue de l?Ile de France</nom_voie_restau>
-<code_postal_restau>95300</code_postal_restau>
-<nom_ville_restau>Pontoise</nom_ville_restau>
-<longitude_restau>2.094428</longitude_restau>
-<latitude_restau>49.064959</latitude_restau>
-<id_client>9</id_client>
-<id_livraison>9</id_livraison>
-<id_commande>9</id_commande>
-<numero_commande>9</numero_commande>
-<date_commande>09-01-2023</date_commande>
-<montant_total>70.5</montant_total>
-<id_menu>1</id_menu>
-<code_menu>1</code_menu>
-<libelle_menu>Découverte</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>45</temps_theo_preparation>
-<numero_livraison>9</numero_livraison>
-<date_debut_livraison>09-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>09-01-2023 00:00</date_fin_livraison>
-<id_livreur>9</id_livreur>
-<nom_livreur>Martin</nom_livreur>
-<prenom_livreur>David</prenom_livreur>
-<id_moyen_livraison>9</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
-<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
-<nom_client>Marie</nom_client>
-<prenom_client>Caron</prenom_client>
-<id_preparation>9</id_preparation>
-<date_debut_preparation>09-01-2023 17:30</date_debut_preparation>
-<date_fin_preparation>09-01-2023 18:15</date_fin_preparation>
-<nombre_article_livres>7</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>10</id_adresse_norm_client>
-<numero_voie>101</numero_voie>
-<nom_voie>101 Rue du Cherche-Midi</nom_voie>
-<code_postal>75006</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.320906</longitude>
-<latitude>48.846493</latitude>
-<id_restaurant>10</id_restaurant>
-<code_restaurant>RST10</code_restaurant>
-<raison_sociale_restaurant>Le Jardin des Saveurs</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>10</id_adresse_norm_restaurant>
-<numero_voie_restau>100</numero_voie_restau>
-<nom_voie_restau>100 Boulevard du Général Leclerc</nom_voie_restau>
-<code_postal_restau>92110</code_postal_restau>
-<nom_ville_restau>Clichy</nom_ville_restau>
-<longitude_restau>2.30849</longitude_restau>
-<latitude_restau>48.907535</latitude_restau>
-<id_client>10</id_client>
-<id_livraison>10</id_livraison>
-<id_commande>10</id_commande>
-<numero_commande>10</numero_commande>
-<date_commande>10-01-2023</date_commande>
-<montant_total>45.0</montant_total>
-<id_menu>2</id_menu>
-<code_menu>2</code_menu>
-<libelle_menu>Gourmet</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>60</temps_theo_preparation>
-<numero_livraison>10</numero_livraison>
-<date_debut_livraison>10-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>10-01-2023 00:00</date_fin_livraison>
-<id_livreur>10</id_livreur>
-<nom_livreur>Thompson</nom_livreur>
-<prenom_livreur>Sarah</prenom_livreur>
-<id_moyen_livraison>10</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
-<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
-<nom_client>Nicolas</nom_client>
-<prenom_client>Picard</prenom_client>
-<id_preparation>10</id_preparation>
-<date_debut_preparation>10-01-2023 12:00</date_debut_preparation>
-<date_fin_preparation>10-01-2023 12:30</date_fin_preparation>
-<nombre_article_livres>10</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>11</id_adresse_norm_client>
-<numero_voie>22</numero_voie>
-<nom_voie>22 Rue Charles de Gaulle</nom_voie>
-<code_postal>91400</code_postal>
-<nom_ville>Orsay</nom_ville>
-<longitude>2.19197</longitude>
-<latitude>48.703187</latitude>
+<longitude>2.165239</longitude>
+<latitude>48.686903</latitude>
 <id_restaurant>1</id_restaurant>
 <code_restaurant>RST01</code_restaurant>
 <raison_sociale_restaurant>Le Gourmet</raison_sociale_restaurant>
@@ -468,212 +63,32 @@
 <nom_ville_restau>Les Ulis</nom_ville_restau>
 <longitude_restau>2.201411</longitude_restau>
 <latitude_restau>48.679859</latitude_restau>
-<id_client>11</id_client>
-<id_livraison>11</id_livraison>
-<id_commande>11</id_commande>
-<numero_commande>11</numero_commande>
-<date_commande>11-01-2023</date_commande>
-<montant_total>60.2</montant_total>
-<id_menu>3</id_menu>
-<code_menu>4</code_menu>
-<libelle_menu>Végétarien</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>40</temps_theo_preparation>
-<numero_livraison>11</numero_livraison>
-<date_debut_livraison>11-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>11-01-2023 00:00</date_fin_livraison>
-<id_livreur>11</id_livreur>
-<nom_livreur>Moore</nom_livreur>
-<prenom_livreur>Brian</prenom_livreur>
-<id_moyen_livraison>11</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Laura</nom_client>
-<prenom_client>Durand</prenom_client>
-<id_preparation>11</id_preparation>
-<date_debut_preparation>11-01-2023 14:00</date_debut_preparation>
-<date_fin_preparation>11-01-2023 14:45</date_fin_preparation>
-<nombre_article_livres>8</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>12</id_adresse_norm_client>
-<numero_voie>18</numero_voie>
-<nom_voie>18 Rue des Etats Généraux</nom_voie>
-<code_postal>78000</code_postal>
-<nom_ville>Versailles</nom_ville>
-<longitude>2.133369</longitude>
-<latitude>48.799281</latitude>
-<id_restaurant>2</id_restaurant>
-<code_restaurant>RST02</code_restaurant>
-<raison_sociale_restaurant>La Brasserie</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>2</id_adresse_norm_restaurant>
-<numero_voie_restau>2</numero_voie_restau>
-<nom_voie_restau>2 Rue d?Aubrac</nom_voie_restau>
-<code_postal_restau>91940</code_postal_restau>
-<nom_ville_restau>Les Ulis</nom_ville_restau>
-<longitude_restau>2.173088</longitude_restau>
-<latitude_restau>48.677394</latitude_restau>
-<id_client>12</id_client>
-<id_livraison>12</id_livraison>
-<id_commande>12</id_commande>
-<numero_commande>12</numero_commande>
-<date_commande>12-01-2023</date_commande>
-<montant_total>85.8</montant_total>
-<id_menu>4</id_menu>
-<code_menu>5</code_menu>
-<libelle_menu>Enfant</libelle_menu>
-<nombre_articles>2</nombre_articles>
-<temps_theo_preparation>30</temps_theo_preparation>
-<numero_livraison>12</numero_livraison>
-<date_debut_livraison>12-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>12-01-2023 00:00</date_fin_livraison>
-<id_livreur>12</id_livreur>
-<nom_livreur>Clark</nom_livreur>
-<prenom_livreur>Amy</prenom_livreur>
-<id_moyen_livraison>12</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
-<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
-<nom_client>Victor</nom_client>
-<prenom_client>Lemoine</prenom_client>
-<id_preparation>12</id_preparation>
-<date_debut_preparation>12-01-2023 15:30</date_debut_preparation>
-<date_fin_preparation>12-01-2023 16:40</date_fin_preparation>
-<nombre_article_livres>12</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>13</id_adresse_norm_client>
-<numero_voie>12</numero_voie>
-<nom_voie>12 Rue Saint-Denis</nom_voie>
-<code_postal>75001</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.347761</longitude>
-<latitude>48.858949</latitude>
-<id_restaurant>3</id_restaurant>
-<code_restaurant>RST03</code_restaurant>
-<raison_sociale_restaurant>Chez Marie</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>3</id_adresse_norm_restaurant>
-<numero_voie_restau></numero_voie_restau>
-<nom_voie_restau>Boulevard Saint-Germain</nom_voie_restau>
-<code_postal_restau>75006</code_postal_restau>
-<nom_ville_restau>Paris</nom_ville_restau>
-<longitude_restau>2.336722</longitude_restau>
-<latitude_restau>48.853055</latitude_restau>
-<id_client>13</id_client>
-<id_livraison>13</id_livraison>
-<id_commande>13</id_commande>
-<numero_commande>13</numero_commande>
-<date_commande>13-01-2023</date_commande>
-<montant_total>70.5</montant_total>
-<id_menu>5</id_menu>
-<code_menu>5</code_menu>
-<libelle_menu>Spécial Poisson</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>55</temps_theo_preparation>
-<numero_livraison>13</numero_livraison>
-<date_debut_livraison>13-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>13-01-2023 00:00</date_fin_livraison>
-<id_livreur>13</id_livreur>
-<nom_livreur>Young</nom_livreur>
-<prenom_livreur>Christopher</prenom_livreur>
-<id_moyen_livraison>13</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
-<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
-<nom_client>Elodie</nom_client>
-<prenom_client>Roger</prenom_client>
-<id_preparation>13</id_preparation>
-<date_debut_preparation>13-01-2023 12:45</date_debut_preparation>
-<date_fin_preparation>13-01-2023 13:15</date_fin_preparation>
-<nombre_article_livres>15</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>14</id_adresse_norm_client>
-<numero_voie>34</numero_voie>
-<nom_voie>34 Avenue des Champs Elysées</nom_voie>
-<code_postal>75008</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.308164</longitude>
-<latitude>48.869965</latitude>
-<id_restaurant>4</id_restaurant>
-<code_restaurant>RST04</code_restaurant>
-<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
-<numero_voie_restau></numero_voie_restau>
-<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
-<code_postal_restau>75011</code_postal_restau>
-<nom_ville_restau>Paris</nom_ville_restau>
-<longitude_restau>2.382002</longitude_restau>
-<latitude_restau>48.850532</latitude_restau>
-<id_client>14</id_client>
-<id_livraison>14</id_livraison>
-<id_commande>14</id_commande>
-<numero_commande>14</numero_commande>
-<date_commande>14-01-2023</date_commande>
-<montant_total>95.0</montant_total>
-<id_menu>6</id_menu>
-<code_menu>6</code_menu>
-<libelle_menu>Exotique</libelle_menu>
-<nombre_articles>5</nombre_articles>
-<temps_theo_preparation>70</temps_theo_preparation>
-<numero_livraison>14</numero_livraison>
-<date_debut_livraison>14-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>14-01-2023 00:00</date_fin_livraison>
-<id_livreur>14</id_livreur>
-<nom_livreur>Hall</nom_livreur>
-<prenom_livreur>Megan</prenom_livreur>
-<id_moyen_livraison>14</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Maxime</nom_client>
-<prenom_client>Garnier</prenom_client>
-<id_preparation>14</id_preparation>
-<date_debut_preparation>14-01-2023 16:15</date_debut_preparation>
-<date_fin_preparation>14-01-2023 17:00</date_fin_preparation>
-<nombre_article_livres>14</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>15</id_adresse_norm_client>
-<numero_voie></numero_voie>
-<nom_voie>Avenue de la Grande Armée</nom_voie>
-<code_postal>75016</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.289118</longitude>
-<latitude>48.875301</latitude>
-<id_restaurant>5</id_restaurant>
-<code_restaurant>RST05</code_restaurant>
-<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
-<numero_voie_restau>14</numero_voie_restau>
-<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
-<code_postal_restau>91410</code_postal_restau>
-<nom_ville_restau>Dourdan</nom_ville_restau>
-<longitude_restau>2.019167</longitude_restau>
-<latitude_restau>48.530022</latitude_restau>
-<id_client>15</id_client>
-<id_livraison>15</id_livraison>
-<id_commande>15</id_commande>
-<numero_commande>15</numero_commande>
-<date_commande>15-01-2023</date_commande>
+<id_client>1</id_client>
+<id_livraison>31</id_livraison>
+<id_commande>31</id_commande>
+<numero_commande>31</numero_commande>
+<date_commande>31-01-2023</date_commande>
 <montant_total>80.2</montant_total>
 <id_menu>7</id_menu>
 <code_menu>7</code_menu>
 <libelle_menu>Santé</libelle_menu>
 <nombre_articles>3</nombre_articles>
 <temps_theo_preparation>40</temps_theo_preparation>
-<numero_livraison>15</numero_livraison>
-<date_debut_livraison>15-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>15-01-2023 00:00</date_fin_livraison>
-<id_livreur>15</id_livreur>
-<nom_livreur>Allen</nom_livreur>
-<prenom_livreur>Julia</prenom_livreur>
-<id_moyen_livraison>15</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
-<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
-<nom_client>Camille</nom_client>
-<prenom_client>Roux</prenom_client>
-<id_preparation>15</id_preparation>
-<date_debut_preparation>15-01-2023 18:00</date_debut_preparation>
-<date_fin_preparation>15-01-2023 18:45</date_fin_preparation>
-<nombre_article_livres>11</nombre_article_livres>
+<numero_livraison>31</numero_livraison>
+<date_debut_livraison>31-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>31-01-2023 12:30</date_fin_livraison>
+<id_livreur>1</id_livreur>
+<nom_livreur>Smith</nom_livreur>
+<prenom_livreur>John</prenom_livreur>
+<id_moyen_livraison>1</id_moyen_livraison>
+<code_moyen_livraison>driving_car</code_moyen_livraison>
+<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
+<nom_client>Pierre</nom_client>
+<prenom_client>Dupont</prenom_client>
+<id_preparation>31</id_preparation>
+<date_debut_preparation>31-01-2023 14:00</date_debut_preparation>
+<date_fin_preparation>31-01-2023 14:34</date_fin_preparation>
+<nombre_article_livres>15</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>1</id_adresse_norm_client>
@@ -705,8 +120,8 @@
 <nombre_articles>4</nombre_articles>
 <temps_theo_preparation>50</temps_theo_preparation>
 <numero_livraison>16</numero_livraison>
-<date_debut_livraison>16-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>16-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>16-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>16-01-2023 12:40</date_fin_livraison>
 <id_livreur>1</id_livreur>
 <nom_livreur>Smith</nom_livreur>
 <prenom_livreur>John</prenom_livreur>
@@ -719,6 +134,96 @@
 <date_debut_preparation>16-01-2023 13:30</date_debut_preparation>
 <date_fin_preparation>16-01-2023 14:15</date_fin_preparation>
 <nombre_article_livres>9</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>2</id_adresse_norm_client>
+<numero_voie>4</numero_voie>
+<nom_voie>4 Avenue du Berry</nom_voie>
+<code_postal>91940</code_postal>
+<nom_ville>Les Ulis</nom_ville>
+<longitude>2.168249</longitude>
+<latitude>48.682703</latitude>
+<id_restaurant>2</id_restaurant>
+<code_restaurant>RST02</code_restaurant>
+<raison_sociale_restaurant>La Brasserie</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>2</id_adresse_norm_restaurant>
+<numero_voie_restau>2</numero_voie_restau>
+<nom_voie_restau>2 Rue d?Aubrac</nom_voie_restau>
+<code_postal_restau>91940</code_postal_restau>
+<nom_ville_restau>Les Ulis</nom_ville_restau>
+<longitude_restau>2.173088</longitude_restau>
+<latitude_restau>48.677394</latitude_restau>
+<id_client>2</id_client>
+<id_livraison>2</id_livraison>
+<id_commande>2</id_commande>
+<numero_commande>2</numero_commande>
+<date_commande>02-01-2023</date_commande>
+<montant_total>65.5</montant_total>
+<id_menu>2</id_menu>
+<code_menu>2</code_menu>
+<libelle_menu>Gourmet</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>60</temps_theo_preparation>
+<numero_livraison>2</numero_livraison>
+<date_debut_livraison>02-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>02-01-2023 12:24</date_fin_livraison>
+<id_livreur>2</id_livreur>
+<nom_livreur>Doe</nom_livreur>
+<prenom_livreur>Jane</prenom_livreur>
+<id_moyen_livraison>2</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Sophie</nom_client>
+<prenom_client>Martin</prenom_client>
+<id_preparation>2</id_preparation>
+<date_debut_preparation>02-01-2023 15:30</date_debut_preparation>
+<date_fin_preparation>02-01-2023 16:05</date_fin_preparation>
+<nombre_article_livres>8</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>2</id_adresse_norm_client>
+<numero_voie>4</numero_voie>
+<nom_voie>4 Avenue du Berry</nom_voie>
+<code_postal>91940</code_postal>
+<nom_ville>Les Ulis</nom_ville>
+<longitude>2.168249</longitude>
+<latitude>48.682703</latitude>
+<id_restaurant>2</id_restaurant>
+<code_restaurant>RST02</code_restaurant>
+<raison_sociale_restaurant>La Brasserie</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>2</id_adresse_norm_restaurant>
+<numero_voie_restau>2</numero_voie_restau>
+<nom_voie_restau>2 Rue d?Aubrac</nom_voie_restau>
+<code_postal_restau>91940</code_postal_restau>
+<nom_ville_restau>Les Ulis</nom_ville_restau>
+<longitude_restau>2.173088</longitude_restau>
+<latitude_restau>48.677394</latitude_restau>
+<id_client>2</id_client>
+<id_livraison>32</id_livraison>
+<id_commande>32</id_commande>
+<numero_commande>32</numero_commande>
+<date_commande>01-02-2023</date_commande>
+<montant_total>65.8</montant_total>
+<id_menu>8</id_menu>
+<code_menu>8</code_menu>
+<libelle_menu>Classique</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>50</temps_theo_preparation>
+<numero_livraison>32</numero_livraison>
+<date_debut_livraison>01-02-2023 12:00</date_debut_livraison>
+<date_fin_livraison>01-02-2023 12:33</date_fin_livraison>
+<id_livreur>2</id_livreur>
+<nom_livreur>Doe</nom_livreur>
+<prenom_livreur>Jane</prenom_livreur>
+<id_moyen_livraison>2</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Sophie</nom_client>
+<prenom_client>Martin</prenom_client>
+<id_preparation>32</id_preparation>
+<date_debut_preparation>01-02-2023 15:30</date_debut_preparation>
+<date_fin_preparation>01-02-2023 16:20</date_fin_preparation>
+<nombre_article_livres>14</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>2</id_adresse_norm_client>
@@ -750,8 +255,8 @@
 <nombre_articles>3</nombre_articles>
 <temps_theo_preparation>45</temps_theo_preparation>
 <numero_livraison>17</numero_livraison>
-<date_debut_livraison>17-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>17-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>17-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>17-01-2023 12:59</date_fin_livraison>
 <id_livreur>2</id_livreur>
 <nom_livreur>Doe</nom_livreur>
 <prenom_livreur>Jane</prenom_livreur>
@@ -764,6 +269,96 @@
 <date_debut_preparation>17-01-2023 11:15</date_debut_preparation>
 <date_fin_preparation>17-01-2023 12:00</date_fin_preparation>
 <nombre_article_livres>13</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>3</id_adresse_norm_client>
+<numero_voie></numero_voie>
+<nom_voie>Beauplan</nom_voie>
+<code_postal>78470</code_postal>
+<nom_ville>Saint-Rémy-lès-Chevreuse</nom_ville>
+<longitude>2.081689</longitude>
+<latitude>48.717636</latitude>
+<id_restaurant>3</id_restaurant>
+<code_restaurant>RST03</code_restaurant>
+<raison_sociale_restaurant>Chez Marie</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>3</id_adresse_norm_restaurant>
+<numero_voie_restau></numero_voie_restau>
+<nom_voie_restau>Boulevard Saint-Germain</nom_voie_restau>
+<code_postal_restau>75006</code_postal_restau>
+<nom_ville_restau>Paris</nom_ville_restau>
+<longitude_restau>2.336722</longitude_restau>
+<latitude_restau>48.853055</latitude_restau>
+<id_client>3</id_client>
+<id_livraison>3</id_livraison>
+<id_commande>3</id_commande>
+<numero_commande>3</numero_commande>
+<date_commande>03-01-2023</date_commande>
+<montant_total>40.2</montant_total>
+<id_menu>3</id_menu>
+<code_menu>4</code_menu>
+<libelle_menu>Végétarien</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>40</temps_theo_preparation>
+<numero_livraison>3</numero_livraison>
+<date_debut_livraison>03-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>03-01-2023 12:56</date_fin_livraison>
+<id_livreur>3</id_livreur>
+<nom_livreur>Johnson</nom_livreur>
+<prenom_livreur>Mark</prenom_livreur>
+<id_moyen_livraison>3</id_moyen_livraison>
+<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
+<nom_client>Thomas</nom_client>
+<prenom_client>Lefevre</prenom_client>
+<id_preparation>3</id_preparation>
+<date_debut_preparation>03-01-2023 12:45</date_debut_preparation>
+<date_fin_preparation>03-01-2023 13:00</date_fin_preparation>
+<nombre_article_livres>12</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>3</id_adresse_norm_client>
+<numero_voie></numero_voie>
+<nom_voie>Beauplan</nom_voie>
+<code_postal>78470</code_postal>
+<nom_ville>Saint-Rémy-lès-Chevreuse</nom_ville>
+<longitude>2.081689</longitude>
+<latitude>48.717636</latitude>
+<id_restaurant>3</id_restaurant>
+<code_restaurant>RST03</code_restaurant>
+<raison_sociale_restaurant>Chez Marie</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>3</id_adresse_norm_restaurant>
+<numero_voie_restau></numero_voie_restau>
+<nom_voie_restau>Boulevard Saint-Germain</nom_voie_restau>
+<code_postal_restau>75006</code_postal_restau>
+<nom_ville_restau>Paris</nom_ville_restau>
+<longitude_restau>2.336722</longitude_restau>
+<latitude_restau>48.853055</latitude_restau>
+<id_client>3</id_client>
+<id_livraison>33</id_livraison>
+<id_commande>33</id_commande>
+<numero_commande>33</numero_commande>
+<date_commande>02-02-2023</date_commande>
+<montant_total>70.5</montant_total>
+<id_menu>1</id_menu>
+<code_menu>1</code_menu>
+<libelle_menu>Découverte</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>45</temps_theo_preparation>
+<numero_livraison>33</numero_livraison>
+<date_debut_livraison>02-02-2023 12:00</date_debut_livraison>
+<date_fin_livraison>02-02-2023 12:42</date_fin_livraison>
+<id_livreur>3</id_livreur>
+<nom_livreur>Johnson</nom_livreur>
+<prenom_livreur>Mark</prenom_livreur>
+<id_moyen_livraison>3</id_moyen_livraison>
+<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
+<nom_client>Thomas</nom_client>
+<prenom_client>Lefevre</prenom_client>
+<id_preparation>33</id_preparation>
+<date_debut_preparation>02-02-2023 12:45</date_debut_preparation>
+<date_fin_preparation>02-02-2023 13:02</date_fin_preparation>
+<nombre_article_livres>11</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>3</id_adresse_norm_client>
@@ -795,8 +390,8 @@
 <nombre_articles>4</nombre_articles>
 <temps_theo_preparation>60</temps_theo_preparation>
 <numero_livraison>18</numero_livraison>
-<date_debut_livraison>18-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>18-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>18-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>18-01-2023 12:10</date_fin_livraison>
 <id_livreur>3</id_livreur>
 <nom_livreur>Johnson</nom_livreur>
 <prenom_livreur>Mark</prenom_livreur>
@@ -809,6 +404,141 @@
 <date_debut_preparation>18-01-2023 15:45</date_debut_preparation>
 <date_fin_preparation>18-01-2023 16:00</date_fin_preparation>
 <nombre_article_livres>7</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>4</id_adresse_norm_client>
+<numero_voie></numero_voie>
+<nom_voie>Rue de la Pompe</nom_voie>
+<code_postal>75016</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.279158</longitude>
+<latitude>48.865289</latitude>
+<id_restaurant>4</id_restaurant>
+<code_restaurant>RST04</code_restaurant>
+<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
+<numero_voie_restau></numero_voie_restau>
+<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
+<code_postal_restau>75011</code_postal_restau>
+<nom_ville_restau>Paris</nom_ville_restau>
+<longitude_restau>2.382002</longitude_restau>
+<latitude_restau>48.850532</latitude_restau>
+<id_client>4</id_client>
+<id_livraison>4</id_livraison>
+<id_commande>4</id_commande>
+<numero_commande>4</numero_commande>
+<date_commande>04-01-2023</date_commande>
+<montant_total>75.8</montant_total>
+<id_menu>4</id_menu>
+<code_menu>5</code_menu>
+<libelle_menu>Enfant</libelle_menu>
+<nombre_articles>2</nombre_articles>
+<temps_theo_preparation>30</temps_theo_preparation>
+<numero_livraison>4</numero_livraison>
+<date_debut_livraison>04-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>04-01-2023 12:13</date_fin_livraison>
+<id_livreur>4</id_livreur>
+<nom_livreur>Williams</nom_livreur>
+<prenom_livreur>Susan</prenom_livreur>
+<id_moyen_livraison>4</id_moyen_livraison>
+<code_moyen_livraison>driving_car</code_moyen_livraison>
+<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
+<nom_client>Amandine</nom_client>
+<prenom_client>Dubois</prenom_client>
+<id_preparation>4</id_preparation>
+<date_debut_preparation>04-01-2023 16:15</date_debut_preparation>
+<date_fin_preparation>04-01-2023 17:20</date_fin_preparation>
+<nombre_article_livres>15</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>4</id_adresse_norm_client>
+<numero_voie></numero_voie>
+<nom_voie>Rue de la Pompe</nom_voie>
+<code_postal>75016</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.279158</longitude>
+<latitude>48.865289</latitude>
+<id_restaurant>4</id_restaurant>
+<code_restaurant>RST04</code_restaurant>
+<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
+<numero_voie_restau></numero_voie_restau>
+<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
+<code_postal_restau>75011</code_postal_restau>
+<nom_ville_restau>Paris</nom_ville_restau>
+<longitude_restau>2.382002</longitude_restau>
+<latitude_restau>48.850532</latitude_restau>
+<id_client>4</id_client>
+<id_livraison>34</id_livraison>
+<id_commande>34</id_commande>
+<numero_commande>34</numero_commande>
+<date_commande>03-02-2023</date_commande>
+<montant_total>45.0</montant_total>
+<id_menu>2</id_menu>
+<code_menu>2</code_menu>
+<libelle_menu>Gourmet</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>60</temps_theo_preparation>
+<numero_livraison>34</numero_livraison>
+<date_debut_livraison>03-02-2023 12:00</date_debut_livraison>
+<date_fin_livraison>03-02-2023 12:23</date_fin_livraison>
+<id_livreur>4</id_livreur>
+<nom_livreur>Williams</nom_livreur>
+<prenom_livreur>Susan</prenom_livreur>
+<id_moyen_livraison>4</id_moyen_livraison>
+<code_moyen_livraison>driving_car</code_moyen_livraison>
+<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
+<nom_client>Amandine</nom_client>
+<prenom_client>Dubois</prenom_client>
+<id_preparation>34</id_preparation>
+<date_debut_preparation>03-02-2023 16:15</date_debut_preparation>
+<date_fin_preparation>03-02-2023 17:05</date_fin_preparation>
+<nombre_article_livres>9</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>4</id_adresse_norm_client>
+<numero_voie></numero_voie>
+<nom_voie>Rue de la Pompe</nom_voie>
+<code_postal>75016</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.279158</longitude>
+<latitude>48.865289</latitude>
+<id_restaurant>4</id_restaurant>
+<code_restaurant>RST04</code_restaurant>
+<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
+<numero_voie_restau></numero_voie_restau>
+<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
+<code_postal_restau>75011</code_postal_restau>
+<nom_ville_restau>Paris</nom_ville_restau>
+<longitude_restau>2.382002</longitude_restau>
+<latitude_restau>48.850532</latitude_restau>
+<id_client>4</id_client>
+<id_livraison>36</id_livraison>
+<id_commande>34</id_commande>
+<numero_commande>34</numero_commande>
+<date_commande>03-02-2023</date_commande>
+<montant_total>45.0</montant_total>
+<id_menu>2</id_menu>
+<code_menu>2</code_menu>
+<libelle_menu>Gourmet</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>60</temps_theo_preparation>
+<numero_livraison>34</numero_livraison>
+<date_debut_livraison>03-02-2023 12:00</date_debut_livraison>
+<date_fin_livraison>03-02-2023 12:30</date_fin_livraison>
+<id_livreur>4</id_livreur>
+<nom_livreur>Williams</nom_livreur>
+<prenom_livreur>Susan</prenom_livreur>
+<id_moyen_livraison>4</id_moyen_livraison>
+<code_moyen_livraison>driving_car</code_moyen_livraison>
+<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
+<nom_client>Amandine</nom_client>
+<prenom_client>Dubois</prenom_client>
+<id_preparation>34</id_preparation>
+<date_debut_preparation>03-02-2023 16:15</date_debut_preparation>
+<date_fin_preparation>03-02-2023 17:05</date_fin_preparation>
+<nombre_article_livres>9</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>4</id_adresse_norm_client>
@@ -840,8 +570,8 @@
 <nombre_articles>3</nombre_articles>
 <temps_theo_preparation>40</temps_theo_preparation>
 <numero_livraison>19</numero_livraison>
-<date_debut_livraison>19-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>19-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>19-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>19-01-2023 12:15</date_fin_livraison>
 <id_livreur>4</id_livreur>
 <nom_livreur>Williams</nom_livreur>
 <prenom_livreur>Susan</prenom_livreur>
@@ -854,6 +584,141 @@
 <date_debut_preparation>19-01-2023 17:30</date_debut_preparation>
 <date_fin_preparation>19-01-2023 18:15</date_fin_preparation>
 <nombre_article_livres>10</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>5</id_adresse_norm_client>
+<numero_voie>45</numero_voie>
+<nom_voie>45 Quai de la Tournelle</nom_voie>
+<code_postal>75005</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.352319</longitude>
+<latitude>48.850638</latitude>
+<id_restaurant>5</id_restaurant>
+<code_restaurant>RST05</code_restaurant>
+<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
+<numero_voie_restau>14</numero_voie_restau>
+<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
+<code_postal_restau>91410</code_postal_restau>
+<nom_ville_restau>Dourdan</nom_ville_restau>
+<longitude_restau>2.019167</longitude_restau>
+<latitude_restau>48.530022</latitude_restau>
+<id_client>5</id_client>
+<id_livraison>5</id_livraison>
+<id_commande>5</id_commande>
+<numero_commande>5</numero_commande>
+<date_commande>05-01-2023</date_commande>
+<montant_total>90.5</montant_total>
+<id_menu>5</id_menu>
+<code_menu>5</code_menu>
+<libelle_menu>Spécial Poisson</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>55</temps_theo_preparation>
+<numero_livraison>5</numero_livraison>
+<date_debut_livraison>05-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>05-01-2023 12:35</date_fin_livraison>
+<id_livreur>5</id_livreur>
+<nom_livreur>Brown</nom_livreur>
+<prenom_livreur>Michael</prenom_livreur>
+<id_moyen_livraison>5</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Lucie</nom_client>
+<prenom_client>Leclerc</prenom_client>
+<id_preparation>5</id_preparation>
+<date_debut_preparation>05-01-2023 18:00</date_debut_preparation>
+<date_fin_preparation>05-01-2023 18:40</date_fin_preparation>
+<nombre_article_livres>14</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>5</id_adresse_norm_client>
+<numero_voie>45</numero_voie>
+<nom_voie>45 Quai de la Tournelle</nom_voie>
+<code_postal>75005</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.352319</longitude>
+<latitude>48.850638</latitude>
+<id_restaurant>5</id_restaurant>
+<code_restaurant>RST05</code_restaurant>
+<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
+<numero_voie_restau>14</numero_voie_restau>
+<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
+<code_postal_restau>91410</code_postal_restau>
+<nom_ville_restau>Dourdan</nom_ville_restau>
+<longitude_restau>2.019167</longitude_restau>
+<latitude_restau>48.530022</latitude_restau>
+<id_client>5</id_client>
+<id_livraison>35</id_livraison>
+<id_commande>35</id_commande>
+<numero_commande>35</numero_commande>
+<date_commande>04-02-2023</date_commande>
+<montant_total>60.2</montant_total>
+<id_menu>3</id_menu>
+<code_menu>4</code_menu>
+<libelle_menu>Végétarien</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>40</temps_theo_preparation>
+<numero_livraison>35</numero_livraison>
+<date_debut_livraison>04-02-2023 12:00</date_debut_livraison>
+<date_fin_livraison>04-02-2023 12:40</date_fin_livraison>
+<id_livreur>5</id_livreur>
+<nom_livreur>Brown</nom_livreur>
+<prenom_livreur>Michael</prenom_livreur>
+<id_moyen_livraison>5</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Lucie</nom_client>
+<prenom_client>Leclerc</prenom_client>
+<id_preparation>35</id_preparation>
+<date_debut_preparation>04-02-2023 18:00</date_debut_preparation>
+<date_fin_preparation>04-02-2023 18:45</date_fin_preparation>
+<nombre_article_livres>13</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>5</id_adresse_norm_client>
+<numero_voie>45</numero_voie>
+<nom_voie>45 Quai de la Tournelle</nom_voie>
+<code_postal>75005</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.352319</longitude>
+<latitude>48.850638</latitude>
+<id_restaurant>5</id_restaurant>
+<code_restaurant>RST05</code_restaurant>
+<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
+<numero_voie_restau>14</numero_voie_restau>
+<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
+<code_postal_restau>91410</code_postal_restau>
+<nom_ville_restau>Dourdan</nom_ville_restau>
+<longitude_restau>2.019167</longitude_restau>
+<latitude_restau>48.530022</latitude_restau>
+<id_client>5</id_client>
+<id_livraison>37</id_livraison>
+<id_commande>35</id_commande>
+<numero_commande>35</numero_commande>
+<date_commande>04-02-2023</date_commande>
+<montant_total>60.2</montant_total>
+<id_menu>3</id_menu>
+<code_menu>4</code_menu>
+<libelle_menu>Végétarien</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>40</temps_theo_preparation>
+<numero_livraison>35</numero_livraison>
+<date_debut_livraison>04-02-2023 12:00</date_debut_livraison>
+<date_fin_livraison>04-02-2023 12:15</date_fin_livraison>
+<id_livreur>5</id_livreur>
+<nom_livreur>Brown</nom_livreur>
+<prenom_livreur>Michael</prenom_livreur>
+<id_moyen_livraison>5</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Lucie</nom_client>
+<prenom_client>Leclerc</prenom_client>
+<id_preparation>35</id_preparation>
+<date_debut_preparation>04-02-2023 18:00</date_debut_preparation>
+<date_fin_preparation>04-02-2023 18:45</date_fin_preparation>
+<nombre_article_livres>13</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>5</id_adresse_norm_client>
@@ -885,8 +750,8 @@
 <nombre_articles>2</nombre_articles>
 <temps_theo_preparation>30</temps_theo_preparation>
 <numero_livraison>20</numero_livraison>
-<date_debut_livraison>20-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>20-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>20-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>20-01-2023 12:24</date_fin_livraison>
 <id_livreur>5</id_livreur>
 <nom_livreur>Brown</nom_livreur>
 <prenom_livreur>Michael</prenom_livreur>
@@ -930,8 +795,8 @@
 <nombre_articles>4</nombre_articles>
 <temps_theo_preparation>55</temps_theo_preparation>
 <numero_livraison>21</numero_livraison>
-<date_debut_livraison>21-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>21-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>21-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>21-01-2023 12:19</date_fin_livraison>
 <id_livreur>6</id_livreur>
 <nom_livreur>Davis</nom_livreur>
 <prenom_livreur>Emily</prenom_livreur>
@@ -944,6 +809,51 @@
 <date_debut_preparation>21-01-2023 14:00</date_debut_preparation>
 <date_fin_preparation>21-01-2023 14:45</date_fin_preparation>
 <nombre_article_livres>12</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>6</id_adresse_norm_client>
+<numero_voie>4</numero_voie>
+<nom_voie>4 Boulevard Dubreuil</nom_voie>
+<code_postal>91400</code_postal>
+<nom_ville>Orsay</nom_ville>
+<longitude>2.182381</longitude>
+<latitude>48.69736</latitude>
+<id_restaurant>6</id_restaurant>
+<code_restaurant>RST06</code_restaurant>
+<raison_sociale_restaurant>Au Petit Chef</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>6</id_adresse_norm_restaurant>
+<numero_voie_restau>24</numero_voie_restau>
+<nom_voie_restau>24 Rue Charles de Gaulle</nom_voie_restau>
+<code_postal_restau>91400</code_postal_restau>
+<nom_ville_restau>Orsay</nom_ville_restau>
+<longitude_restau>2.191857</longitude_restau>
+<latitude_restau>48.703545</latitude_restau>
+<id_client>6</id_client>
+<id_livraison>6</id_livraison>
+<id_commande>6</id_commande>
+<numero_commande>6</numero_commande>
+<date_commande>06-01-2023</date_commande>
+<montant_total>55.0</montant_total>
+<id_menu>6</id_menu>
+<code_menu>6</code_menu>
+<libelle_menu>Exotique</libelle_menu>
+<nombre_articles>5</nombre_articles>
+<temps_theo_preparation>70</temps_theo_preparation>
+<numero_livraison>6</numero_livraison>
+<date_debut_livraison>06-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>06-01-2023 12:42</date_fin_livraison>
+<id_livreur>6</id_livreur>
+<nom_livreur>Davis</nom_livreur>
+<prenom_livreur>Emily</prenom_livreur>
+<id_moyen_livraison>6</id_moyen_livraison>
+<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
+<nom_client>Antoine</nom_client>
+<prenom_client>Moreau</prenom_client>
+<id_preparation>6</id_preparation>
+<date_debut_preparation>06-01-2023 13:30</date_debut_preparation>
+<date_fin_preparation>06-01-2023 14:25</date_fin_preparation>
+<nombre_article_livres>11</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>7</id_adresse_norm_client>
@@ -975,8 +885,8 @@
 <nombre_articles>5</nombre_articles>
 <temps_theo_preparation>70</temps_theo_preparation>
 <numero_livraison>22</numero_livraison>
-<date_debut_livraison>22-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>22-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>22-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>22-01-2023 12:30</date_fin_livraison>
 <id_livreur>7</id_livreur>
 <nom_livreur>Miller</nom_livreur>
 <prenom_livreur>Robert</prenom_livreur>
@@ -989,6 +899,51 @@
 <date_debut_preparation>22-01-2023 15:30</date_debut_preparation>
 <date_fin_preparation>22-01-2023 16:14</date_fin_preparation>
 <nombre_article_livres>15</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>7</id_adresse_norm_client>
+<numero_voie>233</numero_voie>
+<nom_voie>233 Rue Pierre de Coubertin</nom_voie>
+<code_postal>91440</code_postal>
+<nom_ville>Bures-sur-Yvette</nom_ville>
+<longitude>2.165549</longitude>
+<latitude>48.699975</latitude>
+<id_restaurant>7</id_restaurant>
+<code_restaurant>RST07</code_restaurant>
+<raison_sociale_restaurant>La Trattoria</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>7</id_adresse_norm_restaurant>
+<numero_voie_restau>3</numero_voie_restau>
+<nom_voie_restau>3 Rue du Général Leclerc</nom_voie_restau>
+<code_postal_restau>91440</code_postal_restau>
+<nom_ville_restau>Bures-sur-Yvette</nom_ville_restau>
+<longitude_restau>2.162451</longitude_restau>
+<latitude_restau>48.696487</latitude_restau>
+<id_client>7</id_client>
+<id_livraison>7</id_livraison>
+<id_commande>7</id_commande>
+<numero_commande>7</numero_commande>
+<date_commande>07-01-2023</date_commande>
+<montant_total>80.2</montant_total>
+<id_menu>7</id_menu>
+<code_menu>7</code_menu>
+<libelle_menu>Santé</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>40</temps_theo_preparation>
+<numero_livraison>7</numero_livraison>
+<date_debut_livraison>07-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>07-01-2023 12:53</date_fin_livraison>
+<id_livreur>7</id_livreur>
+<nom_livreur>Miller</nom_livreur>
+<prenom_livreur>Robert</prenom_livreur>
+<id_moyen_livraison>7</id_moyen_livraison>
+<code_moyen_livraison>driving_car</code_moyen_livraison>
+<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
+<nom_client>Julie</nom_client>
+<prenom_client>Fournier</prenom_client>
+<id_preparation>7</id_preparation>
+<date_debut_preparation>07-01-2023 11:15</date_debut_preparation>
+<date_fin_preparation>07-01-2023 12:00</date_fin_preparation>
+<nombre_article_livres>9</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>8</id_adresse_norm_client>
@@ -1020,8 +975,8 @@
 <nombre_articles>3</nombre_articles>
 <temps_theo_preparation>40</temps_theo_preparation>
 <numero_livraison>23</numero_livraison>
-<date_debut_livraison>23-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>23-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>23-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>23-01-2023 12:52</date_fin_livraison>
 <id_livreur>8</id_livreur>
 <nom_livreur>Anderson</nom_livreur>
 <prenom_livreur>Emma</prenom_livreur>
@@ -1034,6 +989,51 @@
 <date_debut_preparation>23-01-2023 12:45</date_debut_preparation>
 <date_fin_preparation>23-01-2023 13:15</date_fin_preparation>
 <nombre_article_livres>14</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>8</id_adresse_norm_client>
+<numero_voie>67</numero_voie>
+<nom_voie>67 Avenue des Gobelins</nom_voie>
+<code_postal>75013</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.354267</longitude>
+<latitude>48.833773</latitude>
+<id_restaurant>8</id_restaurant>
+<code_restaurant>RST08</code_restaurant>
+<raison_sociale_restaurant>Le Panier Gourmand</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>8</id_adresse_norm_restaurant>
+<numero_voie_restau>18</numero_voie_restau>
+<nom_voie_restau>18 Rue des Etats Généraux</nom_voie_restau>
+<code_postal_restau>78000</code_postal_restau>
+<nom_ville_restau>Versailles</nom_ville_restau>
+<longitude_restau>2.133369</longitude_restau>
+<latitude_restau>48.799281</latitude_restau>
+<id_client>8</id_client>
+<id_livraison>8</id_livraison>
+<id_commande>8</id_commande>
+<numero_commande>8</numero_commande>
+<date_commande>08-01-2023</date_commande>
+<montant_total>65.8</montant_total>
+<id_menu>8</id_menu>
+<code_menu>8</code_menu>
+<libelle_menu>Classique</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>50</temps_theo_preparation>
+<numero_livraison>8</numero_livraison>
+<date_debut_livraison>08-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>08-01-2023 12:24</date_fin_livraison>
+<id_livreur>8</id_livreur>
+<nom_livreur>Anderson</nom_livreur>
+<prenom_livreur>Emma</prenom_livreur>
+<id_moyen_livraison>8</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Alexandre</nom_client>
+<prenom_client>Girard</prenom_client>
+<id_preparation>8</id_preparation>
+<date_debut_preparation>08-01-2023 15:45</date_debut_preparation>
+<date_fin_preparation>08-01-2023 16:30</date_fin_preparation>
+<nombre_article_livres>13</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>9</id_adresse_norm_client>
@@ -1065,8 +1065,8 @@
 <nombre_articles>4</nombre_articles>
 <temps_theo_preparation>50</temps_theo_preparation>
 <numero_livraison>24</numero_livraison>
-<date_debut_livraison>24-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>24-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>24-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>24-01-2023 12:12</date_fin_livraison>
 <id_livreur>9</id_livreur>
 <nom_livreur>Martin</nom_livreur>
 <prenom_livreur>David</prenom_livreur>
@@ -1079,6 +1079,51 @@
 <date_debut_preparation>24-01-2023 16:15</date_debut_preparation>
 <date_fin_preparation>24-01-2023 17:20</date_fin_preparation>
 <nombre_article_livres>11</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>9</id_adresse_norm_client>
+<numero_voie>89</numero_voie>
+<nom_voie>89 Rue de la Roquette</nom_voie>
+<code_postal>75011</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.378814</longitude>
+<latitude>48.857221</latitude>
+<id_restaurant>9</id_restaurant>
+<code_restaurant>RST09</code_restaurant>
+<raison_sociale_restaurant>Sushi Express</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>9</id_adresse_norm_restaurant>
+<numero_voie_restau>6</numero_voie_restau>
+<nom_voie_restau>6 Avenue de l?Ile de France</nom_voie_restau>
+<code_postal_restau>95300</code_postal_restau>
+<nom_ville_restau>Pontoise</nom_ville_restau>
+<longitude_restau>2.094428</longitude_restau>
+<latitude_restau>49.064959</latitude_restau>
+<id_client>9</id_client>
+<id_livraison>9</id_livraison>
+<id_commande>9</id_commande>
+<numero_commande>9</numero_commande>
+<date_commande>09-01-2023</date_commande>
+<montant_total>70.5</montant_total>
+<id_menu>1</id_menu>
+<code_menu>1</code_menu>
+<libelle_menu>Découverte</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>45</temps_theo_preparation>
+<numero_livraison>9</numero_livraison>
+<date_debut_livraison>09-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>09-01-2023 12:45</date_fin_livraison>
+<id_livreur>9</id_livreur>
+<nom_livreur>Martin</nom_livreur>
+<prenom_livreur>David</prenom_livreur>
+<id_moyen_livraison>9</id_moyen_livraison>
+<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
+<nom_client>Marie</nom_client>
+<prenom_client>Caron</prenom_client>
+<id_preparation>9</id_preparation>
+<date_debut_preparation>09-01-2023 17:30</date_debut_preparation>
+<date_fin_preparation>09-01-2023 18:15</date_fin_preparation>
+<nombre_article_livres>7</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>10</id_adresse_norm_client>
@@ -1110,8 +1155,8 @@
 <nombre_articles>3</nombre_articles>
 <temps_theo_preparation>45</temps_theo_preparation>
 <numero_livraison>25</numero_livraison>
-<date_debut_livraison>25-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>25-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>25-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>25-01-2023 12:46</date_fin_livraison>
 <id_livreur>10</id_livreur>
 <nom_livreur>Thompson</nom_livreur>
 <prenom_livreur>Sarah</prenom_livreur>
@@ -1124,6 +1169,96 @@
 <date_debut_preparation>25-01-2023 18:00</date_debut_preparation>
 <date_fin_preparation>25-01-2023 18:45</date_fin_preparation>
 <nombre_article_livres>9</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>10</id_adresse_norm_client>
+<numero_voie>101</numero_voie>
+<nom_voie>101 Rue du Cherche-Midi</nom_voie>
+<code_postal>75006</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.320906</longitude>
+<latitude>48.846493</latitude>
+<id_restaurant>10</id_restaurant>
+<code_restaurant>RST10</code_restaurant>
+<raison_sociale_restaurant>Le Jardin des Saveurs</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>10</id_adresse_norm_restaurant>
+<numero_voie_restau>100</numero_voie_restau>
+<nom_voie_restau>100 Boulevard du Général Leclerc</nom_voie_restau>
+<code_postal_restau>92110</code_postal_restau>
+<nom_ville_restau>Clichy</nom_ville_restau>
+<longitude_restau>2.30849</longitude_restau>
+<latitude_restau>48.907535</latitude_restau>
+<id_client>10</id_client>
+<id_livraison>10</id_livraison>
+<id_commande>10</id_commande>
+<numero_commande>10</numero_commande>
+<date_commande>10-01-2023</date_commande>
+<montant_total>45.0</montant_total>
+<id_menu>2</id_menu>
+<code_menu>2</code_menu>
+<libelle_menu>Gourmet</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>60</temps_theo_preparation>
+<numero_livraison>10</numero_livraison>
+<date_debut_livraison>10-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>10-01-2023 12:14</date_fin_livraison>
+<id_livreur>10</id_livreur>
+<nom_livreur>Thompson</nom_livreur>
+<prenom_livreur>Sarah</prenom_livreur>
+<id_moyen_livraison>10</id_moyen_livraison>
+<code_moyen_livraison>driving_car</code_moyen_livraison>
+<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
+<nom_client>Nicolas</nom_client>
+<prenom_client>Picard</prenom_client>
+<id_preparation>10</id_preparation>
+<date_debut_preparation>10-01-2023 12:00</date_debut_preparation>
+<date_fin_preparation>10-01-2023 12:30</date_fin_preparation>
+<nombre_article_livres>10</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>11</id_adresse_norm_client>
+<numero_voie>22</numero_voie>
+<nom_voie>22 Rue Charles de Gaulle</nom_voie>
+<code_postal>91400</code_postal>
+<nom_ville>Orsay</nom_ville>
+<longitude>2.19197</longitude>
+<latitude>48.703187</latitude>
+<id_restaurant>1</id_restaurant>
+<code_restaurant>RST01</code_restaurant>
+<raison_sociale_restaurant>Le Gourmet</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>1</id_adresse_norm_restaurant>
+<numero_voie_restau>8</numero_voie_restau>
+<nom_voie_restau>8 Avenue d&apos;Océanie</nom_voie_restau>
+<code_postal_restau>91940</code_postal_restau>
+<nom_ville_restau>Les Ulis</nom_ville_restau>
+<longitude_restau>2.201411</longitude_restau>
+<latitude_restau>48.679859</latitude_restau>
+<id_client>11</id_client>
+<id_livraison>11</id_livraison>
+<id_commande>11</id_commande>
+<numero_commande>11</numero_commande>
+<date_commande>11-01-2023</date_commande>
+<montant_total>60.2</montant_total>
+<id_menu>3</id_menu>
+<code_menu>4</code_menu>
+<libelle_menu>Végétarien</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>40</temps_theo_preparation>
+<numero_livraison>11</numero_livraison>
+<date_debut_livraison>11-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>11-01-2023 12:18</date_fin_livraison>
+<id_livreur>11</id_livreur>
+<nom_livreur>Moore</nom_livreur>
+<prenom_livreur>Brian</prenom_livreur>
+<id_moyen_livraison>11</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Laura</nom_client>
+<prenom_client>Durand</prenom_client>
+<id_preparation>11</id_preparation>
+<date_debut_preparation>11-01-2023 14:00</date_debut_preparation>
+<date_fin_preparation>11-01-2023 14:45</date_fin_preparation>
+<nombre_article_livres>8</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>11</id_adresse_norm_client>
@@ -1155,8 +1290,8 @@
 <nombre_articles>4</nombre_articles>
 <temps_theo_preparation>60</temps_theo_preparation>
 <numero_livraison>26</numero_livraison>
-<date_debut_livraison>26-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>26-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>26-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>26-01-2023 12:24</date_fin_livraison>
 <id_livreur>11</id_livreur>
 <nom_livreur>Moore</nom_livreur>
 <prenom_livreur>Brian</prenom_livreur>
@@ -1169,6 +1304,51 @@
 <date_debut_preparation>26-01-2023 13:30</date_debut_preparation>
 <date_fin_preparation>26-01-2023 14:27</date_fin_preparation>
 <nombre_article_livres>13</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>12</id_adresse_norm_client>
+<numero_voie>18</numero_voie>
+<nom_voie>18 Rue des Etats Généraux</nom_voie>
+<code_postal>78000</code_postal>
+<nom_ville>Versailles</nom_ville>
+<longitude>2.133369</longitude>
+<latitude>48.799281</latitude>
+<id_restaurant>2</id_restaurant>
+<code_restaurant>RST02</code_restaurant>
+<raison_sociale_restaurant>La Brasserie</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>2</id_adresse_norm_restaurant>
+<numero_voie_restau>2</numero_voie_restau>
+<nom_voie_restau>2 Rue d?Aubrac</nom_voie_restau>
+<code_postal_restau>91940</code_postal_restau>
+<nom_ville_restau>Les Ulis</nom_ville_restau>
+<longitude_restau>2.173088</longitude_restau>
+<latitude_restau>48.677394</latitude_restau>
+<id_client>12</id_client>
+<id_livraison>12</id_livraison>
+<id_commande>12</id_commande>
+<numero_commande>12</numero_commande>
+<date_commande>12-01-2023</date_commande>
+<montant_total>85.8</montant_total>
+<id_menu>4</id_menu>
+<code_menu>5</code_menu>
+<libelle_menu>Enfant</libelle_menu>
+<nombre_articles>2</nombre_articles>
+<temps_theo_preparation>30</temps_theo_preparation>
+<numero_livraison>12</numero_livraison>
+<date_debut_livraison>12-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>12-01-2023 12:31</date_fin_livraison>
+<id_livreur>12</id_livreur>
+<nom_livreur>Clark</nom_livreur>
+<prenom_livreur>Amy</prenom_livreur>
+<id_moyen_livraison>12</id_moyen_livraison>
+<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
+<nom_client>Victor</nom_client>
+<prenom_client>Lemoine</prenom_client>
+<id_preparation>12</id_preparation>
+<date_debut_preparation>12-01-2023 15:30</date_debut_preparation>
+<date_fin_preparation>12-01-2023 16:40</date_fin_preparation>
+<nombre_article_livres>12</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>12</id_adresse_norm_client>
@@ -1200,8 +1380,8 @@
 <nombre_articles>3</nombre_articles>
 <temps_theo_preparation>40</temps_theo_preparation>
 <numero_livraison>27</numero_livraison>
-<date_debut_livraison>27-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>27-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>27-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>27-01-2023 12:25</date_fin_livraison>
 <id_livreur>12</id_livreur>
 <nom_livreur>Clark</nom_livreur>
 <prenom_livreur>Amy</prenom_livreur>
@@ -1214,6 +1394,51 @@
 <date_debut_preparation>27-01-2023 11:15</date_debut_preparation>
 <date_fin_preparation>27-01-2023 12:31</date_fin_preparation>
 <nombre_article_livres>7</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>13</id_adresse_norm_client>
+<numero_voie>12</numero_voie>
+<nom_voie>12 Rue Saint-Denis</nom_voie>
+<code_postal>75001</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.347761</longitude>
+<latitude>48.858949</latitude>
+<id_restaurant>3</id_restaurant>
+<code_restaurant>RST03</code_restaurant>
+<raison_sociale_restaurant>Chez Marie</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>3</id_adresse_norm_restaurant>
+<numero_voie_restau></numero_voie_restau>
+<nom_voie_restau>Boulevard Saint-Germain</nom_voie_restau>
+<code_postal_restau>75006</code_postal_restau>
+<nom_ville_restau>Paris</nom_ville_restau>
+<longitude_restau>2.336722</longitude_restau>
+<latitude_restau>48.853055</latitude_restau>
+<id_client>13</id_client>
+<id_livraison>13</id_livraison>
+<id_commande>13</id_commande>
+<numero_commande>13</numero_commande>
+<date_commande>13-01-2023</date_commande>
+<montant_total>70.5</montant_total>
+<id_menu>5</id_menu>
+<code_menu>5</code_menu>
+<libelle_menu>Spécial Poisson</libelle_menu>
+<nombre_articles>4</nombre_articles>
+<temps_theo_preparation>55</temps_theo_preparation>
+<numero_livraison>13</numero_livraison>
+<date_debut_livraison>13-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>13-01-2023 12:13</date_fin_livraison>
+<id_livreur>13</id_livreur>
+<nom_livreur>Young</nom_livreur>
+<prenom_livreur>Christopher</prenom_livreur>
+<id_moyen_livraison>13</id_moyen_livraison>
+<code_moyen_livraison>driving_car</code_moyen_livraison>
+<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
+<nom_client>Elodie</nom_client>
+<prenom_client>Roger</prenom_client>
+<id_preparation>13</id_preparation>
+<date_debut_preparation>13-01-2023 12:45</date_debut_preparation>
+<date_fin_preparation>13-01-2023 13:15</date_fin_preparation>
+<nombre_article_livres>15</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>13</id_adresse_norm_client>
@@ -1245,8 +1470,8 @@
 <nombre_articles>2</nombre_articles>
 <temps_theo_preparation>30</temps_theo_preparation>
 <numero_livraison>28</numero_livraison>
-<date_debut_livraison>28-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>28-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>28-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>28-01-2023 12:51</date_fin_livraison>
 <id_livreur>13</id_livreur>
 <nom_livreur>Young</nom_livreur>
 <prenom_livreur>Christopher</prenom_livreur>
@@ -1259,6 +1484,51 @@
 <date_debut_preparation>28-01-2023 15:45</date_debut_preparation>
 <date_fin_preparation>28-01-2023 16:10</date_fin_preparation>
 <nombre_article_livres>10</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>14</id_adresse_norm_client>
+<numero_voie>34</numero_voie>
+<nom_voie>34 Avenue des Champs Elysées</nom_voie>
+<code_postal>75008</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.308164</longitude>
+<latitude>48.869965</latitude>
+<id_restaurant>4</id_restaurant>
+<code_restaurant>RST04</code_restaurant>
+<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
+<numero_voie_restau></numero_voie_restau>
+<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
+<code_postal_restau>75011</code_postal_restau>
+<nom_ville_restau>Paris</nom_ville_restau>
+<longitude_restau>2.382002</longitude_restau>
+<latitude_restau>48.850532</latitude_restau>
+<id_client>14</id_client>
+<id_livraison>14</id_livraison>
+<id_commande>14</id_commande>
+<numero_commande>14</numero_commande>
+<date_commande>14-01-2023</date_commande>
+<montant_total>95.0</montant_total>
+<id_menu>6</id_menu>
+<code_menu>6</code_menu>
+<libelle_menu>Exotique</libelle_menu>
+<nombre_articles>5</nombre_articles>
+<temps_theo_preparation>70</temps_theo_preparation>
+<numero_livraison>14</numero_livraison>
+<date_debut_livraison>14-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>14-01-2023 12:05</date_fin_livraison>
+<id_livreur>14</id_livreur>
+<nom_livreur>Hall</nom_livreur>
+<prenom_livreur>Megan</prenom_livreur>
+<id_moyen_livraison>14</id_moyen_livraison>
+<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<libelle_moyen_livraison>velo</libelle_moyen_livraison>
+<nom_client>Maxime</nom_client>
+<prenom_client>Garnier</prenom_client>
+<id_preparation>14</id_preparation>
+<date_debut_preparation>14-01-2023 16:15</date_debut_preparation>
+<date_fin_preparation>14-01-2023 17:00</date_fin_preparation>
+<nombre_article_livres>14</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>14</id_adresse_norm_client>
@@ -1290,8 +1560,8 @@
 <nombre_articles>4</nombre_articles>
 <temps_theo_preparation>55</temps_theo_preparation>
 <numero_livraison>29</numero_livraison>
-<date_debut_livraison>29-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>29-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>29-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>29-01-2023 12:39</date_fin_livraison>
 <id_livreur>14</id_livreur>
 <nom_livreur>Hall</nom_livreur>
 <prenom_livreur>Megan</prenom_livreur>
@@ -1304,6 +1574,51 @@
 <date_debut_preparation>29-01-2023 17:30</date_debut_preparation>
 <date_fin_preparation>29-01-2023 18:32</date_fin_preparation>
 <nombre_article_livres>8</nombre_article_livres>
+</row>
+<row>
+<id_adresse_norm_client>15</id_adresse_norm_client>
+<numero_voie></numero_voie>
+<nom_voie>Avenue de la Grande Armée</nom_voie>
+<code_postal>75016</code_postal>
+<nom_ville>Paris</nom_ville>
+<longitude>2.289118</longitude>
+<latitude>48.875301</latitude>
+<id_restaurant>5</id_restaurant>
+<code_restaurant>RST05</code_restaurant>
+<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
+<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
+<numero_voie_restau>14</numero_voie_restau>
+<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
+<code_postal_restau>91410</code_postal_restau>
+<nom_ville_restau>Dourdan</nom_ville_restau>
+<longitude_restau>2.019167</longitude_restau>
+<latitude_restau>48.530022</latitude_restau>
+<id_client>15</id_client>
+<id_livraison>15</id_livraison>
+<id_commande>15</id_commande>
+<numero_commande>15</numero_commande>
+<date_commande>15-01-2023</date_commande>
+<montant_total>80.2</montant_total>
+<id_menu>7</id_menu>
+<code_menu>7</code_menu>
+<libelle_menu>Santé</libelle_menu>
+<nombre_articles>3</nombre_articles>
+<temps_theo_preparation>40</temps_theo_preparation>
+<numero_livraison>15</numero_livraison>
+<date_debut_livraison>15-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>15-01-2023 12:38</date_fin_livraison>
+<id_livreur>15</id_livreur>
+<nom_livreur>Allen</nom_livreur>
+<prenom_livreur>Julia</prenom_livreur>
+<id_moyen_livraison>15</id_moyen_livraison>
+<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
+<nom_client>Camille</nom_client>
+<prenom_client>Roux</prenom_client>
+<id_preparation>15</id_preparation>
+<date_debut_preparation>15-01-2023 18:00</date_debut_preparation>
+<date_fin_preparation>15-01-2023 18:45</date_fin_preparation>
+<nombre_article_livres>11</nombre_article_livres>
 </row>
 <row>
 <id_adresse_norm_client>15</id_adresse_norm_client>
@@ -1335,8 +1650,8 @@
 <nombre_articles>5</nombre_articles>
 <temps_theo_preparation>70</temps_theo_preparation>
 <numero_livraison>30</numero_livraison>
-<date_debut_livraison>30-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>30-01-2023 00:00</date_fin_livraison>
+<date_debut_livraison>30-01-2023 12:00</date_debut_livraison>
+<date_fin_livraison>30-01-2023 12:54</date_fin_livraison>
 <id_livreur>15</id_livreur>
 <nom_livreur>Allen</nom_livreur>
 <prenom_livreur>Julia</prenom_livreur>
@@ -1349,320 +1664,5 @@
 <date_debut_preparation>30-01-2023 12:00</date_debut_preparation>
 <date_fin_preparation>30-01-2023 12:32</date_fin_preparation>
 <nombre_article_livres>12</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>1</id_adresse_norm_client>
-<numero_voie>1</numero_voie>
-<nom_voie>1 Avenue de Normandie</nom_voie>
-<code_postal>91940</code_postal>
-<nom_ville>Les Ulis</nom_ville>
-<longitude>2.165239</longitude>
-<latitude>48.686903</latitude>
-<id_restaurant>1</id_restaurant>
-<code_restaurant>RST01</code_restaurant>
-<raison_sociale_restaurant>Le Gourmet</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>1</id_adresse_norm_restaurant>
-<numero_voie_restau>8</numero_voie_restau>
-<nom_voie_restau>8 Avenue d&apos;Océanie</nom_voie_restau>
-<code_postal_restau>91940</code_postal_restau>
-<nom_ville_restau>Les Ulis</nom_ville_restau>
-<longitude_restau>2.201411</longitude_restau>
-<latitude_restau>48.679859</latitude_restau>
-<id_client>1</id_client>
-<id_livraison>31</id_livraison>
-<id_commande>31</id_commande>
-<numero_commande>31</numero_commande>
-<date_commande>31-01-2023</date_commande>
-<montant_total>80.2</montant_total>
-<id_menu>7</id_menu>
-<code_menu>7</code_menu>
-<libelle_menu>Santé</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>40</temps_theo_preparation>
-<numero_livraison>31</numero_livraison>
-<date_debut_livraison>31-01-2023 00:00</date_debut_livraison>
-<date_fin_livraison>31-01-2023 00:00</date_fin_livraison>
-<id_livreur>1</id_livreur>
-<nom_livreur>Smith</nom_livreur>
-<prenom_livreur>John</prenom_livreur>
-<id_moyen_livraison>1</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
-<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
-<nom_client>Pierre</nom_client>
-<prenom_client>Dupont</prenom_client>
-<id_preparation>31</id_preparation>
-<date_debut_preparation>31-01-2023 14:00</date_debut_preparation>
-<date_fin_preparation>31-01-2023 14:34</date_fin_preparation>
-<nombre_article_livres>15</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>2</id_adresse_norm_client>
-<numero_voie>4</numero_voie>
-<nom_voie>4 Avenue du Berry</nom_voie>
-<code_postal>91940</code_postal>
-<nom_ville>Les Ulis</nom_ville>
-<longitude>2.168249</longitude>
-<latitude>48.682703</latitude>
-<id_restaurant>2</id_restaurant>
-<code_restaurant>RST02</code_restaurant>
-<raison_sociale_restaurant>La Brasserie</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>2</id_adresse_norm_restaurant>
-<numero_voie_restau>2</numero_voie_restau>
-<nom_voie_restau>2 Rue d?Aubrac</nom_voie_restau>
-<code_postal_restau>91940</code_postal_restau>
-<nom_ville_restau>Les Ulis</nom_ville_restau>
-<longitude_restau>2.173088</longitude_restau>
-<latitude_restau>48.677394</latitude_restau>
-<id_client>2</id_client>
-<id_livraison>32</id_livraison>
-<id_commande>32</id_commande>
-<numero_commande>32</numero_commande>
-<date_commande>01-02-2023</date_commande>
-<montant_total>65.8</montant_total>
-<id_menu>8</id_menu>
-<code_menu>8</code_menu>
-<libelle_menu>Classique</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>50</temps_theo_preparation>
-<numero_livraison>32</numero_livraison>
-<date_debut_livraison>01-02-2023 00:00</date_debut_livraison>
-<date_fin_livraison>01-02-2023 00:00</date_fin_livraison>
-<id_livreur>2</id_livreur>
-<nom_livreur>Doe</nom_livreur>
-<prenom_livreur>Jane</prenom_livreur>
-<id_moyen_livraison>2</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Sophie</nom_client>
-<prenom_client>Martin</prenom_client>
-<id_preparation>32</id_preparation>
-<date_debut_preparation>01-02-2023 15:30</date_debut_preparation>
-<date_fin_preparation>01-02-2023 16:20</date_fin_preparation>
-<nombre_article_livres>14</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>3</id_adresse_norm_client>
-<numero_voie></numero_voie>
-<nom_voie>Beauplan</nom_voie>
-<code_postal>78470</code_postal>
-<nom_ville>Saint-Rémy-lès-Chevreuse</nom_ville>
-<longitude>2.081689</longitude>
-<latitude>48.717636</latitude>
-<id_restaurant>3</id_restaurant>
-<code_restaurant>RST03</code_restaurant>
-<raison_sociale_restaurant>Chez Marie</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>3</id_adresse_norm_restaurant>
-<numero_voie_restau></numero_voie_restau>
-<nom_voie_restau>Boulevard Saint-Germain</nom_voie_restau>
-<code_postal_restau>75006</code_postal_restau>
-<nom_ville_restau>Paris</nom_ville_restau>
-<longitude_restau>2.336722</longitude_restau>
-<latitude_restau>48.853055</latitude_restau>
-<id_client>3</id_client>
-<id_livraison>33</id_livraison>
-<id_commande>33</id_commande>
-<numero_commande>33</numero_commande>
-<date_commande>02-02-2023</date_commande>
-<montant_total>70.5</montant_total>
-<id_menu>1</id_menu>
-<code_menu>1</code_menu>
-<libelle_menu>Découverte</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>45</temps_theo_preparation>
-<numero_livraison>33</numero_livraison>
-<date_debut_livraison>02-02-2023 00:00</date_debut_livraison>
-<date_fin_livraison>02-02-2023 00:00</date_fin_livraison>
-<id_livreur>3</id_livreur>
-<nom_livreur>Johnson</nom_livreur>
-<prenom_livreur>Mark</prenom_livreur>
-<id_moyen_livraison>3</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
-<libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
-<nom_client>Thomas</nom_client>
-<prenom_client>Lefevre</prenom_client>
-<id_preparation>33</id_preparation>
-<date_debut_preparation>02-02-2023 12:45</date_debut_preparation>
-<date_fin_preparation>02-02-2023 13:02</date_fin_preparation>
-<nombre_article_livres>11</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>4</id_adresse_norm_client>
-<numero_voie></numero_voie>
-<nom_voie>Rue de la Pompe</nom_voie>
-<code_postal>75016</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.279158</longitude>
-<latitude>48.865289</latitude>
-<id_restaurant>4</id_restaurant>
-<code_restaurant>RST04</code_restaurant>
-<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
-<numero_voie_restau></numero_voie_restau>
-<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
-<code_postal_restau>75011</code_postal_restau>
-<nom_ville_restau>Paris</nom_ville_restau>
-<longitude_restau>2.382002</longitude_restau>
-<latitude_restau>48.850532</latitude_restau>
-<id_client>4</id_client>
-<id_livraison>34</id_livraison>
-<id_commande>34</id_commande>
-<numero_commande>34</numero_commande>
-<date_commande>03-02-2023</date_commande>
-<montant_total>45.0</montant_total>
-<id_menu>2</id_menu>
-<code_menu>2</code_menu>
-<libelle_menu>Gourmet</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>60</temps_theo_preparation>
-<numero_livraison>34</numero_livraison>
-<date_debut_livraison>03-02-2023 00:00</date_debut_livraison>
-<date_fin_livraison>03-02-2023 00:00</date_fin_livraison>
-<id_livreur>4</id_livreur>
-<nom_livreur>Williams</nom_livreur>
-<prenom_livreur>Susan</prenom_livreur>
-<id_moyen_livraison>4</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
-<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
-<nom_client>Amandine</nom_client>
-<prenom_client>Dubois</prenom_client>
-<id_preparation>34</id_preparation>
-<date_debut_preparation>03-02-2023 16:15</date_debut_preparation>
-<date_fin_preparation>03-02-2023 17:05</date_fin_preparation>
-<nombre_article_livres>9</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>5</id_adresse_norm_client>
-<numero_voie>45</numero_voie>
-<nom_voie>45 Quai de la Tournelle</nom_voie>
-<code_postal>75005</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.352319</longitude>
-<latitude>48.850638</latitude>
-<id_restaurant>5</id_restaurant>
-<code_restaurant>RST05</code_restaurant>
-<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
-<numero_voie_restau>14</numero_voie_restau>
-<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
-<code_postal_restau>91410</code_postal_restau>
-<nom_ville_restau>Dourdan</nom_ville_restau>
-<longitude_restau>2.019167</longitude_restau>
-<latitude_restau>48.530022</latitude_restau>
-<id_client>5</id_client>
-<id_livraison>35</id_livraison>
-<id_commande>35</id_commande>
-<numero_commande>35</numero_commande>
-<date_commande>04-02-2023</date_commande>
-<montant_total>60.2</montant_total>
-<id_menu>3</id_menu>
-<code_menu>4</code_menu>
-<libelle_menu>Végétarien</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>40</temps_theo_preparation>
-<numero_livraison>35</numero_livraison>
-<date_debut_livraison>04-02-2023 00:00</date_debut_livraison>
-<date_fin_livraison>04-02-2023 00:00</date_fin_livraison>
-<id_livreur>5</id_livreur>
-<nom_livreur>Brown</nom_livreur>
-<prenom_livreur>Michael</prenom_livreur>
-<id_moyen_livraison>5</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Lucie</nom_client>
-<prenom_client>Leclerc</prenom_client>
-<id_preparation>35</id_preparation>
-<date_debut_preparation>04-02-2023 18:00</date_debut_preparation>
-<date_fin_preparation>04-02-2023 18:45</date_fin_preparation>
-<nombre_article_livres>13</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>4</id_adresse_norm_client>
-<numero_voie></numero_voie>
-<nom_voie>Rue de la Pompe</nom_voie>
-<code_postal>75016</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.279158</longitude>
-<latitude>48.865289</latitude>
-<id_restaurant>4</id_restaurant>
-<code_restaurant>RST04</code_restaurant>
-<raison_sociale_restaurant>Le Bistrot</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>4</id_adresse_norm_restaurant>
-<numero_voie_restau></numero_voie_restau>
-<nom_voie_restau>Rue du Faubourg Saint-Antoine</nom_voie_restau>
-<code_postal_restau>75011</code_postal_restau>
-<nom_ville_restau>Paris</nom_ville_restau>
-<longitude_restau>2.382002</longitude_restau>
-<latitude_restau>48.850532</latitude_restau>
-<id_client>4</id_client>
-<id_livraison>36</id_livraison>
-<id_commande>34</id_commande>
-<numero_commande>34</numero_commande>
-<date_commande>03-02-2023</date_commande>
-<montant_total>45.0</montant_total>
-<id_menu>2</id_menu>
-<code_menu>2</code_menu>
-<libelle_menu>Gourmet</libelle_menu>
-<nombre_articles>4</nombre_articles>
-<temps_theo_preparation>60</temps_theo_preparation>
-<numero_livraison>34</numero_livraison>
-<date_debut_livraison>03-02-2023 00:00</date_debut_livraison>
-<date_fin_livraison>03-02-2023 00:00</date_fin_livraison>
-<id_livreur>4</id_livreur>
-<nom_livreur>Williams</nom_livreur>
-<prenom_livreur>Susan</prenom_livreur>
-<id_moyen_livraison>4</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
-<libelle_moyen_livraison>voiture</libelle_moyen_livraison>
-<nom_client>Amandine</nom_client>
-<prenom_client>Dubois</prenom_client>
-<id_preparation>34</id_preparation>
-<date_debut_preparation>03-02-2023 16:15</date_debut_preparation>
-<date_fin_preparation>03-02-2023 17:05</date_fin_preparation>
-<nombre_article_livres>9</nombre_article_livres>
-</row>
-<row>
-<id_adresse_norm_client>5</id_adresse_norm_client>
-<numero_voie>45</numero_voie>
-<nom_voie>45 Quai de la Tournelle</nom_voie>
-<code_postal>75005</code_postal>
-<nom_ville>Paris</nom_ville>
-<longitude>2.352319</longitude>
-<latitude>48.850638</latitude>
-<id_restaurant>5</id_restaurant>
-<code_restaurant>RST05</code_restaurant>
-<raison_sociale_restaurant>Auberge</raison_sociale_restaurant>
-<id_adresse_norm_restaurant>5</id_adresse_norm_restaurant>
-<numero_voie_restau>14</numero_voie_restau>
-<nom_voie_restau>14 Avenue de Paris</nom_voie_restau>
-<code_postal_restau>91410</code_postal_restau>
-<nom_ville_restau>Dourdan</nom_ville_restau>
-<longitude_restau>2.019167</longitude_restau>
-<latitude_restau>48.530022</latitude_restau>
-<id_client>5</id_client>
-<id_livraison>37</id_livraison>
-<id_commande>35</id_commande>
-<numero_commande>35</numero_commande>
-<date_commande>04-02-2023</date_commande>
-<montant_total>60.2</montant_total>
-<id_menu>3</id_menu>
-<code_menu>4</code_menu>
-<libelle_menu>Végétarien</libelle_menu>
-<nombre_articles>3</nombre_articles>
-<temps_theo_preparation>40</temps_theo_preparation>
-<numero_livraison>35</numero_livraison>
-<date_debut_livraison>04-02-2023 00:00</date_debut_livraison>
-<date_fin_livraison>04-02-2023 00:00</date_fin_livraison>
-<id_livreur>5</id_livreur>
-<nom_livreur>Brown</nom_livreur>
-<prenom_livreur>Michael</prenom_livreur>
-<id_moyen_livraison>5</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
-<libelle_moyen_livraison>velo</libelle_moyen_livraison>
-<nom_client>Lucie</nom_client>
-<prenom_client>Leclerc</prenom_client>
-<id_preparation>35</id_preparation>
-<date_debut_preparation>04-02-2023 18:00</date_debut_preparation>
-<date_fin_preparation>04-02-2023 18:45</date_fin_preparation>
-<nombre_article_livres>13</nombre_article_livres>
 </row>
 </root>

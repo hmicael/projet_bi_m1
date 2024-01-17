@@ -163,7 +163,6 @@ CREATE SEQUENCE dsid_liv_wrk.seq_id_rejet_dm1 START WITH 1;
 
 CREATE SEQUENCE dsid_liv_wrk.seq_id_staging_dm1 START WITH 1;
 
-
 DROP TABLE dsid_liv_dm1.dim_adresse_norm_client_d CASCADE;
 
 DROP TABLE dsid_liv_dm1.dim_adresse_norm_restaurant_d CASCADE;
@@ -181,6 +180,10 @@ DROP TABLE dsid_liv_dm1.dim_preparation_d CASCADE;
 DROP TABLE dsid_liv_dm1.dim_restaurant_d CASCADE;
 
 DROP TABLE dsid_liv_dm1.fait_commande_f CASCADE;
+
+DROP TABLE dsid_liv_dm1.dim_date_fin_preparation_d CASCADE;
+
+DROP SEQUENCE dsid_liv_dm1.seq_id_date_fin_preparation;
 
 DROP SEQUENCE dsid_liv_dm1.seq_id_adresse_norm_client;
 
@@ -294,6 +297,17 @@ CREATE TABLE dsid_liv_dm1.dim_restaurant_d (
 
 ALTER TABLE dsid_liv_dm1.dim_restaurant_d ADD CONSTRAINT restaurant_pk PRIMARY KEY ( id_restaurant );
 
+CREATE TABLE dsid_liv_dm1.dim_date_fin_preparation_d (
+    id_date_fin_preparation INTEGER NOT NULL,
+    date_fin_preparation    TIMESTAMP,
+    jour                    CHARACTER VARYING(5),
+    semaine                 CHARACTER VARYING(5),
+    mois                    CHARACTER VARYING(5),
+    annee                   CHARACTER VARYING(5)
+);
+
+ALTER TABLE dsid_liv_dm1.dim_date_fin_preparation_d ADD CONSTRAINT dim_date_fin_preparation PRIMARY KEY ( id_date_fin_preparation );
+
 CREATE TABLE dsid_liv_dm1.fait_commande_f (
     id_commande                INTEGER NOT NULL,
     id_date_commande           INTEGER NOT NULL,
@@ -304,6 +318,7 @@ CREATE TABLE dsid_liv_dm1.fait_commande_f (
     id_adresse_norm_restaurant INTEGER NOT NULL,
     id_moyen_paiement          INTEGER NOT NULL,
     id_menu                    INTEGER NOT NULL,
+    id_date_fin_preparation    INTEGER NOT NULL,
     montant_total              REAL,
     temps_theo_preparation     BIGINT,
     temps_reel_preparation     BIGINT,
@@ -311,6 +326,10 @@ CREATE TABLE dsid_liv_dm1.fait_commande_f (
 );
 
 ALTER TABLE dsid_liv_dm1.fait_commande_f ADD CONSTRAINT fait_dm1_commande_pk PRIMARY KEY ( id_commande );
+
+ALTER TABLE dsid_liv_dm1.fait_commande_f
+    ADD CONSTRAINT dim_date_fin_preparation_d_fk FOREIGN KEY ( id_date_fin_preparation )
+        REFERENCES dsid_liv_dm1.dim_date_fin_preparation_d ( id_date_fin_preparation );
 
 ALTER TABLE dsid_liv_dm1.fait_commande_f
     ADD CONSTRAINT dm1_adresse_norm_restaurant_fk FOREIGN KEY ( id_adresse_norm_restaurant )
@@ -361,6 +380,8 @@ CREATE SEQUENCE dsid_liv_dm1.seq_id_preparation START WITH 1;
 CREATE SEQUENCE dsid_liv_dm1.seq_id_restaurant START WITH 1;
 
 CREATE SEQUENCE dsid_liv_dm1.seq_id_commande START WITH 1;
+
+CREATE SEQUENCE dsid_liv_dm1.seq_id_date_fin_preparation START WITH 1;
 
 
 -- Rapport récapitulatif d'Oracle SQL Developer Data Modeler : 
