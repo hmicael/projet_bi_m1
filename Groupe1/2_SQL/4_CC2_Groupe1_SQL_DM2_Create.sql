@@ -234,8 +234,6 @@ DROP TABLE dsid_liv_dm2.dim_adresse_norm_restaurant_d CASCADE;
 
 DROP TABLE dsid_liv_dm2.dim_client_d CASCADE;
 
-DROP TABLE dsid_liv_dm2.dim_date_debut_livraison_d CASCADE ;
-
 DROP TABLE dsid_liv_dm2.dim_date_fin_livraison_d CASCADE;
 
 DROP TABLE dsid_liv_dm2.dim_livreur_d CASCADE;
@@ -253,8 +251,6 @@ DROP SEQUENCE dsid_liv_dm2.seq_id_adresse_norm_client  ;
 DROP SEQUENCE dsid_liv_dm2.seq_id_adresse_norm_restaurant  ;
 
 DROP SEQUENCE dsid_liv_dm2.seq_id_client  ;
-
-DROP SEQUENCE dsid_liv_dm2.seq_id_date_debut_livraison ;
 
 DROP SEQUENCE dsid_liv_dm2.seq_id_date_fin_livraison  ;
 
@@ -308,17 +304,6 @@ CREATE TABLE dsid_liv_dm2.dim_client_d (
 );
 
 ALTER TABLE dsid_liv_dm2.dim_client_d ADD CONSTRAINT client_pk PRIMARY KEY ( id_client );
-
-CREATE TABLE dsid_liv_dm2.dim_date_debut_livraison_d (
-    id_date_debut_livraison INTEGER NOT NULL,
-    date_debut_livraison      TIMESTAMP,
-    jour                    CHARACTER VARYING(5 ),
-    semaine                 CHARACTER VARYING(5 ),
-    mois                    CHARACTER VARYING(5 ),
-    annee                   CHARACTER VARYING(5 )
-);
-
-ALTER TABLE dsid_liv_dm2.dim_date_debut_livraison_d ADD CONSTRAINT dim_date_debut_livraison_pk PRIMARY KEY ( id_date_debut_livraison );
 
 CREATE TABLE dsid_liv_dm2.dim_date_fin_livraison_d (
     id_date_fin_livraison INTEGER NOT NULL,
@@ -382,7 +367,6 @@ CREATE TABLE dsid_liv_dm2.fait_livraison_f (
     id_restaurant              INTEGER NOT NULL,
     id_adresse_norm_restaurant INTEGER NOT NULL,
     id_menu                    INTEGER NOT NULL,
-    id_date_debut_livraison    INTEGER NOT NULL,
     id_date_fin_livraison      INTEGER NOT NULL,
     numero_livraison           INTEGER,
     temps_livraison            INTEGER,
@@ -403,10 +387,6 @@ ALTER TABLE dsid_liv_dm2.fait_livraison_f
 ALTER TABLE dsid_liv_dm2.fait_livraison_f
     ADD CONSTRAINT dim_client_d_fk FOREIGN KEY ( id_client )
         REFERENCES dsid_liv_dm2.dim_client_d ( id_client );
-
-ALTER TABLE dsid_liv_dm2.fait_livraison_f
-    ADD CONSTRAINT dim_date_debut_livraison_d_fk FOREIGN KEY ( id_date_debut_livraison )
-        REFERENCES dsid_liv_dm2.dim_date_debut_livraison_d ( id_date_debut_livraison );
 
 ALTER TABLE dsid_liv_dm2.fait_livraison_f
     ADD CONSTRAINT dim_date_fin_livraison_d_fk FOREIGN KEY ( id_date_fin_livraison )
@@ -433,8 +413,6 @@ CREATE SEQUENCE dsid_liv_dm2.seq_id_adresse_norm_client START WITH 1 ;
 CREATE SEQUENCE dsid_liv_dm2.seq_id_adresse_norm_restaurant START WITH 1 ;
 
 CREATE SEQUENCE dsid_liv_dm2.seq_id_client START WITH 1 ;
-
-CREATE SEQUENCE dsid_liv_dm2.seq_id_date_debut_livraison START WITH 1 ;
 
 CREATE SEQUENCE dsid_liv_dm2.seq_id_date_fin_livraison START WITH 1 ;
 

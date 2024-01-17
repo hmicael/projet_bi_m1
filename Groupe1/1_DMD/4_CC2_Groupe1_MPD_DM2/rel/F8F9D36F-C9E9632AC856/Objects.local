@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
    <object objectType="SchemaObject" objectID="BC755ECE-72D4-C088-FD8E-7EA5173F08B2" name="DSID_LIV_WRK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="F8F9D36F-8D5F-303A-A7F4-C9E9632AC856" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="92EE04B2-2E33-0107-F4F5-4EDF4D146181" name="DM2_STAGING" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8F9D36F-8D5F-303A-A7F4-C9E9632AC856" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="C5FCA8B2-31CA-1D96-CBA1-435A94DCCF1C" name="DM2_ODS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8F9D36F-8D5F-303A-A7F4-C9E9632AC856" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="E189561D-038F-3DEC-8413-940D8999326E" name="DM2_REJET" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8F9D36F-8D5F-303A-A7F4-C9E9632AC856" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="92EE04B2-2E33-0107-F4F5-4EDF4D146181" name="DM2_STAGING" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8F9D36F-8D5F-303A-A7F4-C9E9632AC856" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

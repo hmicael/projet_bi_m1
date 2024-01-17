@@ -119,20 +119,6 @@
 <colAssociation fkAssociation="F72152C3-3D5D-EFDA-5262-EA3826CF0BB4" referredColumn="D5EA1234-9D82-BF02-D7C1-84F7B5CDA0E8"/>
 </associations>
 </Column>
-<Column name="ID_DATE_DEBUT_LIVRAISON" id="895446B0-4857-B700-95CF-12499535F37F">
-<createdBy>root</createdBy>
-<createdTime>2024-01-15 16:30:36 UTC</createdTime>
-<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5DCDDEC9-AB32-D40D-A7BE-FE8B5B109A25" referredColumn="A66F8AF6-8176-E302-1085-6F79DC632D03"/>
-</associations>
-</Column>
 <Column name="ID_DATE_FIN_LIVRAISON" id="FD364A82-DA4E-9C96-B46F-BE18778ABA24">
 <createdBy>Novaz</createdBy>
 <createdTime>2024-01-12 17:30:53 UTC</createdTime>
@@ -282,16 +268,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FD364A82-DA4E-9C96-B46F-BE18778ABA24"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="013AAB99-2B83-76DA-9BE9-B1E1F70568BE" name="DIM_DATE_DEBUT_LIVRAISON_D_FK">
-<createdBy>root</createdBy>
-<createdTime>2024-01-15 16:30:36 UTC</createdTime>
-<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="895446B0-4857-B700-95CF-12499535F37F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
