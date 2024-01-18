@@ -36,7 +36,7 @@
 <nom_livreur>Smith</nom_livreur>
 <prenom_livreur>John</prenom_livreur>
 <id_moyen_livraison>1</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Pierre</nom_client>
 <prenom_client>Dupont</prenom_client>
@@ -81,7 +81,7 @@
 <nom_livreur>Doe</nom_livreur>
 <prenom_livreur>Jane</prenom_livreur>
 <id_moyen_livraison>2</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Sophie</nom_client>
 <prenom_client>Martin</prenom_client>
@@ -126,7 +126,7 @@
 <nom_livreur>Johnson</nom_livreur>
 <prenom_livreur>Mark</prenom_livreur>
 <id_moyen_livraison>3</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Thomas</nom_client>
 <prenom_client>Lefevre</prenom_client>
@@ -171,7 +171,7 @@
 <nom_livreur>Williams</nom_livreur>
 <prenom_livreur>Susan</prenom_livreur>
 <id_moyen_livraison>4</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Amandine</nom_client>
 <prenom_client>Dubois</prenom_client>
@@ -216,7 +216,7 @@
 <nom_livreur>Brown</nom_livreur>
 <prenom_livreur>Michael</prenom_livreur>
 <id_moyen_livraison>5</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Lucie</nom_client>
 <prenom_client>Leclerc</prenom_client>
@@ -261,7 +261,7 @@
 <nom_livreur>Davis</nom_livreur>
 <prenom_livreur>Emily</prenom_livreur>
 <id_moyen_livraison>6</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Antoine</nom_client>
 <prenom_client>Moreau</prenom_client>
@@ -306,7 +306,7 @@
 <nom_livreur>Miller</nom_livreur>
 <prenom_livreur>Robert</prenom_livreur>
 <id_moyen_livraison>7</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Julie</nom_client>
 <prenom_client>Fournier</prenom_client>
@@ -351,7 +351,7 @@
 <nom_livreur>Anderson</nom_livreur>
 <prenom_livreur>Emma</prenom_livreur>
 <id_moyen_livraison>8</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Alexandre</nom_client>
 <prenom_client>Girard</prenom_client>
@@ -396,7 +396,7 @@
 <nom_livreur>Martin</nom_livreur>
 <prenom_livreur>David</prenom_livreur>
 <id_moyen_livraison>9</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Marie</nom_client>
 <prenom_client>Caron</prenom_client>
@@ -441,7 +441,7 @@
 <nom_livreur>Thompson</nom_livreur>
 <prenom_livreur>Sarah</prenom_livreur>
 <id_moyen_livraison>10</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Nicolas</nom_client>
 <prenom_client>Picard</prenom_client>
@@ -486,7 +486,7 @@
 <nom_livreur>Moore</nom_livreur>
 <prenom_livreur>Brian</prenom_livreur>
 <id_moyen_livraison>11</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Laura</nom_client>
 <prenom_client>Durand</prenom_client>
@@ -531,7 +531,7 @@
 <nom_livreur>Clark</nom_livreur>
 <prenom_livreur>Amy</prenom_livreur>
 <id_moyen_livraison>12</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Victor</nom_client>
 <prenom_client>Lemoine</prenom_client>
@@ -576,7 +576,7 @@
 <nom_livreur>Young</nom_livreur>
 <prenom_livreur>Christopher</prenom_livreur>
 <id_moyen_livraison>13</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Elodie</nom_client>
 <prenom_client>Roger</prenom_client>
@@ -621,7 +621,7 @@
 <nom_livreur>Hall</nom_livreur>
 <prenom_livreur>Megan</prenom_livreur>
 <id_moyen_livraison>14</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Maxime</nom_client>
 <prenom_client>Garnier</prenom_client>
@@ -666,7 +666,7 @@
 <nom_livreur>Allen</nom_livreur>
 <prenom_livreur>Julia</prenom_livreur>
 <id_moyen_livraison>15</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Camille</nom_client>
 <prenom_client>Roux</prenom_client>
@@ -711,7 +711,7 @@
 <nom_livreur>Smith</nom_livreur>
 <prenom_livreur>John</prenom_livreur>
 <id_moyen_livraison>1</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Pierre</nom_client>
 <prenom_client>Dupont</prenom_client>
@@ -756,7 +756,7 @@
 <nom_livreur>Doe</nom_livreur>
 <prenom_livreur>Jane</prenom_livreur>
 <id_moyen_livraison>2</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Sophie</nom_client>
 <prenom_client>Martin</prenom_client>
@@ -801,7 +801,7 @@
 <nom_livreur>Johnson</nom_livreur>
 <prenom_livreur>Mark</prenom_livreur>
 <id_moyen_livraison>3</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Thomas</nom_client>
 <prenom_client>Lefevre</prenom_client>
@@ -846,7 +846,7 @@
 <nom_livreur>Williams</nom_livreur>
 <prenom_livreur>Susan</prenom_livreur>
 <id_moyen_livraison>4</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Amandine</nom_client>
 <prenom_client>Dubois</prenom_client>
@@ -891,7 +891,7 @@
 <nom_livreur>Brown</nom_livreur>
 <prenom_livreur>Michael</prenom_livreur>
 <id_moyen_livraison>5</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Lucie</nom_client>
 <prenom_client>Leclerc</prenom_client>
@@ -936,7 +936,7 @@
 <nom_livreur>Davis</nom_livreur>
 <prenom_livreur>Emily</prenom_livreur>
 <id_moyen_livraison>6</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Antoine</nom_client>
 <prenom_client>Moreau</prenom_client>
@@ -981,7 +981,7 @@
 <nom_livreur>Miller</nom_livreur>
 <prenom_livreur>Robert</prenom_livreur>
 <id_moyen_livraison>7</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Julie</nom_client>
 <prenom_client>Fournier</prenom_client>
@@ -1026,7 +1026,7 @@
 <nom_livreur>Anderson</nom_livreur>
 <prenom_livreur>Emma</prenom_livreur>
 <id_moyen_livraison>8</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Alexandre</nom_client>
 <prenom_client>Girard</prenom_client>
@@ -1071,7 +1071,7 @@
 <nom_livreur>Martin</nom_livreur>
 <prenom_livreur>David</prenom_livreur>
 <id_moyen_livraison>9</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Marie</nom_client>
 <prenom_client>Caron</prenom_client>
@@ -1116,7 +1116,7 @@
 <nom_livreur>Thompson</nom_livreur>
 <prenom_livreur>Sarah</prenom_livreur>
 <id_moyen_livraison>10</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Nicolas</nom_client>
 <prenom_client>Picard</prenom_client>
@@ -1161,7 +1161,7 @@
 <nom_livreur>Moore</nom_livreur>
 <prenom_livreur>Brian</prenom_livreur>
 <id_moyen_livraison>11</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Laura</nom_client>
 <prenom_client>Durand</prenom_client>
@@ -1206,7 +1206,7 @@
 <nom_livreur>Clark</nom_livreur>
 <prenom_livreur>Amy</prenom_livreur>
 <id_moyen_livraison>12</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Victor</nom_client>
 <prenom_client>Lemoine</prenom_client>
@@ -1251,7 +1251,7 @@
 <nom_livreur>Young</nom_livreur>
 <prenom_livreur>Christopher</prenom_livreur>
 <id_moyen_livraison>13</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Elodie</nom_client>
 <prenom_client>Roger</prenom_client>
@@ -1296,7 +1296,7 @@
 <nom_livreur>Hall</nom_livreur>
 <prenom_livreur>Megan</prenom_livreur>
 <id_moyen_livraison>14</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Maxime</nom_client>
 <prenom_client>Garnier</prenom_client>
@@ -1341,7 +1341,7 @@
 <nom_livreur>Allen</nom_livreur>
 <prenom_livreur>Julia</prenom_livreur>
 <id_moyen_livraison>15</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Camille</nom_client>
 <prenom_client>Roux</prenom_client>
@@ -1386,7 +1386,7 @@
 <nom_livreur>Smith</nom_livreur>
 <prenom_livreur>John</prenom_livreur>
 <id_moyen_livraison>1</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Pierre</nom_client>
 <prenom_client>Dupont</prenom_client>
@@ -1431,7 +1431,7 @@
 <nom_livreur>Doe</nom_livreur>
 <prenom_livreur>Jane</prenom_livreur>
 <id_moyen_livraison>2</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Sophie</nom_client>
 <prenom_client>Martin</prenom_client>
@@ -1476,7 +1476,7 @@
 <nom_livreur>Johnson</nom_livreur>
 <prenom_livreur>Mark</prenom_livreur>
 <id_moyen_livraison>3</id_moyen_livraison>
-<code_moyen_livraison>cycling_electric</code_moyen_livraison>
+<code_moyen_livraison>cycling-electric</code_moyen_livraison>
 <libelle_moyen_livraison>velo electrique</libelle_moyen_livraison>
 <nom_client>Thomas</nom_client>
 <prenom_client>Lefevre</prenom_client>
@@ -1521,7 +1521,7 @@
 <nom_livreur>Williams</nom_livreur>
 <prenom_livreur>Susan</prenom_livreur>
 <id_moyen_livraison>4</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Amandine</nom_client>
 <prenom_client>Dubois</prenom_client>
@@ -1566,7 +1566,7 @@
 <nom_livreur>Brown</nom_livreur>
 <prenom_livreur>Michael</prenom_livreur>
 <id_moyen_livraison>5</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Lucie</nom_client>
 <prenom_client>Leclerc</prenom_client>
@@ -1611,7 +1611,7 @@
 <nom_livreur>Williams</nom_livreur>
 <prenom_livreur>Susan</prenom_livreur>
 <id_moyen_livraison>4</id_moyen_livraison>
-<code_moyen_livraison>driving_car</code_moyen_livraison>
+<code_moyen_livraison>driving-car</code_moyen_livraison>
 <libelle_moyen_livraison>voiture</libelle_moyen_livraison>
 <nom_client>Amandine</nom_client>
 <prenom_client>Dubois</prenom_client>
@@ -1656,7 +1656,7 @@
 <nom_livreur>Brown</nom_livreur>
 <prenom_livreur>Michael</prenom_livreur>
 <id_moyen_livraison>5</id_moyen_livraison>
-<code_moyen_livraison>cycling_regular</code_moyen_livraison>
+<code_moyen_livraison>cycling-regular</code_moyen_livraison>
 <libelle_moyen_livraison>velo</libelle_moyen_livraison>
 <nom_client>Lucie</nom_client>
 <prenom_client>Leclerc</prenom_client>
