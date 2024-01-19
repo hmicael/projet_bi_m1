@@ -125,6 +125,20 @@
 <colAssociation fkAssociation="0B8E6B3E-8A5B-EB0B-AA4A-BAC59ABA83B4" referredColumn="E9221E59-585A-3B45-1A24-5C02A7798953"/>
 </associations>
 </Column>
+<Column name="ID_DATE_FIN_PREPARATION" id="C8BF5E31-9396-05BE-4F08-B8F204BDEE42">
+<createdBy>root</createdBy>
+<createdTime>2024-01-17 20:44:45 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8A7A25F-4456-5E03-7B3B-C27A33AED84A" referredColumn="79480918-62A3-448F-9C7C-9C8BF3F3BF3C"/>
+</associations>
+</Column>
 <Column name="MONTANT_TOTAL" id="D233EA2D-8F0F-BDC2-00B1-6AB37CB75BBB">
 <createdBy>root</createdBy>
 <createdTime>2023-12-20 22:51:05 UTC</createdTime>
@@ -260,6 +274,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="74D7A872-4C1C-7508-D461-E9612A2B1CD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F71D36E-DB73-1A55-0EB6-C2E8A919B717" name="DIM_DATE_FIN_PREPARATION_D_FK">
+<createdBy>root</createdBy>
+<createdTime>2024-01-17 20:44:45 UTC</createdTime>
+<ownerDesignName>3_CC2_Groupe1_MPD_DM1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8BF5E31-9396-05BE-4F08-B8F204BDEE42"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

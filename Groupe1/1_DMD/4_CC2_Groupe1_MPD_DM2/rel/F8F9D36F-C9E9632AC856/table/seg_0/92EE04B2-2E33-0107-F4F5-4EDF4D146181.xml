@@ -334,6 +334,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NOMBRE_ARTICLE_LIVRES" id="FC6F3D4C-1562-E92D-6793-34EB6FA537D6">
+<createdBy>root</createdBy>
+<createdTime>2024-01-15 21:13:13 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="TEMPS_THEO_PREPARATION" id="1449ADF4-9F70-95B0-51B4-764839EB4204">
 <createdBy>Novaz</createdBy>
 <createdTime>2024-01-11 21:19:29 UTC</createdTime>

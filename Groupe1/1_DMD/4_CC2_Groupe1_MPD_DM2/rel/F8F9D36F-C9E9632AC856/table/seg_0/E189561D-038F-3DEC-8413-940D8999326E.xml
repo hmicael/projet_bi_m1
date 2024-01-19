@@ -529,6 +529,17 @@
 <ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NOMBRE_ARTICLE_LIVRES" id="BEBFCD56-AC9E-3CB0-E23D-FD86C8C840E1">
+<createdBy>root</createdBy>
+<createdTime>2024-01-15 21:14:50 UTC</createdTime>
+<ownerDesignName>4_CC2_Groupe1_MPD_DM2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="381C0039-C0B2-04B1-4943-A2028CF89DD1" name="DM2_REJET_PK">
